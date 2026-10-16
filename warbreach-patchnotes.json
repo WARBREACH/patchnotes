@@ -6,6 +6,240 @@
   },
   "versions": [
     {
+      "num": "1.6.0",
+      "title": {
+        "fr": "LE COMBAT GAGNE EN TACTIQUE",
+        "en": "TACTICAL COMBAT TAKES SHAPE"
+      },
+      "date": "2026-10-16T20:27:02Z",
+      "sections": [
+        {
+          "title": {
+            "fr": "COORDONNER SON ESCOUADE",
+            "en": "SQUAD COORDINATION"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "MARQUEZ VOTRE PROCHAINE CIBLE",
+                "en": "MARK YOUR NEXT TARGET"
+              },
+              "body": {
+                "fr": "Un point à rejoindre, une position à surveiller ou un danger à éviter : signalez les informations importantes à votre escouade directement sur le terrain.",
+                "en": "A rally point, a position to watch, or a danger to avoid: mark important locations for your squad directly on the battlefield."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "UN DOUBLE APPUI POUR LE DANGER",
+                "en": "DOUBLE-TAP TO WARN"
+              },
+              "body": {
+                "fr": "Deux appuis rapides suffisent pour signaler une menace. Les marqueurs indiquent la direction et la distance, même lorsqu’ils sortent du champ de vision.",
+                "en": "Two quick taps are all it takes to flag a threat. Markers show direction and distance, even when they move off-screen."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "VOS REPÈRES, VOTRE CHOIX",
+                "en": "YOUR MARKERS, YOUR CALL"
+              },
+              "body": {
+                "fr": "Partagez un repère avec vos coéquipiers ou gardez-le pour vous. Les membres de l’escouade peuvent confirmer un signalement pour mieux se coordonner.",
+                "en": "Share a marker with teammates or keep it private. Squadmates can acknowledge a ping to coordinate their next move."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "PLUS D’OPTIONS EN COMBAT",
+            "en": "MORE WAYS TO FIGHT"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "CHOISISSEZ VOTRE MODE DE TIR",
+                "en": "CHOOSE YOUR FIRE MODE"
+              },
+              "body": {
+                "fr": "Passez du tir automatique au coup par coup, ou activez la sécurité lorsque la situation l’exige. Les préférences restent associées à chaque arme pendant la partie.",
+                "en": "Switch between automatic and single-shot fire, or engage the safety when the situation calls for it. Your choice stays with each weapon throughout the match."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "UNE VISÉE PLUS EXIGEANTE",
+                "en": "A MORE DEMANDING AIM"
+              },
+              "body": {
+                "fr": "Les affrontements reposent davantage sur la précision : le verrouillage automatique des adversaires est désactivé pendant les combats.",
+                "en": "Combat rewards precision even more: automatic target lock-on is disabled during engagements."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "GRENADES FLASH EN ACTION",
+                "en": "FLASHBANGS ENTER THE FIGHT"
+              },
+              "body": {
+                "fr": "Une nouvelle option tactique pour désorienter les adversaires. La distance, les obstacles et la direction du regard influencent l’intensité de l’aveuglement ; les coéquipiers sont épargnés.",
+                "en": "A new tactical option to disorient opponents. Distance, cover, and where players are looking affect the blinding effect; teammates are protected."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LA RÉSURGENCE ÉVOLUE",
+            "en": "RESURGENCE EVOLVES"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "DÉPLACEZ LES JOUEURS À TERRE",
+                "en": "MOVE DOWNED PLAYERS"
+              },
+              "body": {
+                "fr": "Approchez-vous d’un joueur à terre et utilisez G pour le traîner à couvert, qu’il soit allié ou ennemi. Attention : son état continue de se dégrader pendant le déplacement.",
+                "en": "Approach a downed player and press G to drag them into cover, whether they are a teammate or an enemy. Be careful: their condition continues to worsen while being moved."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "RÉANIMER OU SE REPOSITIONNER",
+                "en": "REVIVE OR REPOSITION"
+              },
+              "body": {
+                "fr": "La réanimation reste accessible avec E, tandis que le déplacement utilise G. Deux possibilités différentes pour réagir sous la pression.",
+                "en": "Reviving stays on E while dragging uses G, giving you two different ways to react under pressure."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "INTERFACE ET CONFORT",
+            "en": "INTERFACE & QUALITY OF LIFE"
+          },
+          "tone": "success",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "UN MENU PAUSE AUX COULEURS DE WARBREACH",
+                "en": "A WARBREACH-STYLE PAUSE MENU"
+              },
+              "body": {
+                "fr": "Le menu pause adopte l’identité visuelle de WARBREACH, avec des accès à la carte, aux paramètres et aux informations utiles, en français comme en anglais.",
+                "en": "The pause menu now reflects WARBREACH’s visual identity, with access to the map, settings, and useful information in both French and English."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "PERSONNALISEZ VOTRE VISEUR",
+                "en": "CUSTOMIZE YOUR CROSSHAIR"
+              },
+              "body": {
+                "fr": "Les réglages du viseur deviennent accessibles depuis l’armurerie pour adapter votre affichage à vos préférences.",
+                "en": "Crosshair settings are now accessible from the armory, letting you adapt the display to your preferences."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "SIGNALEZ UN PROBLÈME PLUS FACILEMENT",
+                "en": "REPORT AN ISSUE MORE EASILY"
+              },
+              "body": {
+                "fr": "Un accès au signalement est ajouté à l’accueil pour retrouver plus facilement les outils d’assistance et de modération.",
+                "en": "A report shortcut has been added to the home screen, making support and moderation tools easier to find."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DANS LES COULISSES DU QG",
+            "en": "BEHIND THE SCENES AT HQ"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "UNE EXPÉRIENCE PLUS COHÉRENTE",
+                "en": "A MORE CONSISTENT EXPERIENCE"
+              },
+              "body": {
+                "fr": "Plusieurs écrans et interactions du Quartier général ont été harmonisés pour faciliter le passage entre l’armurerie, les réglages et les autres services.",
+                "en": "Several Headquarters screens and interactions have been refined to make moving between the armory, settings, and other services feel more seamless."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "NOUVEAUTÉ",
+            "en": "NEW FEATURE"
+          },
+          "title": {
+            "fr": "MARQUAGE TACTIQUE",
+            "en": "TACTICAL PINGS"
+          },
+          "body": {
+            "fr": "Communiquez les positions importantes et les dangers à votre escouade, sans interrompre l’action.",
+            "en": "Share key positions and threats with your squad without breaking the flow of combat."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "COMBAT",
+            "en": "COMBAT"
+          },
+          "title": {
+            "fr": "MODES DE TIR ET FLASH",
+            "en": "FIRE MODES & FLASHBANGS"
+          },
+          "body": {
+            "fr": "De nouvelles options pour adapter chaque affrontement à la situation.",
+            "en": "More options to adapt every engagement to the situation."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "RÉSURGENCE",
+            "en": "RESURGENCE"
+          },
+          "title": {
+            "fr": "SE METTRE À COUVERT",
+            "en": "GET TO COVER"
+          },
+          "body": {
+            "fr": "Les joueurs à terre peuvent désormais être déplacés par les combattants proches.",
+            "en": "Nearby fighters can now move downed players."
+          },
+          "tone": "cyan"
+        }
+      ]
+    },
+    {
       "num": "1.5.0",
       "title": {
         "fr": "L’ARSENAL CHANGE DE VISAGE",

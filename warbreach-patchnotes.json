@@ -6,6 +6,332 @@
   },
   "versions": [
     {
+      "num": "1.7.0",
+      "title": {
+        "fr": "L’ENTRAÎNEMENT CHANGE DE DIMENSION",
+        "en": "TRAINING REACHES A NEW LEVEL"
+      },
+      "date": "2026-10-17T22:49:16Z",
+      "sections": [
+        {
+          "title": {
+            "fr": "LES ARÈNES SE PRÉPARENT",
+            "en": "ARENAS ARE TAKING SHAPE"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "DU FACE-À-FACE AU 4 CONTRE 4",
+                "en": "FROM DUELS TO 4V4"
+              },
+              "body": {
+                "fr": "Les arènes de WARBREACH se préparent à accueillir des affrontements en 1v1, 2v2, 3v3 et 4v4. De quoi régler ses comptes en petit comité ou mettre toute une équipe à l’épreuve.",
+                "en": "WARBREACH arenas are being prepared for 1v1, 2v2, 3v3 and 4v4 battles. Settle a rivalry one-on-one or put an entire squad to the test."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "DEUX FAÇONS DE L’EMPORTER",
+                "en": "TWO WAYS TO WIN"
+              },
+              "body": {
+                "fr": "Élimination ou match à mort : deux styles de confrontation sont prévus, avec des objectifs et des rythmes différents.",
+                "en": "Elimination or deathmatch: two styles of combat are planned, each with its own pace and objectives."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "CINQ TERRAINS À DÉCOUVRIR",
+                "en": "FIVE BATTLEGROUNDS TO DISCOVER"
+              },
+              "body": {
+                "fr": "Atoll, Bazaar, Cloister, Topside et CTB rejoignent la sélection des futures arènes. Les terrains ouvriront progressivement, une fois leur préparation terminée.",
+                "en": "Atoll, Bazaar, Cloister, Topside and CTB join the upcoming arena selection. Maps will open progressively once they are ready."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "VOTRE SALON, VOS RÈGLES",
+                "en": "YOUR LOBBY, YOUR RULES"
+              },
+              "body": {
+                "fr": "Des salons publics ou privés permettront de réunir les joueurs, d’inviter des amis et de choisir le format, la carte et l’équipement avant le départ.",
+                "en": "Public and private lobbies will let players gather, invite friends and choose their format, map and equipment before the fight."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "CHAQUE MANCHE COMPTE",
+                "en": "EVERY ROUND COUNTS"
+              },
+              "body": {
+                "fr": "Scores, résultats et suivi des matchs sont prévus pour donner une vraie place aux duels et aux victoires d’équipe, en dehors de la Résurgence.",
+                "en": "Scores, results and match history are planned to give duels and team victories their own place outside Resurgence."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "VOTRE NOUVEAU TERRAIN D’ENTRAÎNEMENT",
+            "en": "YOUR NEW TRAINING GROUND"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "UNE SALLE DÉDIÉE À LA PRÉCISION",
+                "en": "A SPACE BUILT FOR PRECISION"
+              },
+              "body": {
+                "fr": "Un centre d’entraînement prend forme au QG. Il offrira un espace personnel pour travailler sa visée sans la pression d’un véritable affrontement.",
+                "en": "A dedicated training centre is taking shape at HQ, offering a personal space to sharpen your aim without the pressure of a live fight."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "RÉFLEXES, SUIVI ET RÉACTION",
+                "en": "FLICKS, TRACKING AND REACTIONS"
+              },
+              "body": {
+                "fr": "Trois exercices sont prévus : toucher rapidement de nouvelles cibles, suivre une cible en mouvement et réagir au bon moment. À chacun de trouver son point faible et de le travailler.",
+                "en": "Three drills are planned: snap to new targets, track a moving target and react at the right moment. Find your weakness and work on it."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "PROGRESSEZ À VOTRE RYTHME",
+                "en": "TRAIN AT YOUR OWN PACE"
+              },
+              "body": {
+                "fr": "Trois niveaux de difficulté et des séances de 30, 60 ou 90 secondes permettront d’adapter chaque session à vos objectifs.",
+                "en": "Three difficulty levels and 30, 60 or 90-second sessions will let you tailor each workout to your goals."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "BATTEZ VOS PROPRES RECORDS",
+                "en": "BEAT YOUR PERSONAL BEST"
+              },
+              "body": {
+                "fr": "Précision, rapidité et meilleurs scores auront leur place dans le bilan des exercices, pour mesurer les progrès d’une séance à l’autre.",
+                "en": "Accuracy, speed and personal-best scores will appear in training results so you can track your improvement from session to session."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "PRENEZ DE LA HAUTEUR",
+            "en": "TAKE TO THE SKIES"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "LE PARACHUTE A AUSSI SON STYLE",
+                "en": "PARACHUTES GET PERSONAL"
+              },
+              "body": {
+                "fr": "La personnalisation des classes s’étend au parachute, avec quinze apparences au total, de la toile classique aux couleurs les plus marquantes.",
+                "en": "Loadout customization expands to parachutes, with fifteen looks in total, from the classic canopy to bolder colours."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "DES COULEURS À DÉBLOQUER",
+                "en": "COLOURS WORTH UNLOCKING"
+              },
+              "body": {
+                "fr": "De nouvelles teintes deviennent accessibles au fil des niveaux. Chaque classe peut conserver son apparence préférée.",
+                "en": "New canopy colours become available as you level up. Each loadout can keep its own preferred look."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "ADMIREZ VOTRE PARACHUTE AVANT LE SAUT",
+                "en": "PREVIEW YOUR PARACHUTE BEFORE THE DROP"
+              },
+              "body": {
+                "fr": "Un aperçu en trois dimensions permet de regarder la voile de plus près, de la faire tourner et de comparer les couleurs avant de choisir.",
+                "en": "A three-dimensional preview lets you take a closer look at the canopy, rotate it and compare colours before making your choice."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "PLUS DE POSSIBILITÉS SUR LE TERRAIN",
+            "en": "MORE OPTIONS ON THE BATTLEFIELD"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "UN LASER POUR GARDER LE CAP",
+                "en": "STAY ON TARGET WITH A LASER"
+              },
+              "body": {
+                "fr": "Le laser tactique rejoint les accessoires des armes principales et secondaires. Activez-le ou coupez-le avec L selon la situation ; son faisceau pourra aussi être aperçu par les combattants proches.",
+                "en": "The tactical laser joins primary and secondary weapon attachments. Turn it on or off with L to suit the situation; nearby fighters can spot its beam too."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "DESCENTE EN RAPPEL",
+                "en": "RAPPEL INTO ACTION"
+              },
+              "body": {
+                "fr": "Depuis certaines places arrière d’un hélicoptère compatible, une descente en rappel devient possible lorsque l’appareil vole suffisamment bas et lentement. Une autre façon de rejoindre le terrain.",
+                "en": "Passengers in compatible rear helicopter seats can rappel down when the aircraft is flying low and slowly enough. Another way to reach the ground."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "UN PARACHUTE POUR QUITTER L’APPAREIL",
+                "en": "A PARACHUTE FOR THE JUMP"
+              },
+              "body": {
+                "fr": "Le saut classique reste disponible depuis les hélicoptères, avec un parachute prévu pour les occupants. La teinte choisie dans la classe accompagne également cette sortie.",
+                "en": "The usual helicopter exit remains available, with a parachute provided to occupants. Your loadout’s chosen canopy colour carries over to the jump."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES MARQUEURS PLUS SIMPLES À PARTAGER",
+                "en": "SIMPLER SQUAD PINGS"
+              },
+              "body": {
+                "fr": "Un seul repère actif par joueur : une position ou un danger est désormais partagé automatiquement avec l’escouade. En solo, le marqueur reste personnel.",
+                "en": "Each player now has one active marker: positions and danger pings are automatically shared with the squad. In solo play, only you see your marker."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UN QG TOURNÉ VERS L’ACTION",
+            "en": "AN HQ BUILT FOR ACTION"
+          },
+          "tone": "success",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DE NOUVEAUX ESPACES AU HANGAR",
+                "en": "NEW SPACES IN THE HANGAR"
+              },
+              "body": {
+                "fr": "Les accès aux arènes et à l’entraînement prennent place autour du grand cercle du QG. Les anciens postes de tir laissent progressivement place à des activités mieux séparées.",
+                "en": "Arena and training entrances are being added around HQ’s central ring. The old shooting lanes are gradually making way for more dedicated activities."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "UNE IDENTITÉ VISUELLE PLUS UNIFORME",
+                "en": "A MORE CONSISTENT LOOK"
+              },
+              "body": {
+                "fr": "Plusieurs interfaces adoptent une présentation WARBREACH plus cohérente, notamment les réglages du viseur et la présentation des armes.",
+                "en": "Several interfaces now share a more consistent WARBREACH look, including crosshair settings and weapon presentation."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES APERÇUS PLUS AGRÉABLES",
+                "en": "SMOOTHER PREVIEWS"
+              },
+              "body": {
+                "fr": "La présentation des équipements reçoit de nouveaux ajustements, pour mieux mettre en valeur les armes et les parachutes dans les menus.",
+                "en": "Equipment previews have been refined to better showcase weapons and parachutes throughout the menus."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "À VENIR",
+            "en": "COMING SOON"
+          },
+          "title": {
+            "fr": "LES ARÈNES WARBREACH",
+            "en": "WARBREACH ARENAS"
+          },
+          "body": {
+            "fr": "Du 1v1 au 4v4, cinq terrains et deux modes de confrontation se préparent.",
+            "en": "From 1v1 to 4v4, five maps and two competitive modes are on the way."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "ENTRAÎNEMENT",
+            "en": "TRAINING"
+          },
+          "title": {
+            "fr": "PLACE À LA PRÉCISION",
+            "en": "FOCUS ON PRECISION"
+          },
+          "body": {
+            "fr": "Trois exercices pour améliorer ses réflexes, suivre les cibles et viser plus juste.",
+            "en": "Three drills to improve your reflexes, track targets and sharpen your aim."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "PERSONNALISATION",
+            "en": "CUSTOMIZATION"
+          },
+          "title": {
+            "fr": "QUINZE STYLES DE PARACHUTE",
+            "en": "FIFTEEN PARACHUTE LOOKS"
+          },
+          "body": {
+            "fr": "Choisissez une apparence pour chaque classe et débloquez de nouvelles couleurs avec vos niveaux.",
+            "en": "Choose a look for each loadout and unlock fresh colours as you level up."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "COMBAT",
+            "en": "COMBAT"
+          },
+          "title": {
+            "fr": "LASER ET DESCENTE EN RAPPEL",
+            "en": "LASERS & HELICOPTER RAPPELS"
+          },
+          "body": {
+            "fr": "Un laser tactique pour vos armes et de nouvelles possibilités de descente en hélicoptère.",
+            "en": "Equip a tactical weapon laser and discover new ways to descend from a helicopter."
+          },
+          "tone": "hot"
+        }
+      ]
+    },
+    {
       "num": "1.6.0",
       "title": {
         "fr": "LE COMBAT GAGNE EN TACTIQUE",

@@ -6,6 +6,374 @@
   },
   "versions": [
     {
+      "num": "1.8.0",
+      "date": "2026-10-19T01:46:49Z",
+      "title": {
+        "fr": "LE COMBAT PREND UNE NOUVELLE DIMENSION",
+        "en": "COMBAT TAKES THE NEXT STEP"
+      },
+      "highlights": [
+        {
+          "label": {
+            "fr": "ARÈNES",
+            "en": "ARENAS"
+          },
+          "title": {
+            "fr": "DES DUELS PLUS JUSTES",
+            "en": "FAIRER ARENA FIGHTS"
+          },
+          "body": {
+            "fr": "Eliminations, réapparitions et affichages ont été retravaillés pour des affrontements plus lisibles.",
+            "en": "Eliminations, respawns and match displays have been refined for clearer fights."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "COMMUNICATION",
+            "en": "COMMUNICATION"
+          },
+          "title": {
+            "fr": "UN CHAT POUR CHAQUE SITUATION",
+            "en": "A CHAT FOR EVERY SITUATION"
+          },
+          "body": {
+            "fr": "Discutez au QG, coordonnez une escouade ou échangez pendant une partie dans des canaux adaptés.",
+            "en": "Chat at HQ, coordinate your squad or talk during a match through dedicated channels."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "PREMIERS PAS",
+            "en": "GETTING STARTED"
+          },
+          "title": {
+            "fr": "26 LEÇONS POUR PRENDRE SES MARQUES",
+            "en": "26 LESSONS TO GET STARTED"
+          },
+          "body": {
+            "fr": "Un nouveau guide accompagne les premiers pas et permet de retrouver les commandes et les règles du jeu.",
+            "en": "A new guide walks players through the basics, controls and rules of the game."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "CONFORT",
+            "en": "QUALITY OF LIFE"
+          },
+          "title": {
+            "fr": "DES RÉGLAGES POUR PLUS DE FLUIDITÉ",
+            "en": "MORE OPTIONS FOR SMOOTHER PLAY"
+          },
+          "body": {
+            "fr": "Des profils de performances et un compteur d’images par seconde rejoignent les paramètres.",
+            "en": "Performance presets and an on-screen frame-rate counter join the settings."
+          },
+          "tone": "success"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "fr": "DES ARÈNES PLUS FIABLES",
+            "en": "MORE RELIABLE ARENAS"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "LE COMBAT RETROUVE UN SEUL AFFICHAGE",
+                "en": "ONE CLEAR COMBAT DISPLAY"
+              },
+              "body": {
+                "fr": "Les informations de vie, de blindage, de munitions et d’escouade ne se superposent plus pendant les affrontements en arène.",
+                "en": "Health, armor, ammunition and squad information no longer overlap during arena fights."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "CHAQUE ÉLIMINATION À SA PLACE",
+                "en": "EVERY ELIMINATION COUNTS"
+              },
+              "body": {
+                "fr": "Les éliminations et le score suivent désormais les mêmes règles. Les chutes, suicides et autres accidents ne sont plus attribués à tort à un adversaire.",
+                "en": "Eliminations and scores now follow the same rules. Falls, self-inflicted deaths and other accidents are no longer wrongly credited to an opponent."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "UNE FIN DE MANCHE SANS CONFUSION",
+                "en": "CLEANER ROUND ENDINGS"
+              },
+              "body": {
+                "fr": "Les combattants éliminés restent correctement considérés hors combat, même lorsqu’une manche s’achève au même instant. Le fil des éliminations suit le résultat réel de la confrontation.",
+                "en": "Eliminated fighters remain out of action even when a round ends at the same moment. The elimination feed stays in sync with the actual result."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "DES RÉAPPARITIONS PLUS PRÉCISES",
+                "en": "BETTER RESPAWNS"
+              },
+              "body": {
+                "fr": "Les combattants reviennent au bon emplacement, sans décalage de hauteur, et retrouvent leur équipement avec des chargeurs remplis.",
+                "en": "Players return to the correct position, without unexpected height offsets, and receive their equipment with full magazines."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "LA PREMIÈRE PERSONNE AU CŒUR DES DUELS",
+                "en": "FIRST-PERSON ARENA COMBAT"
+              },
+              "body": {
+                "fr": "La vue à la première personne accompagne les départs et les réapparitions en arène. La caméra habituelle est rétablie une fois l’affrontement terminé.",
+                "en": "First-person view is used for arena starts and respawns. Your previous camera view returns once the fight is over."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "RETOUR AU QG SANS ÉCRAN PERSISTANT",
+                "en": "A CLEAN RETURN TO HQ"
+              },
+              "body": {
+                "fr": "Les anciens résultats, tableaux et affichages de combat sont mieux effacés au retour au QG, pour retrouver normalement ses menus et sa liberté de mouvement.",
+                "en": "Previous results, scoreboards and combat overlays are cleared more reliably on returning to HQ, restoring menus and normal movement."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "COMBAT ET TACTIQUE",
+            "en": "COMBAT & TACTICS"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "UN TIR SANS SILENCIEUX PEUT VOUS TRAHIR",
+                "en": "UNSUPPRESSED SHOTS GIVE YOU AWAY"
+              },
+              "body": {
+                "fr": "Tirer sans silencieux peut révéler brièvement votre position sur la carte des ennemis proches. Un point rouge apparaît pendant quelques secondes : chaque rafale compte.",
+                "en": "Firing an unsuppressed weapon can briefly reveal your position on nearby enemies’ maps. A red dot appears for a few seconds, making every burst count."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DESCENDRE D’UN HÉLICOPTÈRE AUTREMENT",
+                "en": "MORE WAYS TO LEAVE A HELICOPTER"
+              },
+              "body": {
+                "fr": "La descente en rappel évolue pour prendre en charge davantage d’hélicoptères, avec une corde et une animation adaptées lorsque le véhicule le permet.",
+                "en": "Helicopter rappelling is being expanded to more aircraft, with a rope and a dedicated descent animation where supported."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "LASER TACTIQUE MIS EN PAUSE",
+                "en": "TACTICAL LASER ON HOLD"
+              },
+              "body": {
+                "fr": "Le laser tactique est temporairement retiré de la sélection d’accessoires pendant la poursuite des ajustements du combat.",
+                "en": "The tactical laser has been temporarily removed from the attachment selection while combat refinements continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "RÉSURGENCE ET BUTIN",
+            "en": "RESURGENCE & LOOT"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "UN BUTIN QUI RESTE BIEN EN PLACE",
+                "en": "LOOT THAT STAYS PUT"
+              },
+              "body": {
+                "fr": "Les objets issus des caisses restent visibles à leur point de chute, sans apparition d’une seconde copie. Leur ramassage fait disparaître le bon objet.",
+                "en": "Items released from crates stay visible where they land, without an extra copy appearing. Picking them up removes the correct item."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "RIEN NE SE PERD APRÈS UNE MORT",
+                "en": "YOUR GEAR STAYS ON THE GROUND"
+              },
+              "body": {
+                "fr": "L’équipement abandonné à la mort est mieux restitué sur le terrain, y compris après une chute, un accident ou les dégâts du gaz.",
+                "en": "Equipment dropped on death is restored more reliably on the battlefield, including after falls, accidents or gas damage."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "DES ZONES FINALES SUR LA TERRE FERME",
+                "en": "FINAL CIRCLES STAY PLAYABLE"
+              },
+              "body": {
+                "fr": "Le gaz se referme désormais sur des secteurs praticables de l’île, plutôt que de laisser les derniers affrontements se jouer au large.",
+                "en": "The gas now closes in on playable parts of the island instead of pushing the final fights out to sea."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES INFORMATIONS DE PARTIE PLUS RÉACTIVES",
+                "en": "MORE RESPONSIVE MATCH UPDATES"
+              },
+              "body": {
+                "fr": "Le suivi des équipements, des munitions et des changements d’état a été amélioré pour que les informations affichées restent cohérentes pendant l’action.",
+                "en": "Equipment, ammunition and player-state updates have been refined to keep on-screen information consistent throughout the action."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LA COMMUNICATION ÉVOLUE",
+            "en": "COMMUNICATION GETS AN UPGRADE"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "UN CHAT INTÉGRÉ À WARBREACH",
+                "en": "A DEDICATED WARBREACH CHAT"
+              },
+              "body": {
+                "fr": "Une nouvelle messagerie permet d’échanger sans quitter le jeu, au quartier général comme au cœur des affrontements.",
+                "en": "A new in-game chat lets players communicate without leaving the action, whether at HQ or in a match."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "UN CANAL POUR SON ESCOUADE",
+                "en": "A CHANNEL FOR YOUR SQUAD"
+              },
+              "body": {
+                "fr": "En équipe, les messages peuvent rester entre coéquipiers ou s’adresser aux participants de la partie. Les touches T et Y permettent de choisir rapidement.",
+                "en": "During team matches, messages can stay within the squad or reach other match participants. Use T and Y to choose a channel quickly."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES CONVERSATIONS MIEUX SÉPARÉES",
+                "en": "CONVERSATIONS STAY IN THE RIGHT PLACE"
+              },
+              "body": {
+                "fr": "Les échanges du QG, des parties et des autres activités restent distincts. Les joueurs éliminés ne transmettent pas d’informations aux combattants encore en lice.",
+                "en": "HQ, matches and other activities have separate conversations. Eliminated players cannot pass information to fighters still in the game."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "PRENDRE SES MARQUES",
+            "en": "FIND YOUR FEET"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "UN GUIDE EN 26 LEÇONS",
+                "en": "A NEW 26-LESSON GUIDE"
+              },
+              "body": {
+                "fr": "Le nouveau guide présente les lieux du QG, les classes, les commandes, la Résurgence et la progression. De quoi découvrir WARBREACH étape par étape.",
+                "en": "The new guide covers HQ locations, loadouts, controls, Resurgence and progression, helping players discover WARBREACH step by step."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "APPRENDRE À SON RYTHME",
+                "en": "LEARN AT YOUR OWN PACE"
+              },
+              "body": {
+                "fr": "La lecture peut être interrompue puis reprise plus tard. Les explications restent accessibles depuis le QG pour retrouver rapidement une information oubliée.",
+                "en": "Lessons can be paused and resumed later. The guide remains available from HQ whenever a reminder is needed."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "REVOIR LES LIEUX DU QG",
+                "en": "TAKE ANOTHER TOUR OF HQ"
+              },
+              "body": {
+                "fr": "La visite des installations peut être rejouée sans recommencer toute la découverte du jeu.",
+                "en": "The HQ tour can be replayed without restarting the entire introduction."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "CONFORT ET PERFORMANCES",
+            "en": "COMFORT & PERFORMANCE"
+          },
+          "tone": "success",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "UN MENU FPS BOOST",
+                "en": "A NEW FPS BOOST MENU"
+              },
+              "body": {
+                "fr": "De nouveaux réglages permettent d’alléger certains effets visuels, avec plusieurs profils selon les préférences de chacun.",
+                "en": "New settings let players reduce selected visual effects, with several presets to suit different preferences."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "GARDER UN ŒIL SUR SA FLUIDITÉ",
+                "en": "KEEP AN EYE ON PERFORMANCE"
+              },
+              "body": {
+                "fr": "Un compteur d’images par seconde peut être affiché dans le coin de l’écran de son choix, même lorsque le menu est fermé.",
+                "en": "An optional frame-rate counter can be placed in the screen corner of your choice, even when the menu is closed."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES MENUS PLUS AGRÉABLES À UTILISER",
+                "en": "SMOOTHER MENUS"
+              },
+              "body": {
+                "fr": "Les transitions entre certains réglages, aperçus d’armes et écrans du QG ont été retravaillées pour faciliter la navigation.",
+                "en": "Transitions between selected settings, weapon previews and HQ screens have been refined for smoother navigation."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "num": "1.7.0",
       "title": {
         "fr": "L’ENTRAÎNEMENT CHANGE DE DIMENSION",

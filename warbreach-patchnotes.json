@@ -6,6 +6,310 @@
   },
   "versions": [
     {
+      "num": "1.9.0",
+      "date": "2026-10-20T03:12:16Z",
+      "title": {
+        "fr": "NOUVEAUX VISAGES, NOUVEAUX HORIZONS",
+        "en": "NEW FACES, NEW POSSIBILITIES"
+      },
+      "highlights": [
+        {
+          "label": {
+            "fr": "OPÉRATEURS",
+            "en": "OPERATORS"
+          },
+          "title": {
+            "fr": "UN STYLE QUI VOUS RESSEMBLE",
+            "en": "MAKE YOUR OPERATOR YOUR OWN"
+          },
+          "body": {
+            "fr": "Le catalogue s’agrandit et la personnalisation ouvre de nouvelles possibilités de tenues et d’accessoires.",
+            "en": "The roster expands with more ways to customize outfits and accessories."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "PREMIERS PAS",
+            "en": "FIRST STEPS"
+          },
+          "title": {
+            "fr": "BIENVENUE DANS WARBREACH",
+            "en": "WELCOME TO WARBREACH"
+          },
+          "body": {
+            "fr": "Une visite cinématique du QG accompagne les premiers pas et présente les essentiels avant le combat.",
+            "en": "A cinematic HQ tour introduces the essentials before the fight begins."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "ARSENAL",
+            "en": "ARSENAL"
+          },
+          "title": {
+            "fr": "DE NOUVELLES FINITIONS À DÉCOUVRIR",
+            "en": "MORE WEAPON FINISHES TO DISCOVER"
+          },
+          "body": {
+            "fr": "Nouvelles créations animées & statiques enrichissent les possibilités de personnalisation des armes.",
+            "en": "New animated & statics creations expand weapon customization."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "CONFORT",
+            "en": "QUALITY OF LIFE"
+          },
+          "title": {
+            "fr": "DE PETITS DÉTAILS QUI COMPTENT",
+            "en": "THE DETAILS MAKE A DIFFERENCE"
+          },
+          "body": {
+            "fr": "Les aperçus d’armes, la galerie du QG et plusieurs interactions en partie gagnent en cohérence.",
+            "en": "Weapon previews, the HQ gallery and several in-match interactions receive further refinements."
+          },
+          "tone": "success"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "fr": "DES OPÉRATEURS À PERSONNALISER",
+            "en": "OPERATORS, YOUR WAY"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "36 OPÉRATEURS AU RENDEZ-VOUS",
+                "en": "36 OPERATORS TO CHOOSE FROM"
+              },
+              "body": {
+                "fr": "Le catalogue accueille désormais 36 opérateurs, avec de nouveaux visages et des styles variés pour trouver celui qui correspond à votre façon de jouer.",
+                "en": "The roster now features 36 operators, bringing more faces and styles to choose from."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "UNE TENUE À VOTRE IMAGE",
+                "en": "A LOOK OF YOUR OWN"
+              },
+              "body": {
+                "fr": "Masques, vêtements, coiffures, couvre-chefs et autres détails peuvent être combinés selon les possibilités de chaque opérateur.",
+                "en": "Mix masks, clothing, hairstyles, headwear and other details, depending on the options supported by each operator."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "COMPOSEZ VOTRE APPARENCE",
+                "en": "BUILD YOUR LOOK"
+              },
+              "body": {
+                "fr": "La personnalisation se fait catégorie par catégorie, avec un aperçu des changements avant d’équiper la tenue choisie.",
+                "en": "Customize each category separately and preview the changes before equipping your chosen look."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "REVENIR À L’ORIGINE",
+                "en": "BACK TO THE ORIGINAL"
+              },
+              "body": {
+                "fr": "Envie de retrouver l’apparence initiale d’un opérateur ? Chaque catégorie peut revenir à son style d’origine, sans devoir tout recommencer.",
+                "en": "Prefer an operator’s original look? Restore the default style for each category without starting over."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "VOTRE STYLE VOUS SUIT",
+                "en": "YOUR STYLE STAYS WITH YOU"
+              },
+              "body": {
+                "fr": "Les choix d’apparence sont conservés avec l’opérateur équipé et retrouvent leur place lors de la prochaine connexion.",
+                "en": "Appearance selections are saved with your equipped operator and restored when you return."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UN PREMIER DÉPLOIEMENT PLUS IMMERSIF",
+            "en": "A MORE IMMERSIVE FIRST DEPLOYMENT"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "LE QG SE DÉCOUVRE EN CINÉMATIQUE",
+                "en": "DISCOVER HQ THROUGH A CINEMATIC TOUR"
+              },
+              "body": {
+                "fr": "Le parcours d’accueil évolue en une visite guidée de 32 séquences réparties en six chapitres, des premières minutes au QG jusqu’aux bases du combat.",
+                "en": "The introduction becomes a guided tour of 32 sequences across six chapters, from arriving at HQ to learning the basics of combat."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "APPRENEZ EN SUIVANT L’ACTION",
+                "en": "LEARN BY FOLLOWING THE ACTION"
+              },
+              "body": {
+                "fr": "Certains passages montrent directement les commandes et les interactions dans les menus, avec des démonstrations des situations rencontrées sur le terrain.",
+                "en": "Selected moments guide you through controls and menu interactions, with demonstrations of situations you may encounter in the field."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "UNE VISITE À VOTRE RYTHME",
+                "en": "TAKE THE TOUR AT YOUR OWN PACE"
+              },
+              "body": {
+                "fr": "Mettez la visite en pause, revenez sur une séquence ou passez à un autre chapitre. Le guide reste accessible depuis le QG pour revoir les bases.",
+                "en": "Pause the tour, revisit a scene or jump to another chapter. The guide can also be opened from HQ whenever you want a refresher."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "DES TRANSITIONS PLUS DOUCES",
+                "en": "SMOOTHER TRANSITIONS"
+              },
+              "body": {
+                "fr": "Les changements de scène et la sortie de la visite ont été retravaillés pour retrouver plus proprement les menus, la caméra et les commandes habituelles.",
+                "en": "Scene transitions and leaving the tour have been refined for a cleaner return to menus, camera controls and normal movement."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "L’ARSENAL S’ÉTOFFE",
+            "en": "AN EXPANDING ARSENAL"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "L’ACR ET LA M16A4 CHANGENT DE STYLE",
+                "en": "NEW LOOKS FOR THE ACR AND M16A4"
+              },
+              "body": {
+                "fr": "Huit nouvelles finitions sont prévues pour chacune de ces deux armes, avec des identités visuelles distinctes.",
+                "en": "Eight new finishes are being introduced for each of these two weapons, each with its own visual identity."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "ENCORE PLUS DE CAMOUFLAGES",
+                "en": "EVEN MORE CAMOUFLAGES"
+              },
+              "body": {
+                "fr": "Le catalogue rassemble désormais 112 finitions fixes et neuf créations animées pour 15 armes. Les dernières créations animées poursuivent leur mise au point avant leur arrivée complète en jeu.",
+                "en": "The catalogue now includes 112 static finishes and nine animated creations across 15 weapons. The newest animated designs are still being refined before full in-game availability."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES EFFETS QUI DONNENT VIE AUX ARMES",
+                "en": "FINISHES THAT BRING WEAPONS TO LIFE"
+              },
+              "body": {
+                "fr": "De nouvelles animations et matières prennent forme sur plusieurs familles d’armes, avec un travail particulier sur les détails visibles en main et dans les aperçus.",
+                "en": "New animated effects and materials are taking shape across several weapon families, with extra attention to how they look in hand and in previews."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "DES FINITIONS PLUS FIDÈLES",
+                "en": "MORE ACCURATE FINISHES"
+              },
+              "body": {
+                "fr": "Le rendu de plusieurs camouflages a été revu pour mieux suivre la forme des armes et préserver la présentation de leurs accessoires.",
+                "en": "Several camouflage finishes have been refined to fit weapon shapes more closely while keeping attachments looking consistent."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LE QG SOIGNE SA PRÉSENTATION",
+            "en": "A MORE POLISHED HQ"
+          },
+          "tone": "success",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "LA GALERIE SE REFAIT UNE BEAUTÉ",
+                "en": "A MORE REFINED WEAPON GALLERY"
+              },
+              "body": {
+                "fr": "Les présentoirs de la galerie ont été ajustés pour mieux soutenir les armes exposées et mettre en valeur leurs finitions.",
+                "en": "Gallery displays have been adjusted to better support the showcased weapons and highlight their finishes."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES OPÉRATEURS FIDÈLES À LEUR APPARENCE",
+                "en": "OPERATORS THAT LOOK THE PART"
+              },
+              "body": {
+                "fr": "La présentation des opérateurs, y compris sur le podium, prend mieux en compte les options d’apparence choisies.",
+                "en": "Operator displays, including the HQ podium, now better reflect selected appearance options."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DES INTERACTIONS PLUS AGRÉABLES",
+            "en": "SMALLER DETAILS, SMOOTHER PLAY"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "LES PLAQUES AU BON MOMENT",
+                "en": "ARMOR PLATES AT THE RIGHT TIME"
+              },
+              "body": {
+                "fr": "Le rappel des plaques d’armure évite désormais de s’afficher en plein saut ou pendant une descente en parachute.",
+                "en": "Armor plate reminders no longer interrupt a jump or parachute descent."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "UN TRANSPORT PLUS NATUREL",
+                "en": "SMOOTHER DOWNED-PLAYER DRAGGING"
+              },
+              "body": {
+                "fr": "Le déplacement des joueurs à terre a reçu des ajustements pour mieux accompagner les animations de prise en charge et de transport.",
+                "en": "Dragging downed players has been adjusted for better alignment with pickup and movement animations."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "num": "1.8.0",
       "date": "2026-10-19T01:46:49Z",
       "title": {

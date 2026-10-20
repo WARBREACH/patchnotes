@@ -200,17 +200,6 @@
           "tone": "hot",
           "items": [
             {
-              "kind": "new",
-              "title": {
-                "fr": "L’ACR ET LA M16A4 CHANGENT DE STYLE",
-                "en": "NEW LOOKS FOR THE ACR AND M16A4"
-              },
-              "body": {
-                "fr": "Huit nouvelles finitions sont prévues pour chacune de ces deux armes, avec des identités visuelles distinctes.",
-                "en": "Eight new finishes are being introduced for each of these two weapons, each with its own visual identity."
-              }
-            },
-            {
               "kind": "mod",
               "title": {
                 "fr": "ENCORE PLUS DE CAMOUFLAGES",

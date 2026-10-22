@@ -6,6 +6,638 @@
   },
   "versions": [
     {
+      "num": "1.11.0",
+      "date": "2026-10-22T15:23:44Z",
+      "title": {
+        "fr": "CHAQUE ACTION COMPTE",
+        "en": "EVERY ACTION COUNTS"
+      },
+      "highlights": [
+        {
+          "label": {
+            "fr": "PROGRESSION",
+            "en": "PROGRESSION"
+          },
+          "title": {
+            "fr": "LES NIVEAUX PRENNENT TOUT LEUR SENS",
+            "en": "LEVELS FIND THEIR PURPOSE"
+          },
+          "body": {
+            "fr": "Combat, survie, ravitaillement et résultats de partie alimentent un nouveau parcours de progression, encore à valider en conditions réelles.",
+            "en": "Combat, survival, looting and match results feed a new progression journey, still awaiting full live validation."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "PRESTIGE",
+            "en": "PRESTIGE"
+          },
+          "title": {
+            "fr": "DIX PRESTIGES ET UNE CARRIÈRE MAÎTRE",
+            "en": "TEN PRESTIGES AND A MASTER JOURNEY"
+          },
+          "body": {
+            "fr": "Deux façons d’aborder chaque Prestige, puis une progression Maître jusqu’au niveau 1 000.",
+            "en": "Two ways to approach each Prestige, followed by Master progression up to level 1,000."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "ARMES",
+            "en": "WEAPONS"
+          },
+          "title": {
+            "fr": "CHAQUE ARME A DÉSORMAIS SA PROGRESSION",
+            "en": "EVERY WEAPON HAS ITS OWN PROGRESSION"
+          },
+          "body": {
+            "fr": "Les armes gagnent leurs propres niveaux, deux Prestiges et un parcours Maître jusqu’au niveau 250.",
+            "en": "Weapons gain individual levels, two Prestiges and a Master journey up to level 250."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "RÉCOMPENSES",
+            "en": "REWARDS"
+          },
+          "title": {
+            "fr": "DE NOUVEAUX OBJECTIFS À DÉBLOQUER",
+            "en": "NEW MILESTONES TO UNLOCK"
+          },
+          "body": {
+            "fr": "Les premiers emblèmes et bannières de Prestige rejoignent le parcours. Les récompenses encore en création restent identifiées comme à venir.",
+            "en": "The first Prestige emblems and calling cards join the progression path. Rewards still being created remain marked as upcoming."
+          },
+          "tone": "success"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "fr": "DE L’EXPÉRIENCE POUR CHAQUE ACTION",
+            "en": "XP FOR EVERY ACTION"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "LES COMBATS RÉCOMPENSENT VOTRE ENGAGEMENT",
+                "en": "COMBAT NOW EARNS EXPERIENCE"
+              },
+              "body": {
+                "fr": "Éliminations, mises à terre et escouades éliminées participent à la progression, avec des gains adaptés aux événements.",
+                "en": "Eliminations, downs and squad wipes contribute to progression, with XP tailored to each action."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "L’EXPLORATION COMPTE AUSSI",
+                "en": "EXPLORATION COUNTS TOO"
+              },
+              "body": {
+                "fr": "Ouvrir des coffres, survivre aux étapes de la zone et rester dans l’action permettent également de gagner de l’expérience.",
+                "en": "Opening supply boxes, surviving zone phases and staying in the action can also earn experience."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "SOUTENIR SON ESCOUADE EST RÉCOMPENSÉ",
+                "en": "SUPPORT YOUR SQUAD, EARN XP"
+              },
+              "body": {
+                "fr": "Réanimations et auto-réanimations rejoignent les actions récompensées, tandis que le classement final apporte un bonus.",
+                "en": "Reviving teammates and self-reviving join the rewarded actions, while final placement grants an additional bonus."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "UNE PROGRESSION PLUS ÉQUITABLE",
+                "en": "FAIRER XP PROGRESSION"
+              },
+              "body": {
+                "fr": "Les gains sont encadrés pour limiter les abus, notamment en éliminant plusieurs fois le même adversaire ou en combattant des bots.",
+                "en": "XP gains are limited to reduce abuse, including repeatedly eliminating the same opponent or farming AI enemies."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "LE PASSE DE COMBAT N’EST PAS OUBLIÉ",
+                "en": "BATTLE PASS PROGRESSION TOO"
+              },
+              "body": {
+                "fr": "Les parties publiques peuvent également alimenter le passe de combat lorsqu’une saison est active.",
+                "en": "Public matches can also contribute to Battle Pass progress when a season is active."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "VOTRE PARCOURS DE PRESTIGE",
+            "en": "YOUR PRESTIGE JOURNEY"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "DIX PRESTIGES À CONQUÉRIR",
+                "en": "TEN PRESTIGES TO CONQUER"
+              },
+              "body": {
+                "fr": "Une fois le niveau 100 atteint, un nouveau cycle peut être engagé. Dix Prestiges jalonnent ce parcours de progression.",
+                "en": "Reaching level 100 unlocks the option to begin a new cycle. Ten Prestiges mark the journey."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "CHOISISSEZ VOTRE STYLE DE PRESTIGE",
+                "en": "CHOOSE YOUR PRESTIGE PATH"
+              },
+              "body": {
+                "fr": "À chaque passage, le parcours classique permet d’obtenir des avantages supplémentaires en échange de nouveaux déblocages à réaliser. Le parcours régulier conserve l’accès déjà gagné aux armes, sans ces avantages.",
+                "en": "Each Prestige offers a choice: Classic grants extra benefits in exchange for unlocking weapon access again, while Regular preserves earned weapon access without those extra benefits."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "LA ROUTE VERS LE MAÎTRE PRESTIGE",
+                "en": "THE ROAD TO MASTER PRESTIGE"
+              },
+              "body": {
+                "fr": "Après les cycles de Prestige, la carrière se poursuit jusqu’au niveau Maître 1 000, avec des étapes intermédiaires à franchir.",
+                "en": "After the Prestige cycles, the journey continues to Master level 1,000, with milestones along the way."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "DES DÉBLOCAGES PERMANENTS",
+                "en": "PERMANENT UNLOCKS"
+              },
+              "body": {
+                "fr": "Le parcours classique prévoit des jetons permettant de conserver définitivement l’accès à certaines armes au fil des Prestiges.",
+                "en": "The Classic path offers tokens that can permanently preserve access to selected weapons across Prestiges."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "VOS ACQUIS COSMÉTIQUES RESTENT VÔTRES",
+                "en": "YOUR COSMETICS STAY YOURS"
+              },
+              "body": {
+                "fr": "Changer de Prestige ne retire pas les apparences et récompenses cosmétiques déjà acquises.",
+                "en": "Starting a new Prestige does not remove previously earned cosmetic appearances and rewards."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "VOS ARMES PROGRESSENT AVEC VOUS",
+            "en": "WEAPONS LEVEL UP WITH YOU"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "UN NIVEAU POUR CHAQUE ARME",
+                "en": "A LEVEL FOR EACH WEAPON"
+              },
+              "body": {
+                "fr": "L’expérience gagnée au combat fait progresser individuellement l’arme utilisée, indépendamment de son camouflage ou de sa classe.",
+                "en": "Combat XP levels each weapon individually, independently of its camouflage or loadout."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "DEUX PRESTIGES PAR ARME",
+                "en": "TWO PRESTIGES PER WEAPON"
+              },
+              "body": {
+                "fr": "Une arme arrivée à son niveau maximal peut poursuivre son évolution grâce à deux cycles de Prestige.",
+                "en": "A weapon that reaches its level cap can continue progressing through two Prestige cycles."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "MAÎTRISE D’ARME JUSQU’AU NIVEAU 250",
+                "en": "WEAPON MASTERY UP TO LEVEL 250"
+              },
+              "body": {
+                "fr": "Après les deux Prestiges, une progression Maître d’arme prend le relais, jusqu’au niveau 250.",
+                "en": "After both Prestiges, a Master weapon track takes over, reaching level 250."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES ACCESSOIRES LIÉS À LA PROGRESSION",
+                "en": "ATTACHMENTS TIED TO PROGRESSION"
+              },
+              "body": {
+                "fr": "L’accès à certains équipements tient davantage compte du niveau de l’arme et du parcours de Prestige choisi.",
+                "en": "Access to selected equipment now takes weapon level and Prestige path into account."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UNE PROGRESSION PLUS VISIBLE",
+            "en": "PROGRESSION YOU CAN SEE"
+          },
+          "tone": "success",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "L’XP S’AFFICHE PENDANT L’ACTION",
+                "en": "SEE XP DURING THE ACTION"
+              },
+              "body": {
+                "fr": "Les gains d’expérience disposent de nouveaux affichages pendant les affrontements, accompagnés d’une barre de rang.",
+                "en": "XP gains receive new on-screen notifications during combat, alongside a rank progress bar."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "UN BILAN D’EXPÉRIENCE APRÈS LA PARTIE",
+                "en": "AN XP BREAKDOWN AFTER THE MATCH"
+              },
+              "body": {
+                "fr": "Le récapitulatif de fin de partie accueille une lecture des gains pour mieux comprendre ce qui a fait progresser le compte et les armes.",
+                "en": "The post-match summary gains an XP breakdown, showing what contributed to account and weapon progress."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "LE PRESTIGE A SA PLACE DANS LE PROFIL",
+                "en": "PRESTIGE GETS ITS OWN PROFILE SPACE"
+              },
+              "body": {
+                "fr": "Le profil accueille les parcours de Prestige, les paliers Maître, les récompenses et les déblocages permanents.",
+                "en": "The profile now brings together Prestige tracks, Master milestones, rewards and permanent unlocks."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "UN SUIVI DIRECTEMENT DANS L’ARMURERIE",
+                "en": "PROGRESS RIGHT IN THE ARMORY"
+              },
+              "body": {
+                "fr": "Le niveau de chaque arme et son accès au Prestige deviennent consultables depuis l’armurerie.",
+                "en": "Weapon levels and Prestige options can be viewed directly in the armory."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DES RÉCOMPENSES SUR LA DURÉE",
+            "en": "REWARDS FOR THE LONG RUN"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "LES PREMIÈRES DISTINCTIONS DE PRESTIGE",
+                "en": "FIRST PRESTIGE DISTINCTIONS"
+              },
+              "body": {
+                "fr": "Les emblèmes et bannières des Prestiges I à VIII rejoignent les récompenses prévues. Les derniers Prestiges et les jalons Maître recevront leurs créations à leur tour.",
+                "en": "Emblems and calling cards for Prestiges I through VIII join the reward collection. The final Prestiges and Master milestones will receive their designs later."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES RÉCOMPENSES À VENIR CLAIREMENT IDENTIFIÉES",
+                "en": "UPCOMING REWARDS CLEARLY MARKED"
+              },
+              "body": {
+                "fr": "Les récompenses dont les illustrations ne sont pas encore prêtes sont signalées comme à venir, sans visuel trompeur.",
+                "en": "Rewards whose artwork is not ready are marked as upcoming instead of displaying misleading images."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "LA PROGRESSION ATTEND SA VALIDATION EN JEU",
+                "en": "LIVE PROGRESSION TESTS STILL AHEAD"
+              },
+              "body": {
+                "fr": "Les règles et les interfaces de progression sont intégrées, mais les premiers essais complets en partie restent nécessaires avant de considérer l’ensemble comme validé.",
+                "en": "Progression rules and interfaces have been integrated, but full in-match testing is still required before the system can be considered validated."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "num": "1.10.0",
+      "date": "2026-10-21T04:35:16Z",
+      "title": {
+        "fr": "LA RÉSURGENCE SE PRÉPARE AU GRAND SAUT",
+        "en": "RESURGENCE PREPARES FOR THE NEXT DROP"
+      },
+      "highlights": [
+        {
+          "label": {
+            "fr": "DÉPLOIEMENT",
+            "en": "DEPLOYMENT"
+          },
+          "title": {
+            "fr": "LA RECHERCHE DE PARTIE PREND VIE",
+            "en": "MATCH SEARCH COMES TO LIFE"
+          },
+          "body": {
+            "fr": "Le bouton Déployer se connecte désormais à une véritable recherche de partie, avec gestion des escouades et de l’attente. Les essais en conditions réelles restent à venir.",
+            "en": "The Deploy button now connects to real matchmaking, managing squads and the waiting process. Live playtesting is still ahead."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "ADVERSAIRES",
+            "en": "OPPONENTS"
+          },
+          "title": {
+            "fr": "DES ESCOUADES IA POUR REMPLIR LE TERRAIN",
+            "en": "AI SQUADS TO FILL THE BATTLEFIELD"
+          },
+          "body": {
+            "fr": "Les parties à faible fréquentation se préparent à accueillir des équipes adverses contrôlées par l’IA, sans remplacer les coéquipiers humains.",
+            "en": "Low-population matches are being prepared to include AI-controlled enemy squads without replacing human teammates."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "CAYO PERICO",
+            "en": "CAYO PERICO"
+          },
+          "title": {
+            "fr": "DAVANTAGE DE BUTIN ET DE VÉHICULES",
+            "en": "MORE LOOT AND VEHICLES"
+          },
+          "body": {
+            "fr": "Le placement du butin, des coffres et des véhicules est revu pour rendre l’exploration de l’île plus intéressante.",
+            "en": "Loot, supply boxes and vehicle placement are being reworked to make exploring the island more rewarding."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "MOUVEMENT",
+            "en": "MOVEMENT"
+          },
+          "title": {
+            "fr": "UNE MOBILITÉ PLUS SOUPLE",
+            "en": "SMOOTHER MOVEMENT"
+          },
+          "body": {
+            "fr": "Glissades et plongeons bénéficient de nouveaux ajustements de trajectoire et d’une meilleure prise en compte des obstacles.",
+            "en": "Slides and dives receive movement refinements and better handling of obstacles."
+          },
+          "tone": "success"
+        }
+      ],
+      "sections": [
+        {
+          "title": {
+            "fr": "TROUVER SA PROCHAINE PARTIE",
+            "en": "FIND YOUR NEXT MATCH"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "LE BOUTON DÉPLOYER DEVIENT ACTIF",
+                "en": "DEPLOY NOW STARTS A REAL SEARCH"
+              },
+              "body": {
+                "fr": "Depuis le QG, la recherche de partie peut être lancée directement dans l’interface. L’attente, la recherche et la confirmation d’une partie possèdent désormais leurs propres étapes.",
+                "en": "Match search can now be started directly from the HQ interface. Waiting, searching and finding a match now have distinct stages."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "UN DÉPART À PLUSIEURS",
+                "en": "QUEUE TOGETHER"
+              },
+              "body": {
+                "fr": "La recherche prend en compte les escouades déjà formées afin de garder les amis ensemble lorsque la partie se prépare.",
+                "en": "Matchmaking takes existing squads into account so friends stay together as a match forms."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "LA PLACE AUX JOUEURS D’ABORD",
+                "en": "HUMAN PLAYERS COME FIRST"
+              },
+              "body": {
+                "fr": "Les joueurs présents sont regroupés en priorité avant l’arrivée d’éventuelles équipes IA. Les formats Solo, Duo, Trio et Quatuor disposent de files adaptées.",
+                "en": "Available players are grouped first, ahead of any AI opposition. Solo, Duo, Trio and Squad each have their own matchmaking queues."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "UNE RECHERCHE PLUS LISIBLE",
+                "en": "CLEARER MATCH SEARCH"
+              },
+              "body": {
+                "fr": "Annulation, attente d’autres joueurs, partie trouvée et recherche interrompue sont mieux expliquées pour éviter les écrans sans réponse.",
+                "en": "Cancelling, waiting for players, finding a match and interrupted searches are presented more clearly."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "UN SYSTÈME EN COURS DE VALIDATION",
+                "en": "AWAITING LIVE VALIDATION"
+              },
+              "body": {
+                "fr": "Le lancement public est intégré au parcours de jeu. Les premiers essais complets avec de vrais joueurs devront encore confirmer sa fiabilité.",
+                "en": "Public match launching is connected to the game flow. Full sessions with real players are still needed to confirm reliability."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DES BOTS PLUS CRÉDIBLES",
+            "en": "MORE BELIEVABLE BOTS"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "DES ADVERSAIRES MÊME À FAIBLE AFFLUENCE",
+                "en": "OPPONENTS EVEN IN QUIETER HOURS"
+              },
+              "body": {
+                "fr": "Le remplissage des parties prévoit des escouades IA adverses lorsqu’il manque des joueurs, avec des effectifs adaptés au format sélectionné.",
+                "en": "Match filling is designed to add opposing AI squads when too few players are available, scaled to the selected team size."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "UNE ARRIVÉE PLUS NATURELLE",
+                "en": "MORE NATURAL ARRIVALS"
+              },
+              "body": {
+                "fr": "Les bots rejoignent progressivement le combat au début de l’opération, avec des arrivées aériennes lorsque leur position le permet.",
+                "en": "Bots enter the fight as the operation begins, using airborne arrivals where appropriate."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "ILS APPRENNENT À CHOISIR LEURS COMBATS",
+                "en": "BETTER COMBAT DECISIONS"
+              },
+              "body": {
+                "fr": "Recherche d’ennemis, derniers lieux connus, réactions aux tirs et replis sont retravaillés pour éviter les adversaires trop prévisibles.",
+                "en": "Searching for enemies, remembering last-known positions, reacting to gunfire and retreating have been refined to reduce predictable behavior."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "DES RETOURS ALIGNÉS SUR LA RÉSURGENCE",
+                "en": "REDEPLOYS FOLLOW RESURGENCE RULES"
+              },
+              "body": {
+                "fr": "Les bots suivent davantage les mêmes règles de retour au combat et d’élimination définitive que les escouades humaines.",
+                "en": "Bot redeployments and final eliminations more closely follow the same Resurgence rules as human squads."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "UNE OPPOSITION EN PHASE DE TEST",
+                "en": "AI OPPOSITION IN TESTING"
+              },
+              "body": {
+                "fr": "Le comportement et l’équilibrage des bots devront être confirmés pendant les prochaines sessions avant une ouverture plus large.",
+                "en": "Bot behavior and balancing still need to be confirmed in upcoming playtests before wider availability."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "CAYO PERICO GAGNE EN DENSITÉ",
+            "en": "A RICHER CAYO PERICO"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DU BUTIN MIEUX RÉPARTI",
+                "en": "BETTER-DISTRIBUTED LOOT"
+              },
+              "body": {
+                "fr": "La répartition du butin au sol a été revue pour mieux exploiter les bâtiments, les zones accessibles et les différents points d’intérêt.",
+                "en": "Ground loot distribution has been adjusted to make better use of buildings, accessible spaces and points of interest."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES COFFRES PLUS SOIGNÉS",
+                "en": "IMPROVED SUPPLY BOXES"
+              },
+              "body": {
+                "fr": "La présentation des coffres et des objets qu’ils libèrent évolue pour rendre leurs interactions plus visibles.",
+                "en": "Supply boxes and the items they release receive presentation improvements for clearer interactions."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES VÉHICULES À DÉCOUVRIR SUR L’ÎLE",
+                "en": "VEHICLES ACROSS THE ISLAND"
+              },
+              "body": {
+                "fr": "Les emplacements et la sélection des véhicules sont affinés afin de diversifier les possibilités de déplacement entre les zones.",
+                "en": "Vehicle placement and selection have been refined to offer more ways to travel between areas."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UN COMBAT PLUS MOBILE",
+            "en": "MORE FLUID COMBAT MOVEMENT"
+          },
+          "tone": "success",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES GLISSADES PLUS PROPRES",
+                "en": "SMOOTHER SLIDES"
+              },
+              "body": {
+                "fr": "La glissade reçoit de nouveaux ajustements pour mieux enchaîner le retour à la course.",
+                "en": "Slides receive refinements for a cleaner transition back into running."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES PLONGEONS PLUS NATURELS",
+                "en": "MORE NATURAL DIVES"
+              },
+              "body": {
+                "fr": "Les plongées exploitent davantage le mouvement de leurs animations, avec des trajectoires et des réceptions retravaillées.",
+                "en": "Dives make better use of their animations, with refined movement paths and landing transitions."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "MOINS DE MOUVEMENTS À TRAVERS LES OBSTACLES",
+                "en": "BETTER OBSTACLE HANDLING"
+              },
+              "body": {
+                "fr": "Une action de déplacement peut être interrompue si un obstacle bloque réellement le passage.",
+                "en": "A movement action can be interrupted when an obstacle blocks the way."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "num": "1.9.0",
       "date": "2026-10-20T03:12:16Z",
       "title": {
@@ -53,8 +685,8 @@
             "en": "MORE WEAPON FINISHES TO DISCOVER"
           },
           "body": {
-            "fr": "Nouvelles créations animées & statiques enrichissent les possibilités de personnalisation des armes.",
-            "en": "New animated & statics creations expand weapon customization."
+            "fr": "ACR, M16A4 et nouvelles créations animées enrichissent les possibilités de personnalisation des armes.",
+            "en": "The ACR, M16A4 and new animated creations expand weapon customization."
           },
           "tone": "hot"
         },
@@ -199,6 +831,17 @@
           },
           "tone": "hot",
           "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "L’ACR ET LA M16A4 CHANGENT DE STYLE",
+                "en": "NEW LOOKS FOR THE ACR AND M16A4"
+              },
+              "body": {
+                "fr": "Huit nouvelles finitions sont prévues pour chacune de ces deux armes, avec des identités visuelles distinctes.",
+                "en": "Eight new finishes are being introduced for each of these two weapons, each with its own visual identity."
+              }
+            },
             {
               "kind": "mod",
               "title": {

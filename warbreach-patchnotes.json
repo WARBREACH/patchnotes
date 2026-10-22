@@ -7,73 +7,11 @@
   "versions": [
     {
       "num": "1.11.0",
-      "date": "2026-10-22T15:23:44Z",
       "title": {
         "fr": "CHAQUE ACTION COMPTE",
         "en": "EVERY ACTION COUNTS"
       },
-      "highlights": [
-        {
-          "label": {
-            "fr": "PROGRESSION",
-            "en": "PROGRESSION"
-          },
-          "title": {
-            "fr": "LES NIVEAUX PRENNENT TOUT LEUR SENS",
-            "en": "LEVELS FIND THEIR PURPOSE"
-          },
-          "body": {
-            "fr": "Combat, survie, ravitaillement et résultats de partie alimentent un nouveau parcours de progression, encore à valider en conditions réelles.",
-            "en": "Combat, survival, looting and match results feed a new progression journey, still awaiting full live validation."
-          },
-          "tone": "accent"
-        },
-        {
-          "label": {
-            "fr": "PRESTIGE",
-            "en": "PRESTIGE"
-          },
-          "title": {
-            "fr": "DIX PRESTIGES ET UNE CARRIÈRE MAÎTRE",
-            "en": "TEN PRESTIGES AND A MASTER JOURNEY"
-          },
-          "body": {
-            "fr": "Deux façons d’aborder chaque Prestige, puis une progression Maître jusqu’au niveau 1 000.",
-            "en": "Two ways to approach each Prestige, followed by Master progression up to level 1,000."
-          },
-          "tone": "hot"
-        },
-        {
-          "label": {
-            "fr": "ARMES",
-            "en": "WEAPONS"
-          },
-          "title": {
-            "fr": "CHAQUE ARME A DÉSORMAIS SA PROGRESSION",
-            "en": "EVERY WEAPON HAS ITS OWN PROGRESSION"
-          },
-          "body": {
-            "fr": "Les armes gagnent leurs propres niveaux, deux Prestiges et un parcours Maître jusqu’au niveau 250.",
-            "en": "Weapons gain individual levels, two Prestiges and a Master journey up to level 250."
-          },
-          "tone": "cyan"
-        },
-        {
-          "label": {
-            "fr": "RÉCOMPENSES",
-            "en": "REWARDS"
-          },
-          "title": {
-            "fr": "DE NOUVEAUX OBJECTIFS À DÉBLOQUER",
-            "en": "NEW MILESTONES TO UNLOCK"
-          },
-          "body": {
-            "fr": "Les premiers emblèmes et bannières de Prestige rejoignent le parcours. Les récompenses encore en création restent identifiées comme à venir.",
-            "en": "The first Prestige emblems and calling cards join the progression path. Rewards still being created remain marked as upcoming."
-          },
-          "tone": "success"
-        }
-      ],
+      "date": "2026-10-22",
       "sections": [
         {
           "title": {
@@ -351,77 +289,81 @@
             }
           ]
         }
-      ]
-    },
-    {
-      "num": "1.10.0",
-      "date": "2026-10-21T04:35:16Z",
-      "title": {
-        "fr": "LA RÉSURGENCE SE PRÉPARE AU GRAND SAUT",
-        "en": "RESURGENCE PREPARES FOR THE NEXT DROP"
-      },
+      ],
       "highlights": [
         {
           "label": {
-            "fr": "DÉPLOIEMENT",
-            "en": "DEPLOYMENT"
+            "fr": "PROGRESSION",
+            "en": "PROGRESSION"
           },
           "title": {
-            "fr": "LA RECHERCHE DE PARTIE PREND VIE",
-            "en": "MATCH SEARCH COMES TO LIFE"
+            "fr": "LES NIVEAUX PRENNENT TOUT LEUR SENS",
+            "en": "LEVELS FIND THEIR PURPOSE"
           },
           "body": {
-            "fr": "Le bouton Déployer se connecte désormais à une véritable recherche de partie, avec gestion des escouades et de l’attente. Les essais en conditions réelles restent à venir.",
-            "en": "The Deploy button now connects to real matchmaking, managing squads and the waiting process. Live playtesting is still ahead."
+            "fr": "Combat, survie, ravitaillement et résultats de partie alimentent un nouveau parcours de progression, encore à valider en conditions réelles.",
+            "en": "Combat, survival, looting and match results feed a new progression journey, still awaiting full live validation."
           },
           "tone": "accent"
         },
         {
           "label": {
-            "fr": "ADVERSAIRES",
-            "en": "OPPONENTS"
+            "fr": "PRESTIGE",
+            "en": "PRESTIGE"
           },
           "title": {
-            "fr": "DES ESCOUADES IA POUR REMPLIR LE TERRAIN",
-            "en": "AI SQUADS TO FILL THE BATTLEFIELD"
+            "fr": "DIX PRESTIGES ET UNE CARRIÈRE MAÎTRE",
+            "en": "TEN PRESTIGES AND A MASTER JOURNEY"
           },
           "body": {
-            "fr": "Les parties à faible fréquentation se préparent à accueillir des équipes adverses contrôlées par l’IA, sans remplacer les coéquipiers humains.",
-            "en": "Low-population matches are being prepared to include AI-controlled enemy squads without replacing human teammates."
+            "fr": "Deux façons d’aborder chaque Prestige, puis une progression Maître jusqu’au niveau 1 000.",
+            "en": "Two ways to approach each Prestige, followed by Master progression up to level 1,000."
           },
           "tone": "hot"
         },
         {
           "label": {
-            "fr": "CAYO PERICO",
-            "en": "CAYO PERICO"
+            "fr": "ARMES",
+            "en": "WEAPONS"
           },
           "title": {
-            "fr": "DAVANTAGE DE BUTIN ET DE VÉHICULES",
-            "en": "MORE LOOT AND VEHICLES"
+            "fr": "CHAQUE ARME A DÉSORMAIS SA PROGRESSION",
+            "en": "EVERY WEAPON HAS ITS OWN PROGRESSION"
           },
           "body": {
-            "fr": "Le placement du butin, des coffres et des véhicules est revu pour rendre l’exploration de l’île plus intéressante.",
-            "en": "Loot, supply boxes and vehicle placement are being reworked to make exploring the island more rewarding."
+            "fr": "Les armes gagnent leurs propres niveaux, deux Prestiges et un parcours Maître jusqu’au niveau 250.",
+            "en": "Weapons gain individual levels, two Prestiges and a Master journey up to level 250."
           },
           "tone": "cyan"
         },
         {
           "label": {
-            "fr": "MOUVEMENT",
-            "en": "MOVEMENT"
+            "fr": "RÉCOMPENSES",
+            "en": "REWARDS"
           },
           "title": {
-            "fr": "UNE MOBILITÉ PLUS SOUPLE",
-            "en": "SMOOTHER MOVEMENT"
+            "fr": "DE NOUVEAUX OBJECTIFS À DÉBLOQUER",
+            "en": "NEW MILESTONES TO UNLOCK"
           },
           "body": {
-            "fr": "Glissades et plongeons bénéficient de nouveaux ajustements de trajectoire et d’une meilleure prise en compte des obstacles.",
-            "en": "Slides and dives receive movement refinements and better handling of obstacles."
+            "fr": "Les premiers emblèmes et bannières de Prestige rejoignent le parcours. Les récompenses encore en création restent identifiées comme à venir.",
+            "en": "The first Prestige emblems and calling cards join the progression path. Rewards still being created remain marked as upcoming."
           },
           "tone": "success"
         }
       ],
+      "tag": {
+        "fr": "PROGRESSION",
+        "en": "PROGRESSION"
+      }
+    },
+    {
+      "num": "1.10.0",
+      "title": {
+        "fr": "LA RÉSURGENCE SE PRÉPARE AU GRAND SAUT",
+        "en": "RESURGENCE PREPARES FOR THE NEXT DROP"
+      },
+      "date": "2026-10-21",
       "sections": [
         {
           "title": {
@@ -635,77 +577,81 @@
             }
           ]
         }
-      ]
-    },
-    {
-      "num": "1.9.0",
-      "date": "2026-10-20T03:12:16Z",
-      "title": {
-        "fr": "NOUVEAUX VISAGES, NOUVEAUX HORIZONS",
-        "en": "NEW FACES, NEW POSSIBILITIES"
-      },
+      ],
       "highlights": [
         {
           "label": {
-            "fr": "OPÉRATEURS",
-            "en": "OPERATORS"
+            "fr": "DÉPLOIEMENT",
+            "en": "DEPLOYMENT"
           },
           "title": {
-            "fr": "UN STYLE QUI VOUS RESSEMBLE",
-            "en": "MAKE YOUR OPERATOR YOUR OWN"
+            "fr": "LA RECHERCHE DE PARTIE PREND VIE",
+            "en": "MATCH SEARCH COMES TO LIFE"
           },
           "body": {
-            "fr": "Le catalogue s’agrandit et la personnalisation ouvre de nouvelles possibilités de tenues et d’accessoires.",
-            "en": "The roster expands with more ways to customize outfits and accessories."
+            "fr": "Le bouton Déployer se connecte désormais à une véritable recherche de partie, avec gestion des escouades et de l’attente. Les essais en conditions réelles restent à venir.",
+            "en": "The Deploy button now connects to real matchmaking, managing squads and the waiting process. Live playtesting is still ahead."
           },
           "tone": "accent"
         },
         {
           "label": {
-            "fr": "PREMIERS PAS",
-            "en": "FIRST STEPS"
+            "fr": "ADVERSAIRES",
+            "en": "OPPONENTS"
           },
           "title": {
-            "fr": "BIENVENUE DANS WARBREACH",
-            "en": "WELCOME TO WARBREACH"
+            "fr": "DES ESCOUADES IA POUR REMPLIR LE TERRAIN",
+            "en": "AI SQUADS TO FILL THE BATTLEFIELD"
           },
           "body": {
-            "fr": "Une visite cinématique du QG accompagne les premiers pas et présente les essentiels avant le combat.",
-            "en": "A cinematic HQ tour introduces the essentials before the fight begins."
-          },
-          "tone": "cyan"
-        },
-        {
-          "label": {
-            "fr": "ARSENAL",
-            "en": "ARSENAL"
-          },
-          "title": {
-            "fr": "DE NOUVELLES FINITIONS À DÉCOUVRIR",
-            "en": "MORE WEAPON FINISHES TO DISCOVER"
-          },
-          "body": {
-            "fr": "ACR, M16A4 et nouvelles créations animées enrichissent les possibilités de personnalisation des armes.",
-            "en": "The ACR, M16A4 and new animated creations expand weapon customization."
+            "fr": "Les parties à faible fréquentation se préparent à accueillir des équipes adverses contrôlées par l’IA, sans remplacer les coéquipiers humains.",
+            "en": "Low-population matches are being prepared to include AI-controlled enemy squads without replacing human teammates."
           },
           "tone": "hot"
         },
         {
           "label": {
-            "fr": "CONFORT",
-            "en": "QUALITY OF LIFE"
+            "fr": "CAYO PERICO",
+            "en": "CAYO PERICO"
           },
           "title": {
-            "fr": "DE PETITS DÉTAILS QUI COMPTENT",
-            "en": "THE DETAILS MAKE A DIFFERENCE"
+            "fr": "DAVANTAGE DE BUTIN ET DE VÉHICULES",
+            "en": "MORE LOOT AND VEHICLES"
           },
           "body": {
-            "fr": "Les aperçus d’armes, la galerie du QG et plusieurs interactions en partie gagnent en cohérence.",
-            "en": "Weapon previews, the HQ gallery and several in-match interactions receive further refinements."
+            "fr": "Le placement du butin, des coffres et des véhicules est revu pour rendre l’exploration de l’île plus intéressante.",
+            "en": "Loot, supply boxes and vehicle placement are being reworked to make exploring the island more rewarding."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "MOUVEMENT",
+            "en": "MOVEMENT"
+          },
+          "title": {
+            "fr": "UNE MOBILITÉ PLUS SOUPLE",
+            "en": "SMOOTHER MOVEMENT"
+          },
+          "body": {
+            "fr": "Glissades et plongeons bénéficient de nouveaux ajustements de trajectoire et d’une meilleure prise en compte des obstacles.",
+            "en": "Slides and dives receive movement refinements and better handling of obstacles."
           },
           "tone": "success"
         }
       ],
+      "tag": {
+        "fr": "MISE À JOUR MAJEURE",
+        "en": "MAJOR UPDATE"
+      }
+    },
+    {
+      "num": "1.9.0",
+      "title": {
+        "fr": "NOUVEAUX VISAGES, NOUVEAUX HORIZONS",
+        "en": "NEW FACES, NEW POSSIBILITIES"
+      },
+      "date": "2026-10-20",
       "sections": [
         {
           "title": {
@@ -939,60 +885,52 @@
             }
           ]
         }
-      ]
-    },
-    {
-      "num": "1.8.0",
-      "date": "2026-10-19T01:46:49Z",
-      "title": {
-        "fr": "LE COMBAT PREND UNE NOUVELLE DIMENSION",
-        "en": "COMBAT TAKES THE NEXT STEP"
-      },
+      ],
       "highlights": [
         {
           "label": {
-            "fr": "ARÈNES",
-            "en": "ARENAS"
+            "fr": "OPÉRATEURS",
+            "en": "OPERATORS"
           },
           "title": {
-            "fr": "DES DUELS PLUS JUSTES",
-            "en": "FAIRER ARENA FIGHTS"
+            "fr": "UN STYLE QUI VOUS RESSEMBLE",
+            "en": "MAKE YOUR OPERATOR YOUR OWN"
           },
           "body": {
-            "fr": "Eliminations, réapparitions et affichages ont été retravaillés pour des affrontements plus lisibles.",
-            "en": "Eliminations, respawns and match displays have been refined for clearer fights."
+            "fr": "Le catalogue s’agrandit et la personnalisation ouvre de nouvelles possibilités de tenues et d’accessoires.",
+            "en": "The roster expands with more ways to customize outfits and accessories."
           },
-          "tone": "hot"
+          "tone": "accent"
         },
         {
           "label": {
-            "fr": "COMMUNICATION",
-            "en": "COMMUNICATION"
+            "fr": "PREMIERS PAS",
+            "en": "FIRST STEPS"
           },
           "title": {
-            "fr": "UN CHAT POUR CHAQUE SITUATION",
-            "en": "A CHAT FOR EVERY SITUATION"
+            "fr": "BIENVENUE DANS WARBREACH",
+            "en": "WELCOME TO WARBREACH"
           },
           "body": {
-            "fr": "Discutez au QG, coordonnez une escouade ou échangez pendant une partie dans des canaux adaptés.",
-            "en": "Chat at HQ, coordinate your squad or talk during a match through dedicated channels."
+            "fr": "Une visite cinématique du QG accompagne les premiers pas et présente les essentiels avant le combat.",
+            "en": "A cinematic HQ tour introduces the essentials before the fight begins."
           },
           "tone": "cyan"
         },
         {
           "label": {
-            "fr": "PREMIERS PAS",
-            "en": "GETTING STARTED"
+            "fr": "ARSENAL",
+            "en": "ARSENAL"
           },
           "title": {
-            "fr": "26 LEÇONS POUR PRENDRE SES MARQUES",
-            "en": "26 LESSONS TO GET STARTED"
+            "fr": "DE NOUVELLES FINITIONS À DÉCOUVRIR",
+            "en": "MORE WEAPON FINISHES TO DISCOVER"
           },
           "body": {
-            "fr": "Un nouveau guide accompagne les premiers pas et permet de retrouver les commandes et les règles du jeu.",
-            "en": "A new guide walks players through the basics, controls and rules of the game."
+            "fr": "ACR, M16A4 et nouvelles créations animées enrichissent les possibilités de personnalisation des armes.",
+            "en": "The ACR, M16A4 and new animated creations expand weapon customization."
           },
-          "tone": "accent"
+          "tone": "hot"
         },
         {
           "label": {
@@ -1000,16 +938,28 @@
             "en": "QUALITY OF LIFE"
           },
           "title": {
-            "fr": "DES RÉGLAGES POUR PLUS DE FLUIDITÉ",
-            "en": "MORE OPTIONS FOR SMOOTHER PLAY"
+            "fr": "DE PETITS DÉTAILS QUI COMPTENT",
+            "en": "THE DETAILS MAKE A DIFFERENCE"
           },
           "body": {
-            "fr": "Des profils de performances et un compteur d’images par seconde rejoignent les paramètres.",
-            "en": "Performance presets and an on-screen frame-rate counter join the settings."
+            "fr": "Les aperçus d’armes, la galerie du QG et plusieurs interactions en partie gagnent en cohérence.",
+            "en": "Weapon previews, the HQ gallery and several in-match interactions receive further refinements."
           },
           "tone": "success"
         }
       ],
+      "tag": {
+        "fr": "NOUVEAUTÉS",
+        "en": "NEW CONTENT"
+      }
+    },
+    {
+      "num": "1.8.0",
+      "title": {
+        "fr": "LE COMBAT PREND UNE NOUVELLE DIMENSION",
+        "en": "COMBAT TAKES THE NEXT STEP"
+      },
+      "date": "2026-10-19",
       "sections": [
         {
           "title": {
@@ -1307,7 +1257,73 @@
             }
           ]
         }
-      ]
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "ARÈNES",
+            "en": "ARENAS"
+          },
+          "title": {
+            "fr": "DES DUELS PLUS JUSTES",
+            "en": "FAIRER ARENA FIGHTS"
+          },
+          "body": {
+            "fr": "Eliminations, réapparitions et affichages ont été retravaillés pour des affrontements plus lisibles.",
+            "en": "Eliminations, respawns and match displays have been refined for clearer fights."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "COMMUNICATION",
+            "en": "COMMUNICATION"
+          },
+          "title": {
+            "fr": "UN CHAT POUR CHAQUE SITUATION",
+            "en": "A CHAT FOR EVERY SITUATION"
+          },
+          "body": {
+            "fr": "Discutez au QG, coordonnez une escouade ou échangez pendant une partie dans des canaux adaptés.",
+            "en": "Chat at HQ, coordinate your squad or talk during a match through dedicated channels."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "PREMIERS PAS",
+            "en": "GETTING STARTED"
+          },
+          "title": {
+            "fr": "26 LEÇONS POUR PRENDRE SES MARQUES",
+            "en": "26 LESSONS TO GET STARTED"
+          },
+          "body": {
+            "fr": "Un nouveau guide accompagne les premiers pas et permet de retrouver les commandes et les règles du jeu.",
+            "en": "A new guide walks players through the basics, controls and rules of the game."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "CONFORT",
+            "en": "QUALITY OF LIFE"
+          },
+          "title": {
+            "fr": "DES RÉGLAGES POUR PLUS DE FLUIDITÉ",
+            "en": "MORE OPTIONS FOR SMOOTHER PLAY"
+          },
+          "body": {
+            "fr": "Des profils de performances et un compteur d’images par seconde rejoignent les paramètres.",
+            "en": "Performance presets and an on-screen frame-rate counter join the settings."
+          },
+          "tone": "success"
+        }
+      ],
+      "tag": {
+        "fr": "NOUVEAUTÉS ET CORRECTIFS",
+        "en": "NEW CONTENT & FIXES"
+      }
     },
     {
       "num": "1.7.0",
@@ -1315,7 +1331,7 @@
         "fr": "L’ENTRAÎNEMENT CHANGE DE DIMENSION",
         "en": "TRAINING REACHES A NEW LEVEL"
       },
-      "date": "2026-10-17T22:49:16Z",
+      "date": "2026-10-18",
       "sections": [
         {
           "title": {
@@ -1633,7 +1649,11 @@
           },
           "tone": "hot"
         }
-      ]
+      ],
+      "tag": {
+        "fr": "NOUVEAUTÉS",
+        "en": "NEW CONTENT"
+      }
     },
     {
       "num": "1.6.0",
@@ -1641,7 +1661,7 @@
         "fr": "LE COMBAT GAGNE EN TACTIQUE",
         "en": "TACTICAL COMBAT TAKES SHAPE"
       },
-      "date": "2026-10-16T20:27:02Z",
+      "date": "2026-10-16",
       "sections": [
         {
           "title": {
@@ -1867,7 +1887,11 @@
           },
           "tone": "cyan"
         }
-      ]
+      ],
+      "tag": {
+        "fr": "NOUVEAUTÉS",
+        "en": "NEW CONTENT"
+      }
     },
     {
       "num": "1.5.0",
@@ -1875,7 +1899,7 @@
         "fr": "L’ARSENAL CHANGE DE VISAGE",
         "en": "A NEW LOOK FOR THE ARSENAL"
       },
-      "date": "2026-10-16T15:24:09Z",
+      "date": "2026-10-16",
       "sections": [
         {
           "title": {
@@ -2134,15 +2158,19 @@
           },
           "tone": "cyan"
         }
-      ]
+      ],
+      "tag": {
+        "fr": "ARSENAL",
+        "en": "ARMORY"
+      }
     },
     {
       "num": "1.4.0",
-      "date": "2026-10-16",
       "title": {
         "fr": "LE QG S’ANIME",
         "en": "THE HQ COMES ALIVE"
       },
+      "date": "2026-10-16",
       "sections": [
         {
           "title": {
@@ -2385,7 +2413,11 @@
           },
           "tone": "success"
         }
-      ]
+      ],
+      "tag": {
+        "fr": "NOUVEAUTÉS",
+        "en": "NEW CONTENT"
+      }
     },
     {
       "num": "1.3.0",

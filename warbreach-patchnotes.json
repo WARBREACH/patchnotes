@@ -6,6 +6,356 @@
   },
   "versions": [
     {
+      "num": "1.12.0",
+      "date": "2026-10-23",
+      "tag": {
+        "fr": "PROGRESSION ET CONFORT",
+        "en": "PROGRESSION & COMFORT"
+      },
+      "title": {
+        "fr": "LA MAÎTRISE PREND FORME",
+        "en": "MASTERY TAKES SHAPE"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "UNE ARME, UNE LÉGENDE",
+            "en": "EVERY WEAPON HAS A STORY"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Des défis pour chaque arme",
+                "en": "Weapon mastery challenges"
+              },
+              "body": {
+                "fr": "Des défis d’éliminations sont désormais associés aux armes, avec des étapes à 100, 250, 500, 1 000 et 2 500 éliminations. Chaque palier ouvre la voie à des récompenses de maîtrise.",
+                "en": "Weapons now have elimination challenges, with milestones at 100, 250, 500, 1,000 and 2,500 eliminations. Each milestone leads toward dedicated mastery rewards."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Une identité pour les armes maîtrisées",
+                "en": "Show off your mastered weapons"
+              },
+              "body": {
+                "fr": "Emblèmes et bannières propres aux armes rejoignent les récompenses de maîtrise. Chaque étape permet de mettre en valeur une arme favorite.",
+                "en": "Weapon-specific emblems and banners join the mastery rewards. Each milestone offers another way to showcase a favorite weapon."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Le Prestige d’arme récompensé",
+                "en": "Weapon Prestige rewards"
+              },
+              "body": {
+                "fr": "Les deux passages de Prestige et l’accès au Maître d’arme disposent désormais de récompenses dédiées, en complément des défis d’éliminations.",
+                "en": "Both Weapon Prestige ranks and the Weapon Master milestone now have dedicated rewards alongside elimination challenges."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des niveaux d’armes mieux adaptés",
+                "en": "Weapon levels rebalanced"
+              },
+              "body": {
+                "fr": "Les niveaux maximaux des armes sont réajustés selon leur équipement et leurs possibilités de personnalisation. Les paliers des finitions suivent cette nouvelle progression.",
+                "en": "Weapon level caps have been adjusted to match their attachments and customization options. Finish unlock milestones now follow the updated progression."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LE PRESTIGE PREND DES COULEURS",
+            "en": "PRESTIGE GETS ITS REWARDS"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Les dix Prestiges ont leurs récompenses",
+                "en": "Rewards for all ten Prestige ranks"
+              },
+              "body": {
+                "fr": "Les dix rangs de Prestige joueur disposent désormais de leurs propres emblèmes et bannières, du premier au dixième passage.",
+                "en": "All ten Player Prestige ranks now have their own emblems and banners, from the first promotion through the tenth."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Les étapes du Maître Prestige illustrées",
+                "en": "Master Prestige milestones revealed"
+              },
+              "body": {
+                "fr": "De nouvelles récompenses visuelles accompagnent les étapes du Maître Prestige, du niveau 100 jusqu’au niveau 1 000.",
+                "en": "New visual rewards mark Master Prestige milestones, from level 100 all the way to level 1,000."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une carrière plus lisible",
+                "en": "A clearer career overview"
+              },
+              "body": {
+                "fr": "Le profil met davantage en avant le rang, l’emblème de Prestige, la progression et les déblocages à venir, avec un accès direct au parcours de Prestige.",
+                "en": "Profiles now put rank, Prestige emblem, progression and upcoming unlocks front and center, with direct access to the Prestige journey."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DES OPÉRATEURS À PERSONNALISER",
+            "en": "MAKE EVERY OPERATOR YOUR OWN"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "La personnalisation accompagne les niveaux",
+                "en": "Customization follows progression"
+              },
+              "body": {
+                "fr": "Les choix de tenues et d’accessoires sont désormais répartis sur la progression du joueur. Les premières options restent accessibles dès les premiers niveaux.",
+                "en": "Outfits and accessories now unlock across player progression. The first customization choices remain available at the earliest levels."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Des options à débloquer dans la boutique",
+                "en": "More ways to unlock a style"
+              },
+              "body": {
+                "fr": "Certaines options cosmétiques peuvent aussi être acquises avec des crédits avant d’atteindre leur niveau de déblocage. Ces achats ne procurent aucun avantage de combat.",
+                "en": "Some cosmetic options can also be purchased with credits before reaching their unlock level. These purchases provide no combat advantage."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des choix mieux affichés",
+                "en": "Clearer customization choices"
+              },
+              "body": {
+                "fr": "L’affichage des options possédées, verrouillées et disponibles est revu pour mieux distinguer ce qui peut être équipé immédiatement.",
+                "en": "Owned, locked and available customization options are displayed more clearly, making it easier to see what can be equipped right away."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "BOUTIQUE ET SAISON À VENIR",
+            "en": "STORE AND SEASON PREPARATIONS"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Le passe de combat se précise",
+                "en": "Battle Pass rewards refined"
+              },
+              "body": {
+                "fr": "La première saison se prépare avec 100 paliers, davantage de récompenses sur le parcours premium et une répartition revue des opérateurs et des cosmétiques. Son lancement public reste à venir.",
+                "en": "The first season is being prepared with 100 tiers, more rewards along the premium track and an updated distribution of operators and cosmetics. Its public launch is still ahead."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une meilleure place pour les crédits",
+                "en": "Credits take their place"
+              },
+              "body": {
+                "fr": "Le parcours premium est prévu pour proposer 1 200 crédits au total pour un accès fixé à 1 100 crédits. Ces conditions concernent la saison en préparation.",
+                "en": "The planned premium track offers a total of 1,200 credits for an entry cost of 1,100 credits. These values apply to the season in preparation."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Des avantages VIP en préparation",
+                "en": "VIP benefits in preparation"
+              },
+              "body": {
+                "fr": "Les fondations des grades Basic, Premium et Ultimate et des packs de crédits avancent. Leur disponibilité et leurs avantages définitifs seront annoncés séparément.",
+                "en": "Work is underway on Basic, Premium and Ultimate VIP tiers and credit packs. Availability and final benefits will be announced separately."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UN QG PLUS AGRÉABLE",
+            "en": "A SMOOTHER HQ EXPERIENCE"
+          },
+          "tone": "success",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Récompenses journalières repensées",
+                "en": "Daily rewards redesigned"
+              },
+              "body": {
+                "fr": "Le calendrier des récompenses affiche plus clairement les jours de connexion, les séries en cours et le détail du cadeau sélectionné.",
+                "en": "The daily rewards calendar now highlights login days, current streaks and the details of the selected reward more clearly."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des visuels chargés au bon moment",
+                "en": "Images loaded when needed"
+              },
+              "body": {
+                "fr": "Les catalogues et grandes collections d’images privilégient désormais le chargement progressif, pour éviter de charger des visuels qui ne sont pas encore à l’écran.",
+                "en": "Catalogs and large image collections now load visuals progressively instead of loading artwork that is not yet on screen."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des images de secours plus fiables",
+                "en": "More reliable artwork fallbacks"
+              },
+              "body": {
+                "fr": "Les différentes interfaces partagent un affichage des images plus cohérent, avec un remplacement prévu lorsqu’un visuel ne peut pas être chargé.",
+                "en": "Interfaces now use more consistent artwork handling, with fallback images when a visual cannot be loaded."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des cartes de joueur mieux présentées",
+                "en": "Player cards polished"
+              },
+              "body": {
+                "fr": "La présentation des emblèmes et des bannières est revue dans les espaces du jeu qui affichent l’identité des joueurs.",
+                "en": "Emblems and banners now have an updated presentation wherever player identity appears in the game."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "CORRECTIFS ET FINITIONS",
+            "en": "FIXES AND FINAL TOUCHES"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des gains de progression plus cohérents",
+                "en": "More consistent progression updates"
+              },
+              "body": {
+                "fr": "Des ajustements renforcent la prise en compte des gains d’expérience, des changements de niveau et de leurs récompenses après les parties.",
+                "en": "Adjustments improve the handling of experience gains, level changes and their rewards after matches."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Boutique et arsenal mieux synchronisés",
+                "en": "Store and armory improvements"
+              },
+              "body": {
+                "fr": "Les informations de disponibilité, de possession et de déblocage des contenus sont harmonisées entre les écrans de la boutique et de l’arsenal.",
+                "en": "Availability, ownership and unlock information is now more consistent between the store and armory screens."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Un affichage plus uniforme",
+                "en": "A more consistent interface"
+              },
+              "body": {
+                "fr": "Plusieurs écrans du QG, du combat et des menus bénéficient d’ajustements de présentation pour accompagner les nouveautés de progression.",
+                "en": "Several HQ, combat and menu screens have received presentation updates to support the new progression features."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "MAÎTRISE",
+            "en": "MASTERY"
+          },
+          "title": {
+            "fr": "Chaque arme laisse sa marque",
+            "en": "Every weapon leaves a mark"
+          },
+          "body": {
+            "fr": "Défis d’éliminations, emblèmes et bannières pour affirmer la maîtrise de chaque arme.",
+            "en": "Elimination challenges, emblems and banners to showcase mastery of every weapon."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "PRESTIGE",
+            "en": "PRESTIGE"
+          },
+          "title": {
+            "fr": "Dix rangs, une vraie collection",
+            "en": "Ten ranks, a full collection"
+          },
+          "body": {
+            "fr": "Les dix Prestiges et les étapes du Maître Prestige se parent de nouvelles récompenses visuelles.",
+            "en": "All ten Prestige ranks and Master Prestige milestones gain new visual rewards."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "OPÉRATEURS",
+            "en": "OPERATORS"
+          },
+          "title": {
+            "fr": "Un style qui se débloque",
+            "en": "Style unlocked through play"
+          },
+          "body": {
+            "fr": "Tenues et accessoires évoluent avec la progression du compte.",
+            "en": "Outfits and accessories evolve with account progression."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "CONFORT",
+            "en": "QUALITY OF LIFE"
+          },
+          "title": {
+            "fr": "Des menus plus légers",
+            "en": "A smoother menu experience"
+          },
+          "body": {
+            "fr": "Récompenses journalières retravaillées et affichage des images plus progressif.",
+            "en": "Updated daily rewards and smarter, progressive image loading."
+          },
+          "tone": "success"
+        }
+      ]
+    },
+    {
       "num": "1.11.0",
       "title": {
         "fr": "CHAQUE ACTION COMPTE",
@@ -2795,220 +3145,6 @@
             "en": "A killcam is taking shape to replay the final seconds of a fight."
           },
           "tone": "muted"
-        }
-      ],
-      "tag": {
-        "fr": "NOUVEAUTÉS",
-        "en": "NEW CONTENT"
-      }
-    },
-    {
-      "num": "1.2.0",
-      "title": {
-        "fr": "UNE VICTOIRE QUI SE RACONTE",
-        "en": "A VICTORY WORTH REMEMBERING"
-      },
-      "date": "2026-10-14",
-      "sections": [
-        {
-          "title": {
-            "fr": "LE DERNIER MOT AUX VAINQUEURS",
-            "en": "THE WINNERS GET THE LAST WORD"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "PLACE À L’EXTRACTION",
-                "en": "HERE COMES THE EXTRACTION"
-              },
-              "body": {
-                "fr": "Après le dernier affrontement, l’escouade gagnante se prépare à quitter le terrain en hélicoptère. Une conclusion plus spectaculaire pour les parties que vous aurez remportées de haute lutte.",
-                "en": "After the final fight, the winning squad prepares to leave by helicopter. A bigger, more cinematic ending for every hard-fought victory."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "RETROUVEZ VOTRE ESCOUADE AU QG",
-                "en": "REUNITE WITH YOUR SQUAD AT HQ"
-              },
-              "body": {
-                "fr": "Une nouvelle présentation de fin de partie rassemble votre équipe dans le hangar, avec les chiffres qui racontent votre match. De quoi savourer la victoire... ou préparer la revanche.",
-                "en": "A new post-match presentation brings your squad together in the hangar, with the numbers that tell the story of your match. Celebrate the win—or start planning your comeback."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DU DERNIER CERCLE AU HANGAR",
-                "en": "FROM THE FINAL CIRCLE TO THE HANGAR"
-              },
-              "body": {
-                "fr": "L’enchaînement entre la fin du match, l’annonce du résultat et le retour au QG est plus naturel. La dernière séquence de chaque partie gagne en rythme.",
-                "en": "The transition from the final fight to the results screen and back to HQ feels more natural, giving every match a smoother finale."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "DE NOUVELLES FINITIONS",
-            "en": "FRESH NEW FINISHES"
-          },
-          "tone": "cyan",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "HUIT LOOKS POUR LE FUSIL D’ASSAUT",
-                "en": "EIGHT NEW ASSAULT RIFLE LOOKS"
-              },
-              "body": {
-                "fr": "Du plus discret au plus audacieux, huit nouvelles finitions ont été préparées pour le fusil d’assaut. Il ne vous reste qu’à choisir celle qui collera à votre style.",
-                "en": "From understated to bold, eight new assault rifle finishes are being prepared. The hardest part will be picking your favorite."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "LA CARABINE ENTRE DANS LA DANSE",
-                "en": "CARBINES GET THEIR TURN"
-              },
-              "body": {
-                "fr": "La carabine gagne elle aussi une collection de huit finitions. De nouvelles possibilités pour varier vos équipements avant de partir au combat.",
-                "en": "The carbine is getting a collection of eight finishes of its own, with more ways to switch up your look before a fight."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "LES DÉTAILS FONT LA DIFFÉRENCE",
-                "en": "IT’S ALL IN THE DETAILS"
-              },
-              "body": {
-                "fr": "Les finitions sont mieux mises en valeur dans l’armurerie comme sur les armes portées dans le dos. Votre style reste visible, même entre deux affrontements.",
-                "en": "Weapon finishes stand out more clearly in the armory and on weapons carried on your back. Your style stays visible between fights."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "SUR LE TERRAIN",
-            "en": "OUT IN THE FIELD"
-          },
-          "tone": "hot",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "LE GAZ SE FAIT PLUS MENAÇANT",
-                "en": "THE GAS FEELS CLOSER THAN EVER"
-              },
-              "body": {
-                "fr": "Le rideau de gaz gagne en présence à l’écran. Ses effets renforcent la tension à mesure que la zone de sécurité se referme.",
-                "en": "The gas wall has a stronger presence on screen, building tension as the safe zone closes in."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "RAMASSER, S’ÉQUIPER, REPARTIR",
-                "en": "LOOT UP AND MOVE OUT"
-              },
-              "body": {
-                "fr": "Les armes et les objets autour des caisses sont plus faciles à repérer. Moins de temps à chercher ce qui se trouve à vos pieds, plus de temps pour repartir au combat.",
-                "en": "Weapons and items around supply crates are easier to spot. Spend less time searching at your feet and more time getting back into the fight."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES INTERACTIONS PLUS AGRÉABLES",
-                "en": "SMOOTHER LOOTING"
-              },
-              "body": {
-                "fr": "La sélection du butin et plusieurs sons d’interaction ont été ajustés. Ouvrir une caisse et récupérer son contenu doit rester simple, même au milieu de l’action.",
-                "en": "Loot selection and interaction sounds have been refined. Opening a crate and grabbing what you need should stay simple, even when the action heats up."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "LA RÉSURGENCE PLUS LISIBLE",
-                "en": "CLEARER RESURGENCE MOMENTS"
-              },
-              "body": {
-                "fr": "Les informations liées à votre escouade et aux retours en jeu ont été revues pour mieux suivre la situation quand les choses tournent mal.",
-                "en": "Squad information and redeployment indicators have been revisited to help you keep track when things go sideways."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "À SUIVRE",
-            "en": "WHAT’S NEXT"
-          },
-          "tone": "muted",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "PLUS DE LIBERTÉ DANS VOS MOUVEMENTS",
-                "en": "A NEW FEEL FOR MOVEMENT"
-              },
-              "body": {
-                "fr": "Glissades, plongeons et déplacements au sol : plusieurs possibilités sont à l’étude pour rendre les combats plus nerveux, tout en gardant le contrôle du personnage.",
-                "en": "Slides, dives, and ground movement are being explored for faster, sharper fights without losing control of your character."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "DES CAMOUFLAGES PLUS VIVANTS",
-                "en": "MORE THAN A STATIC CAMO"
-              },
-              "body": {
-                "fr": "Les premières finitions animées prennent forme. De nouveaux effets visuels pourraient bientôt donner à certaines armes un caractère bien à elles.",
-                "en": "The first animated finishes are taking shape. New visual effects could soon give selected weapons a personality of their own."
-              }
-            }
-          ]
-        }
-      ],
-      "highlights": [
-        {
-          "label": {
-            "fr": "VICTOIRE",
-            "en": "VICTORY"
-          },
-          "title": {
-            "fr": "UNE FIN À LA HAUTEUR",
-            "en": "AN ENDING WORTH THE WIN"
-          },
-          "body": {
-            "fr": "Une extraction en hélicoptère pour donner plus d’ampleur au dernier moment du match.",
-            "en": "A helicopter extraction designed to make the final moments of a match feel unforgettable."
-          },
-          "tone": "accent"
-        },
-        {
-          "label": {
-            "fr": "PERSONNALISATION",
-            "en": "CUSTOMIZATION"
-          },
-          "title": {
-            "fr": "L’ARSENAL S’AGRANDIT",
-            "en": "THE ARSENAL EXPANDS"
-          },
-          "body": {
-            "fr": "De nouvelles finitions pour les fusils d’assaut et les carabines.",
-            "en": "New finishes for assault rifles and carbines."
-          },
-          "tone": "cyan"
         }
       ],
       "tag": {

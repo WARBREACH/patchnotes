@@ -6,6 +6,303 @@
   },
   "versions": [
     {
+      "num": "1.13.0",
+      "date": "2026-10-26",
+      "tag": {
+        "fr": "ARSENAL & BOUTIQUE",
+        "en": "ARSENAL & STORE"
+      },
+      "title": {
+        "fr": "L’ARSENAL PREND UNE NOUVELLE DIMENSION",
+        "en": "A NEW ERA FOR THE ARSENAL"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "UNE COLLECTION QUI S’AGRANDIT",
+            "en": "A GROWING COLLECTION"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "84 NOUVELLES FINITIONS",
+                "en": "84 NEW FINISHES"
+              },
+              "body": {
+                "fr": "84 nouveaux camouflages sont désormais intégrés et testés : 60 finitions animées et 24 finitions fixes. De nouvelles façons de personnaliser les armes sont disponibles dans les collections concernées.",
+                "en": "84 new camos are now integrated and tested: 60 animated finishes and 24 static finishes. More ways to customize weapons are available across the eligible collections."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "De nouvelles animations pour les armes",
+                "en": "More animated weapon styles"
+              },
+              "body": {
+                "fr": "Une collection de 46 finitions animées enrichit plusieurs fusils d’assaut, mitraillettes, fusils à pompe, mitrailleuses, fusils de précision et pistolets.",
+                "en": "A collection of 46 animated finishes expands the choices for assault rifles, SMGs, shotguns, machine guns, sniper rifles and pistols."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Trois armes de mêlée à personnaliser",
+                "en": "Customize three melee weapons"
+              },
+              "body": {
+                "fr": "Le couteau, le poing américain et le cran d’arrêt disposent chacun de huit finitions fixes et de trois camouflages animés originaux.",
+                "en": "The knife, brass knuckles and switchblade each receive eight static finishes and three original animated camos."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des finitions propres à WARBREACH",
+                "en": "More distinctive WARBREACH finishes"
+              },
+              "body": {
+                "fr": "Une sélection d’anciens habillages classiques cède la place aux collections personnalisées. Les accessoires utiles et les réglages des armes ne changent pas.",
+                "en": "A selection of older standard finishes gives way to custom collections. Functional attachments and weapon balance stay unchanged."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UNE ARME, UNE SIGNATURE",
+            "en": "A SIGNATURE FOR EVERY WEAPON"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "De nouveaux choix dans l’armurerie",
+                "en": "More options in the armory"
+              },
+              "body": {
+                "fr": "Le catalogue actif réunit désormais 318 finitions personnalisées, réparties entre différentes familles d’armes. Les collections des armes désactivées restent hors de la sélection.",
+                "en": "The active catalog now holds 318 custom finishes across multiple weapon families. Collections for disabled weapons remain outside the selection."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Des animations mythiques à collectionner",
+                "en": "Collect mythical animated finishes"
+              },
+              "body": {
+                "fr": "Les nouvelles finitions animées sont proposées dans la boutique à 1 200 crédits chacune. Les conditions d’achat et de déblocage restent propres à chaque camouflage.",
+                "en": "New animated finishes are offered in the store for 1,200 credits each. Purchase and unlock requirements remain specific to each camo."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une maîtrise toujours récompensée",
+                "en": "Mastery still matters"
+              },
+              "body": {
+                "fr": "Les paliers Maître 100, 150, 200 et 250 sont davantage reliés aux finitions des collections complètes, sans effacer les récompenses déjà gagnées.",
+                "en": "Mastery milestones at 100, 150, 200 and 250 are now tied more closely to finishes in complete collections, without removing previously earned rewards."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Vos classes conservent leurs acquis",
+                "en": "Saved loadouts stay intact"
+              },
+              "body": {
+                "fr": "Les changements de collections préservent les finitions acquises et les équipements enregistrés. Les anciens habillages retirés ne sont plus proposés à l’équipement.",
+                "en": "Collection changes preserve owned finishes and saved loadouts. Retired finishes are no longer offered for equipping."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LA BOUTIQUE VOUS FACILITE LA VIE",
+            "en": "A SMARTER STORE"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Trouvez une finition en quelques instants",
+                "en": "Find a finish faster"
+              },
+              "body": {
+                "fr": "Une barre de recherche permet de retrouver des articles par nom, description ou arme concernée.",
+                "en": "A new search bar helps find items by name, description or associated weapon."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Filtrez selon vos envies",
+                "en": "Filter the way you like"
+              },
+              "body": {
+                "fr": "La boutique propose des filtres par arme, rareté, type d’article, finition fixe ou animée, et éléments possédés ou manquants.",
+                "en": "The store now supports filters for weapon, rarity, item type, static or animated finishes, and owned or unowned items."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Des prix plus faciles à comparer",
+                "en": "Compare prices at a glance"
+              },
+              "body": {
+                "fr": "Triez les offres par nom ou par prix, et affichez uniquement celles qui correspondent à votre solde de crédits.",
+                "en": "Sort offers by name or price, and show only items within your current credit balance."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Les camouflages se dévoilent en détail",
+                "en": "A closer look at camos"
+              },
+              "body": {
+                "fr": "Les offres d’armes mettent davantage en avant le modèle concerné et un aperçu en trois dimensions lorsque celui-ci est disponible.",
+                "en": "Weapon offers now highlight the associated model and show a three-dimensional preview whenever one is available."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DES VISUELS PLUS SOIGNÉS",
+            "en": "POLISHED VISUALS"
+          },
+          "tone": "success",
+          "items": [
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "HK416 et MINI UZI retravaillées",
+                "en": "HK416 and MINI UZI refinements"
+              },
+              "body": {
+                "fr": "Plusieurs camouflages de la HK416 et de la MINI UZI ont été corrigés pour mieux épouser le corps des armes, sans superposition gênante avec les pièces d’origine. Les corrections ont été testées en jeu.",
+                "en": "Several HK416 and MINI UZI camos have been corrected to fit their weapons better, without unwanted overlap with original parts. These fixes have been tested in-game."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des vignettes plus lisibles",
+                "en": "Cleaner camo thumbnails"
+              },
+              "body": {
+                "fr": "Les aperçus des finitions présentent davantage les motifs eux-mêmes, sans bandeaux de texte superposés aux textures.",
+                "en": "Finish previews put the patterns themselves in focus, without text strips covering the artwork."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des aperçus plus cohérents",
+                "en": "More consistent weapon previews"
+              },
+              "body": {
+                "fr": "Le passage d’une finition à l’autre dans les menus a été retravaillé pour éviter l’affichage temporaire de l’arme précédente.",
+                "en": "Switching finishes in the menus has been refined to avoid briefly showing the previously selected weapon."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DES FINITIONS PRÊTES AU COMBAT",
+            "en": "READY FOR THE FIGHT"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Camouflages intégrés et testés",
+                "en": "Camos integrated and tested"
+              },
+              "body": {
+                "fr": "Les nouvelles finitions fixes et animées ont été intégrées et testées en jeu, y compris pendant la visée, le tir, le rechargement et les changements d’arme.",
+                "en": "New static and animated finishes have been integrated and tested in-game, including aiming, firing, reloading and weapon switching."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "COLLECTION",
+            "en": "COLLECTION"
+          },
+          "title": {
+            "fr": "84 NOUVELLES FINITIONS",
+            "en": "84 NEW FINISHES"
+          },
+          "body": {
+            "fr": "60 créations animées et 24 finitions fixes ont rejoint l’arsenal et sont testées en jeu.",
+            "en": "60 animated creations and 24 static finishes have joined the arsenal and are tested in-game."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "BOUTIQUE",
+            "en": "STORE"
+          },
+          "title": {
+            "fr": "TROUVEZ VOTRE STYLE",
+            "en": "FIND YOUR STYLE"
+          },
+          "body": {
+            "fr": "Recherche, filtres, tri et aperçu d’armes facilitent le choix des articles.",
+            "en": "Search, filters, sorting and weapon previews make choosing items easier."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "MAÎTRISE",
+            "en": "MASTERY"
+          },
+          "title": {
+            "fr": "LES RÉCOMPENSES ÉVOLUENT",
+            "en": "MASTERY REWARDS EVOLVE"
+          },
+          "body": {
+            "fr": "Les collections complètes s’accordent davantage avec les paliers Maître.",
+            "en": "Complete collections tie in more closely with Mastery milestones."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "VALIDÉ EN JEU",
+            "en": "TESTED IN-GAME"
+          },
+          "title": {
+            "fr": "CAMOUFLAGES OPÉRATIONNELS",
+            "en": "CAMOS READY TO USE"
+          },
+          "body": {
+            "fr": "Toutes les nouvelles finitions ont été intégrées et testées, sans attente de validation supplémentaire.",
+            "en": "All new finishes have been integrated and tested, with no further validation pending."
+          },
+          "tone": "success"
+        }
+      ]
+    },
+    {
       "num": "1.12.0",
       "date": "2026-10-23",
       "tag": {
@@ -1134,8 +1431,8 @@
                 "en": "NEW LOOKS FOR THE ACR AND M16A4"
               },
               "body": {
-                "fr": "Huit nouvelles finitions sont prévues pour chacune de ces deux armes, avec des identités visuelles distinctes.",
-                "en": "Eight new finishes are being introduced for each of these two weapons, each with its own visual identity."
+                "fr": "Huit nouvelles finitions ont été ajoutées pour chacune de ces deux armes, avec des identités visuelles distinctes.",
+                "en": "Eight new finishes have been added for each of these two weapons, each with a distinct visual identity."
               }
             },
             {
@@ -1145,8 +1442,8 @@
                 "en": "EVEN MORE CAMOUFLAGES"
               },
               "body": {
-                "fr": "Le catalogue rassemble désormais 112 finitions fixes et neuf créations animées pour 15 armes. Les dernières créations animées poursuivent leur mise au point avant leur arrivée complète en jeu.",
-                "en": "The catalogue now includes 112 static finishes and nine animated creations across 15 weapons. The newest animated designs are still being refined before full in-game availability."
+                "fr": "Le catalogue réunit 112 finitions fixes et neuf créations animées pour 15 armes à cette étape de l’arsenal. Depuis, les finitions ont été intégrées et testées en jeu.",
+                "en": "At this stage, the catalog includes 112 static finishes and nine animated creations across 15 weapons. The finishes have since been integrated and tested in-game."
               }
             },
             {
@@ -2762,389 +3059,6 @@
             "en": "Discover WARBREACH at warbreach.com."
           },
           "tone": "success"
-        }
-      ],
-      "tag": {
-        "fr": "NOUVEAUTÉS",
-        "en": "NEW CONTENT"
-      }
-    },
-    {
-      "num": "1.3.0",
-      "title": {
-        "fr": "LE QG FAIT PEAU NEUVE",
-        "en": "A NEW LOOK FOR HQ"
-      },
-      "date": "2026-10-15",
-      "sections": [
-        {
-          "title": {
-            "fr": "PROGRESSION ET RÉCOMPENSES",
-            "en": "PROGRESSION & REWARDS"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UN RENDEZ-VOUS CHAQUE JOUR",
-                "en": "A REASON TO COME BACK"
-              },
-              "body": {
-                "fr": "Un nouveau calendrier de récompenses prend place à l’accueil. Au programme : de l’XP, des coins et 90 jours de surprises à débloquer, à votre rythme.",
-                "en": "A new rewards calendar is coming to the home screen. Look forward to XP, coins, and 90 days of rewards to claim at your own pace."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "VOTRE FIDÉLITÉ RÉCOMPENSÉE",
-                "en": "STREAKS WORTH KEEPING"
-              },
-              "body": {
-                "fr": "Revenez sept jours d’affilée pour gagner 100 XP supplémentaires. Et si vous manquez une journée, pas de panique : votre avancée dans le calendrier reste acquise.",
-                "en": "Check in seven days in a row for an extra 100 XP. Miss a day? Your streak resets, but your progress through the calendar stays right where you left it."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "CHAQUE GAIN COMPTE",
-                "en": "EVERY REWARD COUNTS"
-              },
-              "body": {
-                "fr": "Les récompenses du jour viennent enrichir directement votre profil et votre réserve de coins. De quoi faire progresser votre compte au fil des connexions.",
-                "en": "Daily rewards contribute to your account progress and coin balance, giving every visit a little more purpose."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "UN QUARTIER GÉNÉRAL REPENSÉ",
-            "en": "A REIMAGINED HEADQUARTERS"
-          },
-          "tone": "cyan",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "CINQ ARMES SOUS LES PROJECTEURS",
-                "en": "FIVE WEAPONS IN THE SPOTLIGHT"
-              },
-              "body": {
-                "fr": "Le hangar accueille une galerie dédiée à cinq finitions d’armes. Approchez-vous des présentoirs pour admirer les détails, faire tourner les armes et les observer de plus près.",
-                "en": "Five featured weapon finishes are getting their own display in the hangar. Step up, take a closer look, rotate each weapon, and explore the details."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "LE PODIUM DES MEILLEURS",
-                "en": "A PODIUM FOR THE BEST"
-              },
-              "body": {
-                "fr": "Or, argent, bronze : les trois premières places du classement profitent de nouveaux podiums. Une façon plus spectaculaire de mettre les meilleures escouades à l’honneur.",
-                "en": "Gold, silver, bronze: the top three places now have dedicated podiums. A bigger stage for the squads that rise above the rest."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UN CLASSEMENT QUI EN IMPOSE",
-                "en": "A LEADERBOARD THAT STANDS OUT"
-              },
-              "body": {
-                "fr": "Un grand portique aux couleurs de WARBREACH vient encadrer l’espace du classement. L’écran et les présentations ont été repensés pour donner encore plus de caractère au QG.",
-                "en": "A new WARBREACH-branded display frames the leaderboard area. The screen and its surroundings give HQ a stronger, more distinctive look."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UN HANGAR PLUS AGRÉABLE À EXPLORER",
-                "en": "A BETTER HANGAR TO EXPLORE"
-              },
-              "body": {
-                "fr": "Les espaces de présentation et leurs interactions ont été réorganisés. Prenez le temps de faire un tour : le QG a quelques nouveautés à vous montrer.",
-                "en": "The display areas and their interactions have been rearranged. Take a walk around HQ—there is a little more to discover."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "EN PLEINE PARTIE",
-            "en": "IN THE HEAT OF THE MATCH"
-          },
-          "tone": "hot",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "GARDEZ UN ŒIL SUR VOTRE ESCOUADE",
-                "en": "KEEP YOUR SQUAD IN SIGHT"
-              },
-              "body": {
-                "fr": "Un nouveau tableau de partie réunit les informations essentielles de votre équipe. Ouvrez-le avec M pour faire le point, puis retrouvez la carte en quelques instants.",
-                "en": "A new match board puts the key squad information in one place. Press M to check on your team, then jump to the map in just a moment."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "LE GPS DESCEND SUR LA ROUTE",
-                "en": "GPS GUIDANCE, RIGHT ON THE ROAD"
-              },
-              "body": {
-                "fr": "En véhicule, votre itinéraire peut désormais apparaître directement sur la chaussée. Une aide visuelle bienvenue pour garder le cap sans quitter la route des yeux.",
-                "en": "When driving, your route can now appear right on the road ahead. Follow the path without constantly taking your eyes off the action."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES INFOS PLUS FACILES À LIRE",
-                "en": "CLEARER INFORMATION IN COMBAT"
-              },
-              "body": {
-                "fr": "Les illustrations des armes, la minicarte et plusieurs éléments de l’interface ont été rafraîchis. L’essentiel doit rester visible, même quand les échanges de tirs s’intensifient.",
-                "en": "Weapon icons, the minimap, and several interface elements have been refreshed, making the important details easier to spot when the fighting gets intense."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "RÉSURGENCE, SOIGNÉE DANS LES DÉTAILS",
-                "en": "RESURGENCE, DOWN TO THE DETAILS"
-              },
-              "body": {
-                "fr": "Les réanimations, les retours au combat et les interactions avec le ravitaillement gagnent en fluidité. Moins d'interruptions, plus de temps pour l'action.",
-                "en": "Revives, redeployments, and supply interactions feel smoother. Less friction, more time in the fight."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UNE FIN DE PARTIE PLUS MARQUANTE",
-                "en": "A MORE MEMORABLE MATCH FINALE"
-              },
-              "body": {
-                "fr": "Une victoire mérite une conclusion mémorable. Les séquences d’extraction et la présentation de l’escouade gagnent encore en intensité.",
-                "en": "Every victory deserves a memorable ending. Extraction sequences and squad presentations bring even more excitement to those final moments."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "ARMES ET PERSONNALISATION",
-            "en": "WEAPONS & CUSTOMIZATION"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "ENCORE PLUS DE CAMOUFLAGES",
-                "en": "MORE CAMOUFLAGES TO MAKE YOUR OWN"
-              },
-              "body": {
-                "fr": "De nouvelles collections de camouflages prennent forme pour les mitrailleuses, pistolets, pistolets-mitrailleurs, fusils à pompe et fusils de précision. De quoi donner une vraie personnalité à chaque arme.",
-                "en": "New camouflage collections are taking shape for machine guns, pistols, SMGs, shotguns, and sniper rifles. More ways to give every weapon a look of its own."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "VOTRE ARSENAL, VOTRE STYLE",
-                "en": "YOUR ARSENAL, YOUR STYLE"
-              },
-              "body": {
-                "fr": "Les finitions s'étendent progressivement au-delà des fusils d'assaut et des carabines. Chaque catégorie d'armes aura de quoi afficher son propre style.",
-                "en": "Weapon finishes are gradually expanding beyond assault rifles and carbines. Every weapon category is getting more ways to stand out."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "LA PERSONNALISATION SE PRÉCISE",
-                "en": "CUSTOMIZATION, REFINED"
-              },
-              "body": {
-                "fr": "Les présentations des armes et de leurs équipements ont été revues pour mieux mettre en valeur vos choix de finition, sans perdre de vue les accessoires que vous préférez.",
-                "en": "Weapon previews and attachments have been revisited to give your favorite finishes room to shine without overlooking your preferred gear."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "L’UNIVERS WARBREACH",
-            "en": "THE WORLD OF WARBREACH"
-          },
-          "tone": "cyan",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UNE ARRIVÉE QUI DONNE LE TON",
-                "en": "A WELCOME THAT SETS THE MOOD"
-              },
-              "body": {
-                "fr": "Un nouvel écran de chargement vous plonge dans l’ambiance de WARBREACH, entre projecteurs, météo changeante et conseils utiles. Même les premières secondes font désormais partie de l’expérience.",
-                "en": "A new loading screen draws you into WARBREACH with searchlights, shifting weather, and useful tips. Even the first few seconds are part of the experience."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "WARBREACH PREND VIE SUR LE WEB",
-                "en": "WARBREACH COMES TO LIFE ONLINE"
-              },
-              "body": {
-                "fr": "Le site officiel de WARBREACH continue d’évoluer : une présentation plus immersive, une ambiance plus affirmée et davantage de place pour mettre les meilleurs joueurs à l’honneur.",
-                "en": "The official WARBREACH website keeps evolving, with a more immersive presentation, a stronger atmosphere, and more room to celebrate top players."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UN DISCORD AUX COULEURS DE WARBREACH",
-                "en": "A DISCORD THAT FEELS LIKE WARBREACH"
-              },
-              "body": {
-                "fr": "La présentation du bot et plusieurs espaces communautaires ont été peaufinés. Le Discord prend peu à peu les couleurs et l’ambiance de WARBREACH.",
-                "en": "The bot's presentation and several community spaces have received a fresh coat of polish. Discord is starting to feel more like WARBREACH."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "CE QUI SE PRÉPARE",
-            "en": "ON THE HORIZON"
-          },
-          "tone": "muted",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "REVIVEZ VOTRE DERNIER AFFRONTEMENT",
-                "en": "RELIVE YOUR FINAL FIGHT"
-              },
-              "body": {
-                "fr": "Une killcam est en préparation pour revivre les dernières secondes d’un affrontement, avec les combattants présents à proximité. Une nouvelle manière de revoir les actions décisives.",
-                "en": "A killcam is taking shape to replay the final seconds of a fight, including nearby players caught in the action. Another way to relive the moments that decide a battle."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "DES DÉPLACEMENTS PLUS AUDACIEUX",
-                "en": "MORE WAYS TO MOVE"
-              },
-              "body": {
-                "fr": "Glissades rapides, plongeons dans plusieurs directions et combat au sol : de nouveaux mouvements sont à l’étude pour offrir davantage de liberté sans sacrifier la précision des affrontements.",
-                "en": "Fast slides, directional dives, and fighting from the ground are being explored to bring more freedom of movement without sacrificing control in a gunfight."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "LE COMBAT SORT DES VITRES",
-                "en": "TAKING VEHICLE COMBAT FURTHER"
-              },
-              "body": {
-                "fr": "De nouvelles postures de tir en véhicule sont en préparation. L’objectif : des échanges plus naturels et plus impressionnants, au volant comme sur la banquette arrière.",
-                "en": "New shooting positions inside vehicles are in the works, aiming for more natural and exciting firefights from the driver's seat to the back row."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "QUATRE ARÈNES À DÉCOUVRIR",
-                "en": "FOUR ARENAS ON THE HORIZON"
-              },
-              "body": {
-                "fr": "Atoll, Bazaar, Cloister et Topside : quatre nouveaux terrains prennent forme pour de futurs affrontements. Chacun promet une ambiance et des situations de combat bien à lui.",
-                "en": "Atoll, Bazaar, Cloister, and Topside: four new arenas are taking shape for future battles, each with its own atmosphere and combat opportunities."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "DES FINITIONS QUI PRENNENT VIE",
-                "en": "FINISHES WITH A LIFE OF THEIR OWN"
-              },
-              "body": {
-                "fr": "Des camouflages animés sont à l’étude pour certaines armes. Des effets visuels plus vivants, pensés pour mettre les finitions en valeur sans détourner l’attention du combat.",
-                "en": "Animated finishes are being explored for selected weapons, with lively visual effects designed to make each finish stand out without distracting from the fight."
-              }
-            }
-          ]
-        }
-      ],
-      "highlights": [
-        {
-          "label": {
-            "fr": "À LA UNE",
-            "en": "IN THE SPOTLIGHT"
-          },
-          "title": {
-            "fr": "LE QG CHANGE DE VISAGE",
-            "en": "HQ GETS A MAKEOVER"
-          },
-          "body": {
-            "fr": "Une galerie d’armes, de nouveaux podiums et un espace de classement plus spectaculaire.",
-            "en": "A weapon gallery, brand-new podiums, and a bolder leaderboard area."
-          },
-          "tone": "accent"
-        },
-        {
-          "label": {
-            "fr": "PROGRESSION",
-            "en": "PROGRESSION"
-          },
-          "title": {
-            "fr": "VOTRE RENDEZ-VOUS QUOTIDIEN",
-            "en": "YOUR DAILY REWARD"
-          },
-          "body": {
-            "fr": "Des récompenses à retrouver jour après jour, avec un bonus pour les plus réguliers.",
-            "en": "Daily rewards to work toward, with a little extra for those who keep coming back."
-          },
-          "tone": "success"
-        },
-        {
-          "label": {
-            "fr": "EN PARTIE",
-            "en": "IN MATCH"
-          },
-          "title": {
-            "fr": "TOUJOURS DANS LE COUP",
-            "en": "STAY IN THE FIGHT"
-          },
-          "body": {
-            "fr": "Tableau d’escouade, repères améliorés et trajet GPS directement sur la route.",
-            "en": "A squad board, clearer information, and GPS guidance right on the road."
-          },
-          "tone": "cyan"
-        },
-        {
-          "label": {
-            "fr": "À VENIR",
-            "en": "COMING UP"
-          },
-          "title": {
-            "fr": "LA KILLCAM PREND FORME",
-            "en": "KILLCAM TAKES SHAPE"
-          },
-          "body": {
-            "fr": "Une killcam est en préparation pour revivre les dernières secondes d’un affrontement.",
-            "en": "A killcam is taking shape to replay the final seconds of a fight."
-          },
-          "tone": "muted"
         }
       ],
       "tag": {

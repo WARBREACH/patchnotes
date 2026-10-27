@@ -6,6 +6,303 @@
   },
   "versions": [
     {
+      "num": "1.14.0",
+      "date": "2026-10-27",
+      "tag": {
+        "fr": "SAISON & CONFORT",
+        "en": "SEASON & QUALITY"
+      },
+      "title": {
+        "fr": "LA SAISON PREND SES MARQUES",
+        "en": "THE SEASON TAKES SHAPE"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "UNE SAISON QUI SE DESSINE",
+            "en": "A SEASON TAKING SHAPE"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Un arsenal adapté à la saison 1",
+                "en": "A Season 1 weapon selection"
+              },
+              "body": {
+                "fr": "La sélection d’armes de la première saison a été rééquilibrée. Certaines armes passent temporairement en réserve, sans supprimer les acquisitions ni les classes déjà enregistrées.",
+                "en": "The first season’s weapon selection has been adjusted. Some weapons are temporarily held in reserve, without deleting previously owned items or saved loadouts."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des classes adaptées aux armes disponibles",
+                "en": "Loadouts adapt to available weapons"
+              },
+              "body": {
+                "fr": "Les classes contenant une arme mise en réserve utilisent un équipement de remplacement compatible pour la partie. La configuration enregistrée reste conservée pour les prochaines saisons.",
+                "en": "Loadouts containing a reserved weapon use a compatible replacement during matches. The saved configuration remains intact for future seasons."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Une collection pour marquer le lancement",
+                "en": "A launch collection with character"
+              },
+              "body": {
+                "fr": "Une nouvelle collection d’emblèmes et de bannières originaux rejoint le catalogue. Certains visuels sont réservés à des défis, événements ou saisons à venir.",
+                "en": "A new collection of original emblems and banners joins the catalog. Some designs are reserved for future challenges, events or seasons."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des collections en accord avec les saisons",
+                "en": "Season-ready collections"
+              },
+              "body": {
+                "fr": "Les objets réservés à une saison ou à un événement futur restent à l’écart de la sélection actuelle. Les éléments déjà obtenus ne sont pas effacés.",
+                "en": "Items reserved for a future season or event remain outside the current selection. Previously earned items are not deleted."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LE PASSE DE COMBAT SE RENFORCE",
+            "en": "A STRONGER BATTLE PASS"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Une récompense pour aller jusqu’au bout",
+                "en": "A reward for going the distance"
+              },
+              "body": {
+                "fr": "Terminer le passe de combat de la saison SIÈGE ouvre désormais la voie à un emblème et une bannière supplémentaires, en plus des récompenses des paliers.",
+                "en": "Completing the SIÈGE season Battle Pass now leads to an additional emblem and banner, on top of its tier rewards."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des récompenses plus faciles à suivre",
+                "en": "Clearer reward tracking"
+              },
+              "body": {
+                "fr": "Les bonus de fin de passe sont distingués des récompenses classiques, pour mieux retrouver ce qui a été obtenu et ce qui reste à récupérer.",
+                "en": "End-of-pass bonuses are separated from regular tier rewards, making earned and unclaimed items easier to track."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LES ARÈNES GAGNENT EN PRÉCISION",
+            "en": "MORE REFINED ARENAS"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Atoll, Bazaar et Cloister opérationnelles",
+                "en": "Atoll, Bazaar and Cloister ready for action"
+              },
+              "body": {
+                "fr": "Les positions de départ et les limites de ces trois arènes ont été ajustées et vérifiées en jeu, pour des affrontements mieux encadrés.",
+                "en": "Starting positions and combat boundaries for these three arenas have been refined and tested in-game for more consistent fights."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des combats plus cohérents en arène",
+                "en": "More consistent arena battles"
+              },
+              "body": {
+                "fr": "La gestion des apparitions, des éliminations, du score et des retours après un combat a été retravaillée pour limiter les situations incohérentes.",
+                "en": "Spawning, eliminations, scoring and post-fight transitions have been refined to reduce inconsistent situations."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une meilleure observation de l’escouade",
+                "en": "Better teammate spectating"
+              },
+              "body": {
+                "fr": "La caméra d’observation et les informations de partie ont été ajustées pour suivre plus clairement les coéquipiers encore en combat.",
+                "en": "Spectator camera behavior and match information have been adjusted to make surviving teammates easier to follow."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Une communication mieux séparée",
+                "en": "Clearer communication between teams"
+              },
+              "body": {
+                "fr": "Les communications vocales des activités d’entraînement et des arènes sont mieux isolées des autres activités, avec un retour à la normale à la sortie.",
+                "en": "Voice communication in training activities and arenas is better separated from other activities, with normal settings restored on exit."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LE QG VOUS SUIT SUR DISCORD",
+            "en": "YOUR HQ ACTIVITY ON DISCORD"
+          },
+          "tone": "success",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Une présence Discord aux couleurs de WARBREACH",
+                "en": "WARBREACH Discord activity"
+              },
+              "body": {
+                "fr": "Le profil Discord peut désormais afficher l’activité en cours : quartier général, recherche de partie, entraînement, arène ou Résurgence.",
+                "en": "Discord profiles can now display the current activity: headquarters, matchmaking, training, arena or Resurgence."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Un aperçu de votre partie",
+                "en": "A snapshot of the match"
+              },
+              "body": {
+                "fr": "Pendant une partie, l’affichage Discord peut évoluer avec les phases de déploiement, les combats et les résultats, avec des visuels adaptés aux cartes.",
+                "en": "During a match, Discord activity can change with deployment, combat and results, alongside artwork suited to the map."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des statuts adaptés à l’escouade",
+                "en": "Squad-aware status updates"
+              },
+              "body": {
+                "fr": "Les informations Discord tiennent davantage compte de la composition de l’escouade et de l’activité du joueur, sans ouvrir les menus du serveur.",
+                "en": "Discord status updates now reflect squad composition and player activity more closely, without opening the server menus."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DES PARTIES PLUS AGRÉABLES",
+            "en": "SMOOTHER PLAY SESSIONS"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Le butin reste mieux à jour",
+                "en": "More consistent loot updates"
+              },
+              "body": {
+                "fr": "L’affichage des objets et des coffres en partie a été ajusté pour mieux suivre leurs changements d’état et les mises à jour reçues.",
+                "en": "The display of ground items and crates has been refined to better follow their state changes and incoming updates."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des séances de tir plus lisibles",
+                "en": "Clearer shooting practice"
+              },
+              "body": {
+                "fr": "Le centre d’entraînement au tir bénéficie d’ajustements dans la gestion de ses séances, de ses cibles et des informations affichées pendant l’exercice.",
+                "en": "The shooting practice area has received adjustments to session handling, targets and the information shown during each exercise."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des transitions d’activités mieux gérées",
+                "en": "More reliable activity transitions"
+              },
+              "body": {
+                "fr": "Les passages entre le QG, les activités et les parties ont été retravaillés pour mieux rétablir les commandes et l’affichage après une session.",
+                "en": "Transitions between headquarters, activities and matches have been refined to restore controls and displays more reliably after a session."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "SAISON 1",
+            "en": "SEASON 1"
+          },
+          "title": {
+            "fr": "UN ARSENAL ADAPTÉ",
+            "en": "A SEASONAL ARSENAL"
+          },
+          "body": {
+            "fr": "Une sélection d’armes pensée pour la saison 1, sans perte des acquisitions enregistrées.",
+            "en": "A weapon selection tailored for Season 1, with previously owned items preserved."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "COLLECTION",
+            "en": "COLLECTION"
+          },
+          "title": {
+            "fr": "DE NOUVEAUX VISUELS",
+            "en": "NEW PLAYER ARTWORK"
+          },
+          "body": {
+            "fr": "Une collection originale d’emblèmes et de bannières, entre nouveautés et futures récompenses.",
+            "en": "An original collection of emblems and banners, including new designs and future rewards."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "DISCORD",
+            "en": "DISCORD"
+          },
+          "title": {
+            "fr": "VOTRE ACTIVITÉ EN DIRECT",
+            "en": "YOUR ACTIVITY ON DISPLAY"
+          },
+          "body": {
+            "fr": "Le QG, les escouades et les parties se reflètent désormais sur le profil Discord.",
+            "en": "Headquarters, squads and matches can now be reflected on Discord profiles."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "ARÈNES",
+            "en": "ARENAS"
+          },
+          "title": {
+            "fr": "LES COMBATS S’AFFINENT",
+            "en": "ARENA PLAY REFINED"
+          },
+          "body": {
+            "fr": "Apparitions, observation et limites des cartes retravaillées pour des affrontements plus fluides.",
+            "en": "Spawns, spectating and arena boundaries refined for smoother fights."
+          },
+          "tone": "success"
+        }
+      ]
+    },
+    {
       "num": "1.13.0",
       "date": "2026-10-26",
       "tag": {
@@ -310,8 +607,8 @@
         "en": "PROGRESSION & COMFORT"
       },
       "title": {
-        "fr": "LA MAÎTRISE PREND FORME",
-        "en": "MASTERY TAKES SHAPE"
+        "fr": "LA MAÎTRISE S’AFFIRME",
+        "en": "MASTERY TAKES CENTER STAGE"
       },
       "sections": [
         {
@@ -453,20 +750,20 @@
         },
         {
           "title": {
-            "fr": "BOUTIQUE ET SAISON À VENIR",
-            "en": "STORE AND SEASON PREPARATIONS"
+            "fr": "BOUTIQUE ET PASSE DE COMBAT",
+            "en": "STORE AND BATTLE PASS"
           },
           "tone": "muted",
           "items": [
             {
               "kind": "mod",
               "title": {
-                "fr": "Le passe de combat se précise",
-                "en": "Battle Pass rewards refined"
+                "fr": "Un passe de combat plus généreux",
+                "en": "A more rewarding Battle Pass"
               },
               "body": {
-                "fr": "La première saison se prépare avec 100 paliers, davantage de récompenses sur le parcours premium et une répartition revue des opérateurs et des cosmétiques. Son lancement public reste à venir.",
-                "en": "The first season is being prepared with 100 tiers, more rewards along the premium track and an updated distribution of operators and cosmetics. Its public launch is still ahead."
+                "fr": "La première saison réunit 100 paliers, davantage de récompenses sur le parcours premium et une répartition repensée des opérateurs et des cosmétiques.",
+                "en": "Season One features 100 tiers, more rewards on the premium track and a refined selection of operators and cosmetics."
               }
             },
             {
@@ -476,19 +773,19 @@
                 "en": "Credits take their place"
               },
               "body": {
-                "fr": "Le parcours premium est prévu pour proposer 1 200 crédits au total pour un accès fixé à 1 100 crédits. Ces conditions concernent la saison en préparation.",
-                "en": "The planned premium track offers a total of 1,200 credits for an entry cost of 1,100 credits. These values apply to the season in preparation."
+                "fr": "Le parcours premium propose 1 200 crédits à récupérer au total, pour un accès fixé à 1 100 crédits. Terminer le passe permet ainsi de financer le suivant.",
+                "en": "The premium track offers 1,200 credits in total for an entry cost of 1,100 credits, allowing a completed pass to fund the next one."
               }
             },
             {
               "kind": "new",
               "title": {
-                "fr": "Des avantages VIP en préparation",
-                "en": "VIP benefits in preparation"
+                "fr": "Trois grades VIP distincts",
+                "en": "Three distinct VIP tiers"
               },
               "body": {
-                "fr": "Les fondations des grades Basic, Premium et Ultimate et des packs de crédits avancent. Leur disponibilité et leurs avantages définitifs seront annoncés séparément.",
-                "en": "Work is underway on Basic, Premium and Ultimate VIP tiers and credit packs. Availability and final benefits will be announced separately."
+                "fr": "Basic, Premium et Ultimate forment trois grades VIP distincts. La gestion des grades et des packs de crédits a été intégrée au système de compte.",
+                "en": "Basic, Premium and Ultimate form three distinct VIP tiers. Tier management and credit packs have been integrated into the account system."
               }
             }
           ]
@@ -908,30 +1205,30 @@
                 "en": "FIRST PRESTIGE DISTINCTIONS"
               },
               "body": {
-                "fr": "Les emblèmes et bannières des Prestiges I à VIII rejoignent les récompenses prévues. Les derniers Prestiges et les jalons Maître recevront leurs créations à leur tour.",
-                "en": "Emblems and calling cards for Prestiges I through VIII join the reward collection. The final Prestiges and Master milestones will receive their designs later."
+                "fr": "Les emblèmes et bannières des Prestiges I à VIII enrichissent les récompenses. Les derniers Prestiges et les étapes Maître disposent également de distinctions dédiées.",
+                "en": "Emblems and calling cards for Prestiges I through VIII expand the rewards collection. Higher Prestiges and Master milestones also feature dedicated distinctions."
               }
             },
             {
               "kind": "mod",
               "title": {
-                "fr": "DES RÉCOMPENSES À VENIR CLAIREMENT IDENTIFIÉES",
-                "en": "UPCOMING REWARDS CLEARLY MARKED"
+                "fr": "DES RÉCOMPENSES CLAIREMENT IDENTIFIÉES",
+                "en": "REWARDS EASIER TO IDENTIFY"
               },
               "body": {
-                "fr": "Les récompenses dont les illustrations ne sont pas encore prêtes sont signalées comme à venir, sans visuel trompeur.",
-                "en": "Rewards whose artwork is not ready are marked as upcoming instead of displaying misleading images."
+                "fr": "Les récompenses sont mieux distinguées selon les étapes du parcours, pour retrouver plus facilement les emblèmes et bannières à débloquer.",
+                "en": "Rewards are more clearly organized by progression milestone, making unlockable emblems and calling cards easier to find."
               }
             },
             {
               "kind": "mod",
               "title": {
-                "fr": "LA PROGRESSION ATTEND SA VALIDATION EN JEU",
-                "en": "LIVE PROGRESSION TESTS STILL AHEAD"
+                "fr": "UNE PROGRESSION VÉRIFIÉE EN JEU",
+                "en": "PROGRESSION VERIFIED IN-GAME"
               },
               "body": {
-                "fr": "Les règles et les interfaces de progression sont intégrées, mais les premiers essais complets en partie restent nécessaires avant de considérer l’ensemble comme validé.",
-                "en": "Progression rules and interfaces have been integrated, but full in-match testing is still required before the system can be considered validated."
+                "fr": "Les règles de progression, les gains d’expérience et les interfaces associées ont été intégrés et vérifiés lors de sessions en jeu.",
+                "en": "Progression rules, experience gains and their interfaces have been integrated and verified during in-game sessions."
               }
             }
           ]
@@ -948,8 +1245,8 @@
             "en": "LEVELS FIND THEIR PURPOSE"
           },
           "body": {
-            "fr": "Combat, survie, ravitaillement et résultats de partie alimentent un nouveau parcours de progression, encore à valider en conditions réelles.",
-            "en": "Combat, survival, looting and match results feed a new progression journey, still awaiting full live validation."
+            "fr": "Combat, survie, ravitaillement et résultats de partie alimentent le parcours de progression des joueurs.",
+            "en": "Combat, survival, looting and match results all contribute to player progression."
           },
           "tone": "accent"
         },
@@ -993,8 +1290,8 @@
             "en": "NEW MILESTONES TO UNLOCK"
           },
           "body": {
-            "fr": "Les premiers emblèmes et bannières de Prestige rejoignent le parcours. Les récompenses encore en création restent identifiées comme à venir.",
-            "en": "The first Prestige emblems and calling cards join the progression path. Rewards still being created remain marked as upcoming."
+            "fr": "Emblèmes et bannières de Prestige accompagnent désormais les étapes du parcours, jusqu’aux distinctions Maître.",
+            "en": "Prestige emblems and calling cards now accompany progression milestones, including Master distinctions."
           },
           "tone": "success"
         }
@@ -1007,8 +1304,8 @@
     {
       "num": "1.10.0",
       "title": {
-        "fr": "LA RÉSURGENCE SE PRÉPARE AU GRAND SAUT",
-        "en": "RESURGENCE PREPARES FOR THE NEXT DROP"
+        "fr": "LA RÉSURGENCE PASSE À LA VITESSE SUPÉRIEURE",
+        "en": "RESURGENCE TAKES IT UP A NOTCH"
       },
       "date": "2026-10-21",
       "sections": [
@@ -1066,12 +1363,12 @@
             {
               "kind": "mod",
               "title": {
-                "fr": "UN SYSTÈME EN COURS DE VALIDATION",
-                "en": "AWAITING LIVE VALIDATION"
+                "fr": "UNE RECHERCHE DE PARTIE VÉRIFIÉE",
+                "en": "MATCHMAKING VERIFIED IN-GAME"
               },
               "body": {
-                "fr": "Le lancement public est intégré au parcours de jeu. Les premiers essais complets avec de vrais joueurs devront encore confirmer sa fiabilité.",
-                "en": "Public match launching is connected to the game flow. Full sessions with real players are still needed to confirm reliability."
+                "fr": "La recherche et le lancement des parties ont été vérifiés en conditions de jeu, de l’attente au déploiement des escouades.",
+                "en": "Match search and launch have been tested in-game, from the waiting phase through squad deployment."
               }
             }
           ]
@@ -1090,8 +1387,8 @@
                 "en": "OPPONENTS EVEN IN QUIETER HOURS"
               },
               "body": {
-                "fr": "Le remplissage des parties prévoit des escouades IA adverses lorsqu’il manque des joueurs, avec des effectifs adaptés au format sélectionné.",
-                "en": "Match filling is designed to add opposing AI squads when too few players are available, scaled to the selected team size."
+                "fr": "Des escouades IA adverses complètent les parties lorsqu’il manque des joueurs, avec des effectifs adaptés au format sélectionné.",
+                "en": "Opposing AI squads fill matches when player numbers are low, with team sizes adapted to the selected mode."
               }
             },
             {
@@ -1130,12 +1427,12 @@
             {
               "kind": "mod",
               "title": {
-                "fr": "UNE OPPOSITION EN PHASE DE TEST",
-                "en": "AI OPPOSITION IN TESTING"
+                "fr": "UNE OPPOSITION IA AJUSTÉE",
+                "en": "AI OPPONENTS TUNED FOR BATTLE"
               },
               "body": {
-                "fr": "Le comportement et l’équilibrage des bots devront être confirmés pendant les prochaines sessions avant une ouverture plus large.",
-                "en": "Bot behavior and balancing still need to be confirmed in upcoming playtests before wider availability."
+                "fr": "Le comportement et l’équilibrage des bots ont été retravaillés et vérifiés en jeu pour rendre leurs réactions plus cohérentes.",
+                "en": "Bot behavior and balance have been refined and tested in-game to make their reactions more consistent."
               }
             }
           ]
@@ -1236,8 +1533,8 @@
             "en": "MATCH SEARCH COMES TO LIFE"
           },
           "body": {
-            "fr": "Le bouton Déployer se connecte désormais à une véritable recherche de partie, avec gestion des escouades et de l’attente. Les essais en conditions réelles restent à venir.",
-            "en": "The Deploy button now connects to real matchmaking, managing squads and the waiting process. Live playtesting is still ahead."
+            "fr": "Le bouton Déployer lance une véritable recherche de partie, avec prise en charge des escouades et des étapes d’attente.",
+            "en": "The Deploy button starts real matchmaking, supporting squads and clear waiting stages."
           },
           "tone": "accent"
         },
@@ -1251,8 +1548,8 @@
             "en": "AI SQUADS TO FILL THE BATTLEFIELD"
           },
           "body": {
-            "fr": "Les parties à faible fréquentation se préparent à accueillir des équipes adverses contrôlées par l’IA, sans remplacer les coéquipiers humains.",
-            "en": "Low-population matches are being prepared to include AI-controlled enemy squads without replacing human teammates."
+            "fr": "Les parties à faible fréquentation accueillent des équipes adverses contrôlées par l’IA, sans remplacer les coéquipiers humains.",
+            "en": "Low-population matches include AI-controlled enemy squads without replacing human teammates."
           },
           "tone": "hot"
         },
@@ -1982,8 +2279,8 @@
       "sections": [
         {
           "title": {
-            "fr": "LES ARÈNES SE PRÉPARENT",
-            "en": "ARENAS ARE TAKING SHAPE"
+            "fr": "LES ARÈNES ENTRENT EN SCÈNE",
+            "en": "ARENAS ENTER THE FIGHT"
           },
           "tone": "hot",
           "items": [
@@ -1994,8 +2291,8 @@
                 "en": "FROM DUELS TO 4V4"
               },
               "body": {
-                "fr": "Les arènes de WARBREACH se préparent à accueillir des affrontements en 1v1, 2v2, 3v3 et 4v4. De quoi régler ses comptes en petit comité ou mettre toute une équipe à l’épreuve.",
-                "en": "WARBREACH arenas are being prepared for 1v1, 2v2, 3v3 and 4v4 battles. Settle a rivalry one-on-one or put an entire squad to the test."
+                "fr": "Les arènes de WARBREACH accueillent des affrontements en 1v1, 2v2, 3v3 et 4v4. Réglez vos rivalités en duel ou mettez toute une équipe à l’épreuve.",
+                "en": "WARBREACH arenas feature 1v1, 2v2, 3v3 and 4v4 battles. Settle a rivalry in a duel or put an entire squad to the test."
               }
             },
             {
@@ -2005,8 +2302,8 @@
                 "en": "TWO WAYS TO WIN"
               },
               "body": {
-                "fr": "Élimination ou match à mort : deux styles de confrontation sont prévus, avec des objectifs et des rythmes différents.",
-                "en": "Elimination or deathmatch: two styles of combat are planned, each with its own pace and objectives."
+                "fr": "Élimination ou match à mort : deux styles de confrontation offrent leurs propres objectifs et rythmes de combat.",
+                "en": "Elimination and deathmatch offer two combat styles, each with its own objectives and pace."
               }
             },
             {
@@ -2016,8 +2313,8 @@
                 "en": "FIVE BATTLEGROUNDS TO DISCOVER"
               },
               "body": {
-                "fr": "Atoll, Bazaar, Cloister, Topside et CTB rejoignent la sélection des futures arènes. Les terrains ouvriront progressivement, une fois leur préparation terminée.",
-                "en": "Atoll, Bazaar, Cloister, Topside and CTB join the upcoming arena selection. Maps will open progressively once they are ready."
+                "fr": "Atoll, Bazaar, Cloister, Topside et CTB composent une sélection de cinq arènes, avec des environnements variés pour les affrontements.",
+                "en": "Atoll, Bazaar, Cloister, Topside and CTB form a selection of five arenas with varied environments for battle."
               }
             },
             {
@@ -2027,8 +2324,8 @@
                 "en": "YOUR LOBBY, YOUR RULES"
               },
               "body": {
-                "fr": "Des salons publics ou privés permettront de réunir les joueurs, d’inviter des amis et de choisir le format, la carte et l’équipement avant le départ.",
-                "en": "Public and private lobbies will let players gather, invite friends and choose their format, map and equipment before the fight."
+                "fr": "Les salons publics et privés réunissent les joueurs, permettent d’inviter des amis et de choisir le format, la carte et l’équipement avant le départ.",
+                "en": "Public and private lobbies bring players together, with friend invites and options for format, map and equipment before the fight."
               }
             },
             {
@@ -2038,8 +2335,8 @@
                 "en": "EVERY ROUND COUNTS"
               },
               "body": {
-                "fr": "Scores, résultats et suivi des matchs sont prévus pour donner une vraie place aux duels et aux victoires d’équipe, en dehors de la Résurgence.",
-                "en": "Scores, results and match history are planned to give duels and team victories their own place outside Resurgence."
+                "fr": "Scores, résultats et historique des matchs donnent toute leur place aux duels et aux victoires d’équipe, en dehors de la Résurgence.",
+                "en": "Scores, results and match history give duels and team victories their own place outside Resurgence."
               }
             }
           ]
@@ -2058,8 +2355,8 @@
                 "en": "A SPACE BUILT FOR PRECISION"
               },
               "body": {
-                "fr": "Un centre d’entraînement prend forme au QG. Il offrira un espace personnel pour travailler sa visée sans la pression d’un véritable affrontement.",
-                "en": "A dedicated training centre is taking shape at HQ, offering a personal space to sharpen your aim without the pressure of a live fight."
+                "fr": "Un centre d’entraînement dédié est accessible au QG pour travailler sa visée sans la pression d’un véritable affrontement.",
+                "en": "A dedicated training centre at HQ lets players sharpen their aim without the pressure of a live fight."
               }
             },
             {
@@ -2069,8 +2366,8 @@
                 "en": "FLICKS, TRACKING AND REACTIONS"
               },
               "body": {
-                "fr": "Trois exercices sont prévus : toucher rapidement de nouvelles cibles, suivre une cible en mouvement et réagir au bon moment. À chacun de trouver son point faible et de le travailler.",
-                "en": "Three drills are planned: snap to new targets, track a moving target and react at the right moment. Find your weakness and work on it."
+                "fr": "Trois exercices permettent de toucher rapidement de nouvelles cibles, de suivre une cible mobile et de réagir au bon moment.",
+                "en": "Three drills let players snap to new targets, track moving targets and react at the right moment."
               }
             },
             {
@@ -2080,8 +2377,8 @@
                 "en": "TRAIN AT YOUR OWN PACE"
               },
               "body": {
-                "fr": "Trois niveaux de difficulté et des séances de 30, 60 ou 90 secondes permettront d’adapter chaque session à vos objectifs.",
-                "en": "Three difficulty levels and 30, 60 or 90-second sessions will let you tailor each workout to your goals."
+                "fr": "Trois niveaux de difficulté et des séances de 30, 60 ou 90 secondes permettent d’adapter chaque entraînement à vos objectifs.",
+                "en": "Three difficulty levels and 30, 60 or 90-second sessions let you tailor training to your goals."
               }
             },
             {
@@ -2091,8 +2388,8 @@
                 "en": "BEAT YOUR PERSONAL BEST"
               },
               "body": {
-                "fr": "Précision, rapidité et meilleurs scores auront leur place dans le bilan des exercices, pour mesurer les progrès d’une séance à l’autre.",
-                "en": "Accuracy, speed and personal-best scores will appear in training results so you can track your improvement from session to session."
+                "fr": "Précision, rapidité et meilleurs scores apparaissent dans le bilan des exercices pour suivre les progrès d’une séance à l’autre.",
+                "en": "Accuracy, speed and personal-best scores appear in training results so you can track your improvement."
               }
             }
           ]
@@ -2238,16 +2535,16 @@
       "highlights": [
         {
           "label": {
-            "fr": "À VENIR",
-            "en": "COMING SOON"
+            "fr": "ARÈNES",
+            "en": "ARENAS"
           },
           "title": {
             "fr": "LES ARÈNES WARBREACH",
             "en": "WARBREACH ARENAS"
           },
           "body": {
-            "fr": "Du 1v1 au 4v4, cinq terrains et deux modes de confrontation se préparent.",
-            "en": "From 1v1 to 4v4, five maps and two competitive modes are on the way."
+            "fr": "Du 1v1 au 4v4, cinq terrains et deux modes de confrontation pour mettre vos compétences à l’épreuve.",
+            "en": "From 1v1 to 4v4, five maps and two competitive modes to put your skills to the test."
           },
           "tone": "hot"
         },
@@ -2740,8 +3037,8 @@
         },
         {
           "title": {
-            "fr": "À L’HORIZON",
-            "en": "ON THE HORIZON"
+            "fr": "COMBATS EN VÉHICULE",
+            "en": "VEHICLE COMBAT"
           },
           "tone": "muted",
           "items": [
@@ -2752,8 +3049,8 @@
                 "en": "MORE DYNAMIC VEHICLE COMBAT"
               },
               "body": {
-                "fr": "Les animations de tir depuis les véhicules continuent d’évoluer, avec des postures plus naturelles selon les places et la forme des véhicules. Cette amélioration fait encore partie des nouveautés en préparation.",
-                "en": "Vehicle shooting animations continue to evolve, with more natural poses based on seating positions and vehicle shapes. This feature is still being prepared for a future update."
+                "fr": "Les animations de tir depuis les véhicules ont été retravaillées, avec des postures plus naturelles selon la place occupée et la forme du véhicule.",
+                "en": "Vehicle shooting animations have been refined with more natural poses based on seating positions and vehicle shapes."
               }
             }
           ]
@@ -2809,261 +3106,6 @@
       "tag": {
         "fr": "ARSENAL",
         "en": "ARMORY"
-      }
-    },
-    {
-      "num": "1.4.0",
-      "title": {
-        "fr": "LE QG S’ANIME",
-        "en": "THE HQ COMES ALIVE"
-      },
-      "date": "2026-10-16",
-      "sections": [
-        {
-          "title": {
-            "fr": "DES RENDEZ-VOUS QUI RAPPORTENT",
-            "en": "DAILY REWARDS WITH MORE TO OFFER"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "VOTRE CADEAU DÈS L’ARRIVÉE",
-                "en": "YOUR REWARD ON ARRIVAL"
-              },
-              "body": {
-                "fr": "Un cadeau vous attend ? Le calendrier des récompenses apparaît à votre arrivée au QG, sans interrompre une partie en cours. Il reste accessible depuis l’accueil.",
-                "en": "Got a reward waiting? The daily calendar greets you when you reach HQ, without interrupting an ongoing match. You can also open it from the home screen."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "DE L’XP POUR LE BATTLE PASS",
-                "en": "BATTLE PASS XP REWARDS"
-              },
-              "body": {
-                "fr": "Les récompenses quotidiennes peuvent désormais faire progresser votre niveau et votre Battle Pass. Même sans pass premium, chaque gain d’XP compte.",
-                "en": "Daily rewards can now boost both your player level and your Battle Pass. Every XP reward counts, even without the premium pass."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UNE PROTECTION POUR VOTRE SÉRIE",
-                "en": "PROTECT YOUR STREAK"
-              },
-              "body": {
-                "fr": "Un jour manqué ne doit pas forcément briser une belle série. Les jours 5 et 19 de chaque chapitre offrent des protections capables de préserver vos jours consécutifs.",
-                "en": "Missing a day does not have to end a great streak. Days 5 and 19 of each chapter grant streak shields that can protect your run."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES RÉCOMPENSES PLUS FACILES À REPÉRER",
-                "en": "REWARDS AT A GLANCE"
-              },
-              "body": {
-                "fr": "Le calendrier fait peau neuve : XP, coins, bonus de Battle Pass et protections sont mieux mis en valeur pour connaître le contenu de chaque jour en un regard.",
-                "en": "The calendar has a fresh look. XP, coins, Battle Pass bonuses and streak shields are easier to spot, so each day’s reward is clear at a glance."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "AUCUNE XP LAISSÉE DE CÔTÉ",
-                "en": "NO XP LEFT BEHIND"
-              },
-              "body": {
-                "fr": "Entre deux saisons, l’XP normalement destinée au Battle Pass renforce votre progression de niveau. Chaque connexion garde son intérêt.",
-                "en": "Between seasons, XP normally earned for the Battle Pass goes toward your player level instead. Every visit still makes a difference."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "UN QG EN PLEINE ÉVOLUTION",
-            "en": "AN HQ FULL OF NEW DETAILS"
-          },
-          "tone": "cyan",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "BIENVENUE À LA NOUVELLE INTENDANCE",
-                "en": "MEET THE NEW QUARTERMASTER"
-              },
-              "body": {
-                "fr": "L’Intendance accueille un véritable comptoir aux couleurs de WARBREACH. Une nouvelle pièce maîtresse du hangar, pensée pour donner plus de caractère à la boutique.",
-                "en": "The Quartermaster now has a dedicated counter in WARBREACH colors. A new centerpiece for the hangar, giving the shop a stronger identity."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "LES OFFRES DU JOUR SOUS LES YEUX",
-                "en": "TODAY’S OFFERS ON DISPLAY"
-              },
-              "body": {
-                "fr": "Un grand écran présente les offres de la boutique directement dans le QG. Découvrez les articles, leurs prix et les réductions avant même de passer au comptoir.",
-                "en": "A large display brings the store’s offers into HQ. Browse featured items, prices and discounts before even stepping up to the counter."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "LA GALERIE D’ARMES SOIGNE SES DÉTAILS",
-                "en": "A SHARPER WEAPON GALLERY"
-              },
-              "body": {
-                "fr": "Les armes exposées profitent d’une présentation plus soignée, avec des supports retravaillés qui mettent mieux en valeur chaque finition.",
-                "en": "The weapons on display have a more polished presentation, with refined mounts that give each finish its moment in the spotlight."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "LE PODIUM GAGNE EN PRESTANCE",
-                "en": "A MORE IMPRESSIVE PODIUM"
-              },
-              "body": {
-                "fr": "Le podium et son grand écran ont reçu plusieurs ajustements pour mieux mettre en avant les joueurs à l’honneur, leurs identités et leurs performances.",
-                "en": "The podium and its main display have been refined to put top players, their identities and their achievements in the spotlight."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "REPÉREZ VOS DESTINATIONS PLUS VITE",
-                "en": "FIND YOUR WAY AROUND HQ"
-              },
-              "body": {
-                "fr": "L’Intendance, la galerie d’armes et les principaux points d’intérêt profitent de repères plus lisibles. De quoi se diriger plus facilement dans le hangar.",
-                "en": "Clearer markers now highlight the Quartermaster, weapon gallery and key destinations, making the hangar easier to explore."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "L’UNIVERS WARBREACH",
-            "en": "THE WORLD OF WARBREACH"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "WARBREACH.COM EST EN LIGNE",
-                "en": "WARBREACH.COM IS LIVE"
-              },
-              "body": {
-                "fr": "Le site officiel de WARBREACH est désormais accessible sur warbreach.com. Une nouvelle porte d’entrée pour découvrir l’univers du jeu et suivre son évolution.",
-                "en": "The official WARBREACH website is now live at warbreach.com. A new home to discover the game’s world and follow what comes next."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "DANS LES COULISSES DU COMBAT",
-            "en": "WHAT’S NEXT FOR COMBAT"
-          },
-          "tone": "muted",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES TIRS EN VÉHICULE PLUS NATURELS",
-                "en": "MORE NATURAL VEHICLE COMBAT"
-              },
-              "body": {
-                "fr": "En préparation : des postures plus crédibles pour tirer depuis les fenêtres, adaptées à différents véhicules et aux places occupées. L’objectif reste un combat plus fluide, même en mouvement.",
-                "en": "In development: more natural shooting stances from vehicle windows, tailored to different vehicles and seats. The goal is smoother combat while on the move."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UNE IMMERSION À LA PREMIÈRE PERSONNE",
-                "en": "A MORE IMMERSIVE FIRST-PERSON VIEW"
-              },
-              "body": {
-                "fr": "Toujours en préparation, une nouvelle approche de la vue à la première personne accompagne les mouvements du personnage lorsqu’il vise depuis un véhicule.",
-                "en": "Also in development: a new first-person view that follows the character’s movements while aiming from a vehicle."
-              }
-            }
-          ]
-        }
-      ],
-      "highlights": [
-        {
-          "label": {
-            "fr": "NOUVEAUTÉ",
-            "en": "NEW"
-          },
-          "title": {
-            "fr": "PROTÉGEZ VOTRE SÉRIE",
-            "en": "SAVE YOUR STREAK"
-          },
-          "body": {
-            "fr": "Des protections rejoignent le calendrier quotidien pour garder le rythme, même après une absence.",
-            "en": "Streak shields join the daily calendar, helping you stay on track after missing a day."
-          },
-          "tone": "accent"
-        },
-        {
-          "label": {
-            "fr": "PROGRESSION",
-            "en": "PROGRESSION"
-          },
-          "title": {
-            "fr": "LE BATTLE PASS AVANCE AUSSI",
-            "en": "BATTLE PASS PROGRESS TOO"
-          },
-          "body": {
-            "fr": "Les cadeaux quotidiens peuvent aussi apporter de l’XP à votre progression de saison.",
-            "en": "Daily rewards can now earn XP toward your seasonal progression."
-          },
-          "tone": "cyan"
-        },
-        {
-          "label": {
-            "fr": "QUARTIER GÉNÉRAL",
-            "en": "HEADQUARTERS"
-          },
-          "title": {
-            "fr": "UNE INTENDANCE TRANSFORMÉE",
-            "en": "A NEW QUARTERMASTER"
-          },
-          "body": {
-            "fr": "Un nouveau comptoir et une vitrine d’offres donnent vie à la boutique du QG.",
-            "en": "A new counter and live offers display bring the HQ store to life."
-          },
-          "tone": "hot"
-        },
-        {
-          "label": {
-            "fr": "COMMUNAUTÉ",
-            "en": "COMMUNITY"
-          },
-          "title": {
-            "fr": "LE SITE OFFICIEL EST EN LIGNE",
-            "en": "THE OFFICIAL WEBSITE IS LIVE"
-          },
-          "body": {
-            "fr": "Découvrez WARBREACH sur warbreach.com.",
-            "en": "Discover WARBREACH at warbreach.com."
-          },
-          "tone": "success"
-        }
-      ],
-      "tag": {
-        "fr": "NOUVEAUTÉS",
-        "en": "NEW CONTENT"
       }
     }
   ]

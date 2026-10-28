@@ -6,6 +6,411 @@
   },
   "versions": [
     {
+      "num": "1.15.0",
+      "tag": {
+        "fr": "RÉSURGENCE & TACTIQUE",
+        "en": "RESURGENCE & TACTICS"
+      },
+      "title": {
+        "fr": "LA RÉSURGENCE PASSE À L’OFFENSIVE",
+        "en": "RESURGENCE GOES ON THE OFFENSIVE"
+      },
+      "date": "2026-10-28",
+      "sections": [
+        {
+          "title": {
+            "fr": "UN NOUVEAU RENDEZ-VOUS SUR LE TERRAIN",
+            "en": "A NEW STOP ON THE BATTLEFIELD"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "12 stations d’achat sur Cayo Perico",
+                "en": "12 Buy Stations across Cayo Perico"
+              },
+              "body": {
+                "fr": "Douze stations d’achat rejoignent l’île, avec leur propre comptoir et un repère sur la carte. Les dollars ramassés pendant la partie permettent de s’équiper sans quitter le combat.",
+                "en": "Twelve Buy Stations appear across the island, each with its own counter and map marker. Spend the cash collected during the match to gear up without leaving the fight."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "11 achats pour changer la donne",
+                "en": "11 purchases to turn the tide"
+              },
+              "body": {
+                "fr": "Plaques d’armure, masque à gaz, autoréanimation, réserve tactique, kit de réparation, kit de réinsertion, largage Arsenal, drone, drone de brouillage, leurre radar et retour des coéquipiers : le catalogue couvre les besoins de toute l’escouade.",
+                "en": "Armor plates, gas mask, self-revive, tactical resupply, repair kit, reinsertion kit, Arsenal drop, UAV, counter-UAV, radar decoy and teammate buyback: the catalog covers the whole squad’s needs."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Ramener ses coéquipiers dans la bataille",
+                "en": "Bring teammates back into the fight"
+              },
+              "body": {
+                "fr": "Une station peut redéployer les membres éliminés de l’escouade, y compris après la fermeture de la Résurgence. Ce service est réservé aux parties en équipe.",
+                "en": "Buy Stations can redeploy eliminated squadmates, even after the Resurgence window closes. This option is exclusive to team matches."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une série de trop ? Elle reste au sol",
+                "en": "Full killstreak slot? Your purchase drops nearby"
+              },
+              "body": {
+                "fr": "Lorsqu’une série d’éliminations est déjà équipée, la nouvelle acquisition est déposée devant la station. Un coéquipier ou même un adversaire peut la ramasser.",
+                "en": "When a killstreak is already equipped, the new purchase drops in front of the station. A teammate or even an enemy can pick it up."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des achats protégés contre les erreurs",
+                "en": "Purchases protected from failed delivery"
+              },
+              "body": {
+                "fr": "Les achats tiennent compte de l’argent disponible et des limites d’inventaire. Si un article ne peut finalement pas être remis, son coût est remboursé.",
+                "en": "Purchases respect available cash and inventory limits. If an item cannot ultimately be delivered, its cost is refunded."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LE RENSEIGNEMENT DEVIENT UNE ARME",
+            "en": "INTELLIGENCE BECOMES A WEAPON"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Le drone révèle les positions adverses",
+                "en": "UAV sweeps reveal enemy positions"
+              },
+              "body": {
+                "fr": "Pendant 40 secondes, le drone balaie la carte toutes les 3 secondes et révèle les adversaires sur la minimap de l’escouade. Les combattants ennemis et les bots sont concernés.",
+                "en": "For 40 seconds, the UAV sweeps the map every 3 seconds and reveals enemies on the squad’s minimap. Enemy players and bots are included."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Trois drones pour un renseignement avancé",
+                "en": "Three UAVs unlock advanced reconnaissance"
+              },
+              "body": {
+                "fr": "Trois drones lancés par une même escouade dans une fenêtre de 20 secondes déclenchent un drone amélioré : les positions ennemies sont alors actualisées en direct pendant 120 secondes.",
+                "en": "Three UAVs launched by the same squad within 20 seconds trigger an Advanced UAV: enemy positions then update live for 120 seconds."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Le brouillage coupe la carte adverse",
+                "en": "Counter-UAVs blind the enemy map"
+              },
+              "body": {
+                "fr": "Le drone de brouillage prive les équipes adverses de leur minimap, de la grande carte et des informations de leurs propres drones dans un rayon de 300 mètres pendant 40 secondes.",
+                "en": "The counter-UAV disables enemy minimaps, the full map and their own UAV intelligence within a 300-meter radius for 40 seconds."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Le leurre radar sème le doute",
+                "en": "Radar decoys create false threats"
+              },
+              "body": {
+                "fr": "Pendant 20 secondes, cinq faux contacts ennemis se déplacent sur les cartes adverses. De quoi détourner l’attention et couvrir un déplacement ou une attaque.",
+                "en": "For 20 seconds, five moving false enemy contacts appear on opposing maps. Use them to distract the opposition and cover a push or rotation."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Des séries d’éliminations à déclencher au bon moment",
+                "en": "Use your killstreaks when it matters"
+              },
+              "body": {
+                "fr": "Un nouvel emplacement au-dessus de l’arme affiche la série transportée. Une pression maintenue sur B permet de l’activer, et l’équipement tombe au sol à la mort.",
+                "en": "A new slot above the weapon display shows your carried killstreak. Hold B to activate it, and the item drops on death."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DES OUTILS POUR RESTER DANS LE COMBAT",
+            "en": "TOOLS TO STAY IN THE FIGHT"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Réserve tactique : munitions et plaques",
+                "en": "Tactical resupply: ammunition and armor"
+              },
+              "body": {
+                "fr": "La réserve tactique complète immédiatement les munitions compatibles avec les armes transportées et ajoute jusqu’à deux plaques d’armure, sans dépasser les capacités du sac.",
+                "en": "Tactical resupply instantly tops up ammunition for carried weapons and adds up to two armor plates, without exceeding inventory limits."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Kit de réinsertion : un retour mieux équipé",
+                "en": "Reinsertion kit: come back better equipped"
+              },
+              "body": {
+                "fr": "Un kit acheté prépare la prochaine réapparition : une arme, des munitions et une protection supplémentaire accompagnent le retour en parachute. Le bonus est consommé à cette réinsertion.",
+                "en": "A purchased kit boosts your next redeployment: return by parachute with a weapon, ammunition and extra protection. The bonus is consumed on that return."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Kit de réparation : remettre un véhicule en état",
+                "en": "Repair kit: get a vehicle back into shape"
+              },
+              "body": {
+                "fr": "En visant un véhicule vide à proximité, le kit répare sa carrosserie, son moteur, ses vitres et ses pneus. Il peut aussi éteindre un véhicule en feu.",
+                "en": "Aim at a nearby unoccupied vehicle to repair its body, engine, windows and tires. The kit can also extinguish a burning vehicle."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Un largage Arsenal à appeler où il faut",
+                "en": "Call an Arsenal drop where you need it"
+              },
+              "body": {
+                "fr": "Le largage peut être acheté et déclenché ensuite depuis une zone à ciel dégagé. Chaque membre de l’escouade peut y récupérer l’une de ses classes.",
+                "en": "Purchase an Arsenal drop and call it later from an open-sky location. Each squad member can collect one of their loadouts."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une régénération de santé maîtrisée",
+                "en": "Consistent health regeneration"
+              },
+              "body": {
+                "fr": "Après dix secondes sans subir de dégâts, la santé se régénère progressivement. Une nouvelle blessure, une chute ou les dégâts du gaz repoussent la récupération. L’armure n’est pas régénérée.",
+                "en": "After ten seconds without taking damage, health gradually regenerates. A new hit, fall or gas damage delays recovery. Armor does not regenerate."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UN DÉPLOIEMENT DIGNE D’UNE OPÉRATION",
+            "en": "A DEPLOYMENT WORTHY OF THE MISSION"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Une nouvelle entrée en matière",
+                "en": "A new pre-match loading sequence"
+              },
+              "body": {
+                "fr": "Avant le départ, un nouvel écran affiche Cayo Perico, la trajectoire de l’avion, les membres de l’escouade et des conseils tactiques pendant le chargement.",
+                "en": "Before deployment, a new screen shows Cayo Perico, the aircraft route, squad members and tactical tips while the match loads."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Votre opérateur entre en scène",
+                "en": "Your operator takes center stage"
+              },
+              "body": {
+                "fr": "Une introduction cinématique suit l’avion, révèle l’escouade à bord puis accompagne l’opérateur jusqu’à la rampe ouverte avant de rendre le contrôle au joueur.",
+                "en": "A cinematic introduction follows the aircraft, reveals the squad inside and tracks the operator walking toward the open ramp before returning control to the player."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Un nouveau conteneur pour les largages",
+                "en": "A redesigned Arsenal drop container"
+              },
+              "body": {
+                "fr": "Les largages disposent d’un nouveau conteneur blindé aux couleurs de WARBREACH, visible pendant la descente sous parachute et une fois posé au sol.",
+                "en": "Loadout drops now use a new armored container with WARBREACH styling, visible during the parachute descent and once it lands."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des transitions plus fluides avant le saut",
+                "en": "Smoother transitions before the jump"
+              },
+              "body": {
+                "fr": "Le passage du QG à la partie est mieux masqué, avec un enchaînement plus propre entre le chargement, la cinématique et le départ en avion.",
+                "en": "The transition from HQ to the match is cleaner, with smoother handoffs between loading, the cinematic and the aircraft sequence."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UNE CARTE PLUS UTILE, UN HUD PLUS CLAIR",
+            "en": "A MORE USEFUL MAP AND A CLEARER HUD"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Des fiches détaillées sur la carte",
+                "en": "Detailed information on the tactical map"
+              },
+              "body": {
+                "fr": "Les véhicules, stations d’achat, largages et repères d’escouade affichent de nouvelles fiches descriptives avec leurs informations utiles et leurs visuels.",
+                "en": "Vehicles, Buy Stations, loadout drops and squad pings now display helpful information cards with descriptions and artwork."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Des véhicules plus faciles à identifier",
+                "en": "Identify vehicles at a glance"
+              },
+              "body": {
+                "fr": "Les fiches des véhicules précisent leur modèle, leur nombre de places et leur disponibilité afin de faciliter les décisions de déplacement.",
+                "en": "Vehicle cards show the model, seating capacity and availability to make rotations easier to plan."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Les informations tactiques mieux intégrées au HUD",
+                "en": "Tactical information integrated into the HUD"
+              },
+              "body": {
+                "fr": "Les stations, les séries d’éliminations, les informations de radar et les messages de Résurgence disposent d’affichages dédiés, plus simples à consulter en plein combat.",
+                "en": "Buy Stations, killstreaks, radar information and Resurgence messages now have dedicated displays that are easier to read during combat."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Un affichage du butin plus fiable",
+                "en": "More reliable loot display"
+              },
+              "body": {
+                "fr": "La mise à jour des objets ramassés et l’état des coffres sont mieux synchronisés pour limiter les décalages entre ce qui apparaît au sol et ce qui peut être récupéré.",
+                "en": "Loot updates and crate states are synchronized more reliably to reduce mismatches between visible ground items and what can be collected."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LE CONFORT RESTE UNE PRIORITÉ",
+            "en": "COMFORT REMAINS A PRIORITY"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des opérateurs plus nets à distance",
+                "en": "Operators stay clearer at a distance"
+              },
+              "body": {
+                "fr": "Le rendu des personnages est ajusté pour mieux préserver leurs détails lorsqu’ils s’éloignent, notamment dans le QG et les zones de combat.",
+                "en": "Character rendering has been adjusted to retain more detail at a distance, including in HQ and combat areas."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Moins d’interférences avec la carte du QG",
+                "en": "Cleaner map handling in HQ"
+              },
+              "body": {
+                "fr": "Les accès à la carte sont mieux séparés entre le QG et les parties pour éviter d’afficher des informations tactiques hors du combat.",
+                "en": "Map access is more clearly separated between HQ and matches to prevent tactical information from appearing outside combat."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "NOUVEAU",
+            "en": "NEW"
+          },
+          "title": {
+            "fr": "12 STATIONS D’ACHAT",
+            "en": "12 BUY STATIONS"
+          },
+          "body": {
+            "fr": "Un nouveau moyen de dépenser son argent en partie, de se rééquiper et de faire revenir ses coéquipiers.",
+            "en": "A new way to spend match cash, resupply and bring teammates back into the action."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "TACTIQUE",
+            "en": "TACTICAL"
+          },
+          "title": {
+            "fr": "DRONES ET LEURRE RADAR",
+            "en": "UAVS AND RADAR DECOYS"
+          },
+          "body": {
+            "fr": "Repérez les adversaires, brouillez leur carte ou créez cinq faux contacts pendant 20 secondes.",
+            "en": "Spot the opposition, jam their map or create five false contacts for 20 seconds."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "ÉQUIPEMENT",
+            "en": "GEAR"
+          },
+          "title": {
+            "fr": "RÉSERVE ET RÉINSERTION",
+            "en": "RESUPPLY AND REINSERTION"
+          },
+          "body": {
+            "fr": "Munitions, plaques, réparation et équipement renforcé lors de la prochaine réapparition.",
+            "en": "Ammo, armor, vehicle repairs and improved equipment for your next redeployment."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "DÉPLOIEMENT",
+            "en": "DEPLOYMENT"
+          },
+          "title": {
+            "fr": "UNE ARRIVÉE SPECTACULAIRE",
+            "en": "A CINEMATIC ARRIVAL"
+          },
+          "body": {
+            "fr": "Nouvel écran de chargement, présentation de l’escouade et cinématique à bord de l’avion.",
+            "en": "New loading screen, squad introduction and an aircraft cinematic."
+          },
+          "tone": "hot"
+        }
+      ]
+    },
+    {
       "num": "1.14.0",
       "date": "2026-10-27",
       "tag": {
@@ -2835,277 +3240,6 @@
       "tag": {
         "fr": "NOUVEAUTÉS",
         "en": "NEW CONTENT"
-      }
-    },
-    {
-      "num": "1.5.0",
-      "title": {
-        "fr": "L’ARSENAL CHANGE DE VISAGE",
-        "en": "A NEW LOOK FOR THE ARSENAL"
-      },
-      "date": "2026-10-16",
-      "sections": [
-        {
-          "title": {
-            "fr": "UN ARSENAL PLUS PERSONNEL",
-            "en": "MAKE THE ARSENAL YOUR OWN"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "101 FINITIONS À DÉCOUVRIR",
-                "en": "101 FINISHES TO DISCOVER"
-              },
-              "body": {
-                "fr": "La collection de WARBREACH rassemble désormais 96 camouflages classiques et cinq finitions animées sur 13 armes. Des styles discrets aux créations les plus marquantes, chaque équipement peut afficher sa propre personnalité.",
-                "en": "WARBREACH’s collection now brings together 96 standard camos and five animated finishes across 13 weapons. From subtle looks to standout designs, every loadout can have its own personality."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "DE NOUVEAUX STYLES POUR CHAQUE COMBAT",
-                "en": "MORE STYLES FOR EVERY FIGHT"
-              },
-              "body": {
-                "fr": "Fusils d’assaut, pistolets, mitraillettes, fusils de précision ou fusils à pompe : les nouvelles collections couvrent plusieurs familles d’armes pour varier les styles d’une classe à l’autre.",
-                "en": "Assault rifles, pistols, submachine guns, sniper rifles and shotguns: the expanded collections cover several weapon families, making it easier to switch up your style between loadouts."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "LES ARMES DE MÊLÉE ONT AUSSI LEUR STYLE",
-                "en": "MELEE WEAPONS GET THEIR OWN STYLE"
-              },
-              "body": {
-                "fr": "Couteaux, poings américains et couteaux à cran d’arrêt disposent désormais de leurs propres finitions. Même l’équipement de secours mérite une touche personnelle.",
-                "en": "Knives, knuckle dusters and switchblades now have their own finishes. Even your backup weapon deserves a personal touch."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES ARMES À DÉBLOQUER EN PROGRESSANT",
-                "en": "WEAPONS UNLOCK AS YOU PROGRESS"
-              },
-              "body": {
-                "fr": "La progression compte davantage dans le choix des armes : certains modèles s’ouvrent à mesure que les niveaux sont gagnés. Les armes déjà obtenues restent accessibles.",
-                "en": "Progression now plays a bigger role in weapon selection: certain weapons become available as you gain levels. Weapons you have already earned remain accessible."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "VOS CLASSES, VOTRE SIGNATURE",
-            "en": "YOUR LOADOUT, YOUR SIGNATURE"
-          },
-          "tone": "cyan",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "LES FINITIONS VOUS SUIVENT EN PARTIE",
-                "en": "YOUR FINISHES FOLLOW YOU INTO BATTLE"
-              },
-              "body": {
-                "fr": "Les camouflages choisis sont mieux pris en compte lorsque votre classe est équipée, y compris après un retour au combat. Votre arme conserve l’apparence sélectionnée.",
-                "en": "Selected camos are handled more consistently when equipping your loadout, including after returning to the fight. Your weapon keeps its chosen appearance."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UNE CARABINE MK II MIEUX PERSONNALISÉE",
-                "en": "MORE OPTIONS FOR THE CARBINE MK II"
-              },
-              "body": {
-                "fr": "Les finitions propres à la Carabine Mk II s’intègrent à la personnalisation de vos classes, sans changer la place qu’occupe l’arme dans votre équipement.",
-                "en": "Carbine Mk II finishes are now integrated into loadout customization without changing the weapon’s place in your equipment."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "VOTRE ARME BLANCHE, VOTRE CHOIX",
-                "en": "YOUR MELEE WEAPON, YOUR CHOICE"
-              },
-              "body": {
-                "fr": "La finition sélectionnée sur une arme de mêlée accompagne désormais la classe enregistrée. Changer de classe ne signifie plus perdre le style choisi.",
-                "en": "Your selected melee finish is now saved with your loadout. Switching between classes no longer means losing your chosen look."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES PERSONNALISATIONS PLUS FIABLES",
-                "en": "MORE CONSISTENT CUSTOMIZATION"
-              },
-              "body": {
-                "fr": "Le choix des accessoires et des finitions a été affiné pour mieux respecter les équipements disponibles et conserver les bons éléments lors des changements de classe.",
-                "en": "Attachment and finish selection has been refined to better reflect what is available and preserve the right equipment when switching loadouts."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "L’ARMURERIE EN DÉTAIL",
-            "en": "A CLOSER LOOK AT THE ARMORY"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "ADMIREZ VOS CAMOUFLAGES DE PLUS PRÈS",
-                "en": "TAKE A CLOSER LOOK AT YOUR CAMOS"
-              },
-              "body": {
-                "fr": "Les aperçus des armes reflètent plus fidèlement les finitions choisies, y compris celles qui transforment leur apparence. La personnalisation gagne en lisibilité.",
-                "en": "Weapon previews now reflect selected finishes more accurately, including those that change the weapon’s overall look. Customization is easier to explore."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UNE SÉLECTION PLUS AGRÉABLE",
-                "en": "SMOOTHER WEAPON BROWSING"
-              },
-              "body": {
-                "fr": "Les images des finitions, la navigation et les vues rapprochées ont été retravaillées pour comparer plus facilement les possibilités avant de faire son choix.",
-                "en": "Finish images, browsing and close-up views have been refined so you can compare your options more easily before making a choice."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DU MENU JUSQU’AU TERRAIN",
-                "en": "FROM THE MENU TO THE BATTLEFIELD"
-              },
-              "body": {
-                "fr": "L’apparence des armes bénéficie d’un meilleur suivi entre l’armurerie, leur présentation dans le QG et l’équipement porté par le personnage.",
-                "en": "Weapon appearances now carry across more consistently between the armory, HQ displays and the equipment carried by your character."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "UN QG PLUS AGRÉABLE",
-            "en": "A MORE RESPONSIVE HQ"
-          },
-          "tone": "cyan",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UNE GALERIE D’ARMES MIEUX MISE EN VALEUR",
-                "en": "A BETTER WEAPON GALLERY"
-              },
-              "body": {
-                "fr": "Les présentoirs et les armes exposées profitent de nouveaux ajustements pour mettre les finitions en valeur, même lors des inspections rapprochées.",
-                "en": "Display stands and showcased weapons have received further refinements to make every finish shine, even during close-up inspections."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "PLUS DE FLUIDITÉ DANS LE HANGAR",
-                "en": "SMOOTHER MOVEMENT THROUGH THE HANGAR"
-              },
-              "body": {
-                "fr": "Plusieurs affichages du QG ont été allégés pour rendre les déplacements et les interactions plus fluides, notamment autour de la galerie et de l’Intendance.",
-                "en": "Several HQ displays have been streamlined to make movement and interactions smoother, especially around the gallery and the supply counter."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES INFORMATIONS QUI RESTENT À JOUR",
-                "en": "INFORMATION THAT STAYS CURRENT"
-              },
-              "body": {
-                "fr": "Les offres de la boutique, le classement et les informations des joueurs bénéficient d’un affichage mieux synchronisé avec leurs changements.",
-                "en": "Store offers, leaderboards and player information now update more consistently when something changes."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "COMBATS EN VÉHICULE",
-            "en": "VEHICLE COMBAT"
-          },
-          "tone": "muted",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES COMBATS EN VÉHICULE PLUS VIVANTS",
-                "en": "MORE DYNAMIC VEHICLE COMBAT"
-              },
-              "body": {
-                "fr": "Les animations de tir depuis les véhicules ont été retravaillées, avec des postures plus naturelles selon la place occupée et la forme du véhicule.",
-                "en": "Vehicle shooting animations have been refined with more natural poses based on seating positions and vehicle shapes."
-              }
-            }
-          ]
-        }
-      ],
-      "highlights": [
-        {
-          "label": {
-            "fr": "PERSONNALISATION",
-            "en": "CUSTOMIZATION"
-          },
-          "title": {
-            "fr": "101 FINITIONS AU CATALOGUE",
-            "en": "101 FINISHES IN THE COLLECTION"
-          },
-          "body": {
-            "fr": "Camouflages classiques et créations animées enrichissent le style de 13 armes.",
-            "en": "Standard camos and animated designs bring more personality to 13 weapons."
-          },
-          "tone": "accent"
-        },
-        {
-          "label": {
-            "fr": "NOUVEAUTÉ",
-            "en": "NEW"
-          },
-          "title": {
-            "fr": "LA MÊLÉE SE PERSONNALISE",
-            "en": "MELEE GETS PERSONAL"
-          },
-          "body": {
-            "fr": "Couteaux, poings américains et couteaux à cran d’arrêt rejoignent la personnalisation des classes.",
-            "en": "Knives, knuckle dusters and switchblades join loadout customization."
-          },
-          "tone": "hot"
-        },
-        {
-          "label": {
-            "fr": "CONFORT",
-            "en": "QUALITY OF LIFE"
-          },
-          "title": {
-            "fr": "UN QG PLUS FLUIDE",
-            "en": "A SMOOTHER HQ"
-          },
-          "body": {
-            "fr": "Des aperçus plus fidèles et des affichages mieux ajustés pour profiter de l’armurerie et du hangar.",
-            "en": "More accurate previews and refined displays make the armory and hangar feel smoother."
-          },
-          "tone": "cyan"
-        }
-      ],
-      "tag": {
-        "fr": "ARSENAL",
-        "en": "ARMORY"
       }
     }
   ]

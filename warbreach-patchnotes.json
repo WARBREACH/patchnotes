@@ -6,6 +6,378 @@
   },
   "versions": [
     {
+      "num": "1.16.0",
+      "tag": {
+        "fr": "TACTIQUE & COMBAT",
+        "en": "TACTICS & COMBAT"
+      },
+      "title": {
+        "fr": "LE TERRAIN CHANGE DE VISAGE",
+        "en": "THE BATTLEFIELD EVOLVES"
+      },
+      "date": "2026-10-29",
+      "sections": [
+        {
+          "title": {
+            "fr": "REPLI : UNE NOUVELLE DÉFENSE",
+            "en": "REPLI: A NEW WAY TO HOLD THE LINE"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "La barricade Repli entre en jeu",
+                "en": "Introducing the Repli barricade"
+              },
+              "body": {
+                "fr": "Une nouvelle couverture portable rejoint les stations d’achat. Déployez-la pour protéger une position, tenir un passage ou créer un abri au cœur d’un affrontement.",
+                "en": "A new portable cover item joins Buy Stations. Deploy it to defend a position, hold a passage or create shelter during a firefight."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Une couverture qui peut être détruite",
+                "en": "Cover that can be broken apart"
+              },
+              "body": {
+                "fr": "La barricade encaisse les tirs, les explosions et les chocs des véhicules. Ses panneaux peuvent céder séparément et ouvrir des brèches avant son effondrement complet.",
+                "en": "The barricade takes damage from gunfire, explosions and vehicle impacts. Its panels can break independently, creating openings before the structure collapses."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Un placement simple et précis",
+                "en": "Quick, precise placement"
+              },
+              "body": {
+                "fr": "Un aperçu transparent permet de choisir l’emplacement et de faire pivoter la couverture avant de la poser. Un indicateur de couleur signale les positions autorisées.",
+                "en": "A transparent preview lets you choose a position and rotate the cover before placing it. A color indicator shows whether placement is allowed."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Un outil tactique à utiliser au bon moment",
+                "en": "Tactical cover with meaningful limits"
+              },
+              "body": {
+                "fr": "Une seule barricade active par joueur, un espacement entre les couvertures et une durée de vie limitée : le bon placement peut faire la différence.",
+                "en": "Each player can maintain one active barricade, with spacing between covers and a limited lifespan. Smart placement can make the difference."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DES AFFRONTEMENTS PLUS JUSTES",
+            "en": "FAIRER FIREFIGHTS"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Le tir allié ne pénalise plus l’escouade",
+                "en": "Friendly fire no longer hurts squadmates"
+              },
+              "body": {
+                "fr": "Les tirs d’un coéquipier n’endommagent plus la santé ni les plaques d’armure des alliés. Les combats contre les escouades adverses restent inchangés.",
+                "en": "Teammate fire no longer damages allied health or armor plates. Combat against enemy squads remains unchanged."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Les tirs à la tête sont mieux équilibrés",
+                "en": "More consistent headshot damage"
+              },
+              "body": {
+                "fr": "Les éliminations instantanées dues aux coups critiques natifs sont désactivées. Les dégâts réels des armes restent déterminants.",
+                "en": "Native instant-kill critical hits are disabled. A weapon’s actual damage still determines the outcome."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Une nouvelle autoréanimation",
+                "en": "A new self-revive animation"
+              },
+              "body": {
+                "fr": "À terre, l’autoréanimation s’accompagne d’un geste complet avec un auto-injecteur : retournement, injection et reprise des mouvements.",
+                "en": "While downed, self-revive now features a full injector animation: rolling onto your back, administering the shot and recovering."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des autoréanimations plus fluides",
+                "en": "Smoother self-revive transitions"
+              },
+              "body": {
+                "fr": "L’animation suit la progression de l’action et se nettoie correctement en cas d’interruption, de nouvelle blessure ou de changement de situation.",
+                "en": "The animation follows revive progress and clears correctly when interrupted, damaged again or when the player’s situation changes."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DES BOTS QUI RIPOSTENT",
+            "en": "BOTS THAT FIGHT BACK"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des parties pouvant accueillir 40 bots",
+                "en": "Matches supporting up to 40 bots"
+              },
+              "body": {
+                "fr": "La capacité des adversaires contrôlés par l’IA monte jusqu’à 40 bots par partie, afin de densifier les affrontements même lorsque peu de joueurs sont présents.",
+                "en": "AI opponent capacity rises to as many as 40 bots per match, keeping firefights lively even with fewer human players."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des adversaires plus réactifs",
+                "en": "More responsive AI opponents"
+              },
+              "body": {
+                "fr": "Les bots repèrent mieux les menaces, réagissent plus naturellement aux tirs et adaptent davantage leurs décisions à la situation.",
+                "en": "Bots recognize threats more effectively, react more naturally to gunfire and adapt their decisions to the situation."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Davantage de mouvement et de tactique",
+                "en": "More movement and tactical choices"
+              },
+              "body": {
+                "fr": "Déplacements latéraux, utilisation des couvertures, poursuites et repositionnements rendent les combats moins prévisibles, sans augmenter artificiellement les dégâts infligés.",
+                "en": "Strafing, use of cover, pursuit and repositioning make fights less predictable without artificially increasing the damage bots deal."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UNE ESCOUADE PLUS LISIBLE",
+            "en": "A CLEARER SQUAD EXPERIENCE"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Vos coéquipiers visibles sur la carte",
+                "en": "Squadmates clearly marked on the map"
+              },
+              "body": {
+                "fr": "Retrouvez les membres de l’escouade sur la carte et la minimap, avec leur couleur propre et leur orientation lorsqu’ils sont à proximité.",
+                "en": "Find squadmates on the map and minimap, each with a distinct color and heading when nearby."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Des noms au-dessus des alliés",
+                "en": "Teammate names above their heads"
+              },
+              "body": {
+                "fr": "Le nom des coéquipiers apparaît dans leur couleur d’équipe. Un allié à terre passe en rouge pour être identifié immédiatement.",
+                "en": "Teammate names appear in their squad color. Downed allies turn red so they can be recognized at a glance."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Les repères reprennent les couleurs de l’escouade",
+                "en": "Pings match squad colors"
+              },
+              "body": {
+                "fr": "Les marqueurs placés par les joueurs utilisent les mêmes couleurs que le HUD, pour savoir plus facilement qui signale un danger ou une destination.",
+                "en": "Player pings use the same colors as the squad HUD, making it easier to tell who marked a threat or destination."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Les véhicules alliés mieux identifiés",
+                "en": "Friend-occupied vehicles are easier to identify"
+              },
+              "body": {
+                "fr": "Les véhicules occupés par l’escouade conservent leur indication alliée sur la carte, y compris à distance.",
+                "en": "Vehicles occupied by squadmates retain their friendly map indicator, even at a distance."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DÉPLOIEMENT ET ARÈNES",
+            "en": "DEPLOYMENT & ARENAS"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Les secteurs de Cayo Perico prennent vie",
+                "en": "Cayo Perico sectors come into view"
+              },
+              "body": {
+                "fr": "Pendant l’approche et la descente, de grands noms de secteurs apparaissent au-dessus de l’île pour aider à reconnaître les zones de largage.",
+                "en": "During the aircraft approach and descent, large sector names appear above the island to help identify drop locations."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une carte de déploiement plus détaillée",
+                "en": "A more informative deployment map"
+              },
+              "body": {
+                "fr": "L’écran de chargement situe mieux les zones importantes et la trajectoire de l’avion avant le saut.",
+                "en": "The deployment loading screen better highlights key areas and the aircraft’s route before the jump."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "CTB rejoint les cartes d’arène",
+                "en": "CTB joins the arena map lineup"
+              },
+              "body": {
+                "fr": "Une nouvelle carte complète la sélection d’arènes, avec ses propres zones de combat et emplacements de départ.",
+                "en": "A new map expands the arena selection with its own combat area and spawn positions."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Un vrai compte à rebours avant le duel",
+                "en": "A proper countdown before each duel"
+              },
+              "body": {
+                "fr": "Chaque manche d’arène démarre avec un décompte sonore « 3, 2, 1, GO », synchronisé avec l’ouverture des combats.",
+                "en": "Each arena round begins with a sound-backed “3, 2, 1, GO” countdown synchronized with the start of combat."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "CONFORT, CARTE ET INTERFACE",
+            "en": "POLISH, MAP & INTERFACE"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Un tableau de score d’arène plus clair",
+                "en": "A clearer arena scoreboard"
+              },
+              "body": {
+                "fr": "Les scores, l’état des équipes et le déroulement des manches sont mieux présentés pendant les affrontements.",
+                "en": "Scores, team status and round progress are presented more clearly during arena fights."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Un radar tactique plus lisible",
+                "en": "A cleaner tactical radar"
+              },
+              "body": {
+                "fr": "Les indications des drones et du brouillage sont retravaillées pour mieux distinguer les effets actifs sur la minimap.",
+                "en": "UAV and jamming indicators have been refined to make active radar effects easier to recognize."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des interactions et du butin plus fiables",
+                "en": "More reliable interactions and loot"
+              },
+              "body": {
+                "fr": "Corrections de l’affichage du butin, des objets au sol et des interactions avec les stations d’achat et les équipements.",
+                "en": "Fixes improve loot visibility, dropped items and interactions with Buy Stations and equipment."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "NOUVEAU",
+            "en": "NEW"
+          },
+          "title": {
+            "fr": "BARRICADE REPLI",
+            "en": "REPLI BARRICADE"
+          },
+          "body": {
+            "fr": "Posez une couverture destructible, orientez-la librement et protégez votre position.",
+            "en": "Deploy destructible cover, rotate it into place and defend your position."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "COMBAT",
+            "en": "COMBAT"
+          },
+          "title": {
+            "fr": "TIR ALLIÉ DÉSACTIVÉ",
+            "en": "FRIENDLY FIRE DISABLED"
+          },
+          "body": {
+            "fr": "Les tirs des coéquipiers ne retirent plus de santé ou d’armure.",
+            "en": "Squadmate fire no longer removes health or armor."
+          },
+          "tone": "success"
+        },
+        {
+          "label": {
+            "fr": "RÉSURGENCE",
+            "en": "RESURGENCE"
+          },
+          "title": {
+            "fr": "AUTORÉANIMATION REVISITÉE",
+            "en": "SELF-REVIVE REWORKED"
+          },
+          "body": {
+            "fr": "Une nouvelle animation avec auto-injecteur accompagne les retours au combat.",
+            "en": "A new injector animation brings self-revives to life."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "IA & TACTIQUE",
+            "en": "AI & TACTICS"
+          },
+          "title": {
+            "fr": "JUSQU’À 40 BOTS",
+            "en": "UP TO 40 BOTS"
+          },
+          "body": {
+            "fr": "Des adversaires plus mobiles et de nouvelles possibilités de confrontation.",
+            "en": "More mobile AI opponents and larger-scale firefights."
+          },
+          "tone": "accent"
+        }
+      ]
+    },
+    {
       "num": "1.15.0",
       "tag": {
         "fr": "RÉSURGENCE & TACTIQUE",
@@ -2997,244 +3369,6 @@
             "en": "Equip a tactical weapon laser and discover new ways to descend from a helicopter."
           },
           "tone": "hot"
-        }
-      ],
-      "tag": {
-        "fr": "NOUVEAUTÉS",
-        "en": "NEW CONTENT"
-      }
-    },
-    {
-      "num": "1.6.0",
-      "title": {
-        "fr": "LE COMBAT GAGNE EN TACTIQUE",
-        "en": "TACTICAL COMBAT TAKES SHAPE"
-      },
-      "date": "2026-10-16",
-      "sections": [
-        {
-          "title": {
-            "fr": "COORDONNER SON ESCOUADE",
-            "en": "SQUAD COORDINATION"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "MARQUEZ VOTRE PROCHAINE CIBLE",
-                "en": "MARK YOUR NEXT TARGET"
-              },
-              "body": {
-                "fr": "Un point à rejoindre, une position à surveiller ou un danger à éviter : signalez les informations importantes à votre escouade directement sur le terrain.",
-                "en": "A rally point, a position to watch, or a danger to avoid: mark important locations for your squad directly on the battlefield."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UN DOUBLE APPUI POUR LE DANGER",
-                "en": "DOUBLE-TAP TO WARN"
-              },
-              "body": {
-                "fr": "Deux appuis rapides suffisent pour signaler une menace. Les marqueurs indiquent la direction et la distance, même lorsqu’ils sortent du champ de vision.",
-                "en": "Two quick taps are all it takes to flag a threat. Markers show direction and distance, even when they move off-screen."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "VOS REPÈRES, VOTRE CHOIX",
-                "en": "YOUR MARKERS, YOUR CALL"
-              },
-              "body": {
-                "fr": "Partagez un repère avec vos coéquipiers ou gardez-le pour vous. Les membres de l’escouade peuvent confirmer un signalement pour mieux se coordonner.",
-                "en": "Share a marker with teammates or keep it private. Squadmates can acknowledge a ping to coordinate their next move."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "PLUS D’OPTIONS EN COMBAT",
-            "en": "MORE WAYS TO FIGHT"
-          },
-          "tone": "hot",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "CHOISISSEZ VOTRE MODE DE TIR",
-                "en": "CHOOSE YOUR FIRE MODE"
-              },
-              "body": {
-                "fr": "Passez du tir automatique au coup par coup, ou activez la sécurité lorsque la situation l’exige. Les préférences restent associées à chaque arme pendant la partie.",
-                "en": "Switch between automatic and single-shot fire, or engage the safety when the situation calls for it. Your choice stays with each weapon throughout the match."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UNE VISÉE PLUS EXIGEANTE",
-                "en": "A MORE DEMANDING AIM"
-              },
-              "body": {
-                "fr": "Les affrontements reposent davantage sur la précision : le verrouillage automatique des adversaires est désactivé pendant les combats.",
-                "en": "Combat rewards precision even more: automatic target lock-on is disabled during engagements."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "GRENADES FLASH EN ACTION",
-                "en": "FLASHBANGS ENTER THE FIGHT"
-              },
-              "body": {
-                "fr": "Une nouvelle option tactique pour désorienter les adversaires. La distance, les obstacles et la direction du regard influencent l’intensité de l’aveuglement ; les coéquipiers sont épargnés.",
-                "en": "A new tactical option to disorient opponents. Distance, cover, and where players are looking affect the blinding effect; teammates are protected."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "LA RÉSURGENCE ÉVOLUE",
-            "en": "RESURGENCE EVOLVES"
-          },
-          "tone": "cyan",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "DÉPLACEZ LES JOUEURS À TERRE",
-                "en": "MOVE DOWNED PLAYERS"
-              },
-              "body": {
-                "fr": "Approchez-vous d’un joueur à terre et utilisez G pour le traîner à couvert, qu’il soit allié ou ennemi. Attention : son état continue de se dégrader pendant le déplacement.",
-                "en": "Approach a downed player and press G to drag them into cover, whether they are a teammate or an enemy. Be careful: their condition continues to worsen while being moved."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "RÉANIMER OU SE REPOSITIONNER",
-                "en": "REVIVE OR REPOSITION"
-              },
-              "body": {
-                "fr": "La réanimation reste accessible avec E, tandis que le déplacement utilise G. Deux possibilités différentes pour réagir sous la pression.",
-                "en": "Reviving stays on E while dragging uses G, giving you two different ways to react under pressure."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "INTERFACE ET CONFORT",
-            "en": "INTERFACE & QUALITY OF LIFE"
-          },
-          "tone": "success",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UN MENU PAUSE AUX COULEURS DE WARBREACH",
-                "en": "A WARBREACH-STYLE PAUSE MENU"
-              },
-              "body": {
-                "fr": "Le menu pause adopte l’identité visuelle de WARBREACH, avec des accès à la carte, aux paramètres et aux informations utiles, en français comme en anglais.",
-                "en": "The pause menu now reflects WARBREACH’s visual identity, with access to the map, settings, and useful information in both French and English."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "PERSONNALISEZ VOTRE VISEUR",
-                "en": "CUSTOMIZE YOUR CROSSHAIR"
-              },
-              "body": {
-                "fr": "Les réglages du viseur deviennent accessibles depuis l’armurerie pour adapter votre affichage à vos préférences.",
-                "en": "Crosshair settings are now accessible from the armory, letting you adapt the display to your preferences."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "SIGNALEZ UN PROBLÈME PLUS FACILEMENT",
-                "en": "REPORT AN ISSUE MORE EASILY"
-              },
-              "body": {
-                "fr": "Un accès au signalement est ajouté à l’accueil pour retrouver plus facilement les outils d’assistance et de modération.",
-                "en": "A report shortcut has been added to the home screen, making support and moderation tools easier to find."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "DANS LES COULISSES DU QG",
-            "en": "BEHIND THE SCENES AT HQ"
-          },
-          "tone": "muted",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UNE EXPÉRIENCE PLUS COHÉRENTE",
-                "en": "A MORE CONSISTENT EXPERIENCE"
-              },
-              "body": {
-                "fr": "Plusieurs écrans et interactions du Quartier général ont été harmonisés pour faciliter le passage entre l’armurerie, les réglages et les autres services.",
-                "en": "Several Headquarters screens and interactions have been refined to make moving between the armory, settings, and other services feel more seamless."
-              }
-            }
-          ]
-        }
-      ],
-      "highlights": [
-        {
-          "label": {
-            "fr": "NOUVEAUTÉ",
-            "en": "NEW FEATURE"
-          },
-          "title": {
-            "fr": "MARQUAGE TACTIQUE",
-            "en": "TACTICAL PINGS"
-          },
-          "body": {
-            "fr": "Communiquez les positions importantes et les dangers à votre escouade, sans interrompre l’action.",
-            "en": "Share key positions and threats with your squad without breaking the flow of combat."
-          },
-          "tone": "accent"
-        },
-        {
-          "label": {
-            "fr": "COMBAT",
-            "en": "COMBAT"
-          },
-          "title": {
-            "fr": "MODES DE TIR ET FLASH",
-            "en": "FIRE MODES & FLASHBANGS"
-          },
-          "body": {
-            "fr": "De nouvelles options pour adapter chaque affrontement à la situation.",
-            "en": "More options to adapt every engagement to the situation."
-          },
-          "tone": "hot"
-        },
-        {
-          "label": {
-            "fr": "RÉSURGENCE",
-            "en": "RESURGENCE"
-          },
-          "title": {
-            "fr": "SE METTRE À COUVERT",
-            "en": "GET TO COVER"
-          },
-          "body": {
-            "fr": "Les joueurs à terre peuvent désormais être déplacés par les combattants proches.",
-            "en": "Nearby fighters can now move downed players."
-          },
-          "tone": "cyan"
         }
       ],
       "tag": {

@@ -6,6 +6,303 @@
   },
   "versions": [
     {
+      "num": "1.17.0",
+      "tag": {
+        "fr": "COMBAT & TERRAIN",
+        "en": "COMBAT & BATTLEFIELD"
+      },
+      "title": {
+        "fr": "UNE ÎLE QUI NE S’ARRÊTE JAMAIS",
+        "en": "AN ISLAND THAT NEVER STANDS STILL"
+      },
+      "date": "2026-10-30",
+      "sections": [
+        {
+          "title": {
+            "fr": "DES ADVERSAIRES TOUJOURS EN MOUVEMENT",
+            "en": "OPPONENTS THAT NEVER STAND STILL"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "L’île reste active, même à distance",
+                "en": "The island stays active beyond your sight"
+              },
+              "body": {
+                "fr": "Les escouades contrôlées par l’IA continuent de progresser vers leurs objectifs lorsqu’aucun joueur ne se trouve à proximité. Les affrontements ne se figent plus hors de votre champ de vision.",
+                "en": "AI-controlled squads continue advancing toward their objectives even when no players are nearby. Battles no longer freeze outside your field of view."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des rencontres entre escouades IA",
+                "en": "AI squads can fight each other"
+              },
+              "body": {
+                "fr": "Deux équipes IA ennemies peuvent désormais s’affronter loin des joueurs. Ces rencontres influencent réellement les forces encore présentes dans la partie.",
+                "en": "Opposing AI squads can now clash away from players. These encounters have a real impact on which forces remain in the match."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des transitions plus naturelles",
+                "en": "Smoother returns to the action"
+              },
+              "body": {
+                "fr": "Lorsqu’un joueur se rapproche d’une escouade IA éloignée, ses déplacements sont réconciliés avec le monde de jeu pour éviter les retours incohérents et les adversaires figés.",
+                "en": "When a player approaches a distant AI squad, its movement is brought back into the game world to prevent inconsistent positions and frozen opponents."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LE GAZ PREND TOUTE SA PLACE",
+            "en": "THE GAS TAKES OVER THE MAP"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Une carte tactique plus lisible",
+                "en": "A clearer tactical map"
+              },
+              "body": {
+                "fr": "La zone dangereuse apparaît désormais sous la forme d’une surface rouge continue sur la carte et la minimap. Les routes et les repères restent visibles pour mieux anticiper chaque déplacement.",
+                "en": "The dangerous area now appears as a continuous red overlay on both the tactical map and minimap. Roads and markers remain visible to help you plan every move."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des cercles mieux identifiés",
+                "en": "Safer circle planning"
+              },
+              "body": {
+                "fr": "La limite du gaz et le prochain cercle sont mieux différenciés, y compris pendant le rétrécissement de la zone. Le danger reste facile à suivre jusqu’aux dernières phases.",
+                "en": "The gas boundary and the next safe circle are easier to distinguish, including while the zone is closing. The danger remains easy to track through the final phases."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Les largages ne restent plus dans le gaz",
+                "en": "Supply drops no longer linger in the gas"
+              },
+              "body": {
+                "fr": "Les conteneurs de largage situés hors de la zone sûre sont retirés à mesure que le gaz progresse. La carte reste cohérente avec la zone encore jouable.",
+                "en": "Supply crates left outside the safe area are removed as the gas advances, keeping the battlefield aligned with the remaining playable zone."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Une conclusion de partie plus propre",
+                "en": "Cleaner end-of-match sequences"
+              },
+              "body": {
+                "fr": "L’affichage du gaz s’efface correctement pendant la séquence de fin de partie, sans masquer les moments décisifs de l’extraction.",
+                "en": "The gas display now clears properly during the end-of-match sequence, keeping the extraction finale unobstructed."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "REPLI GAGNE EN PRÉCISION",
+            "en": "REPLI GETS A MAJOR REFINEMENT"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des dégâts visibles au premier regard",
+                "en": "Damage you can read at a glance"
+              },
+              "body": {
+                "fr": "La barricade Repli adopte plusieurs états visuels : intacte, endommagée, percée puis effondrée. Chaque étape montre plus clairement si la couverture protège encore votre position.",
+                "en": "The Repli barricade now has distinct visual states: intact, damaged, breached and collapsed. Each stage makes it clearer whether the cover still protects your position."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des impacts mieux pris en compte",
+                "en": "More reliable impact detection"
+              },
+              "body": {
+                "fr": "Les tirs des joueurs et des adversaires IA sont mieux reconnus sur les parties solides de la barricade. Les brèches et les ouvertures restent de véritables points faibles.",
+                "en": "Gunfire from players and AI opponents is registered more reliably on solid sections of the barricade. Openings and breaches remain genuine weak points."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Un placement plus précis",
+                "en": "More precise placement"
+              },
+              "body": {
+                "fr": "Le contour de placement a été retravaillé pour mieux représenter l’emprise de la couverture au sol et faciliter son orientation avant la pose.",
+                "en": "The placement outline has been refined to better show the cover’s footprint and make positioning easier before deployment."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Une destruction plus cohérente",
+                "en": "Consistent destruction for everyone"
+              },
+              "body": {
+                "fr": "Les étapes de dégradation de Repli se synchronisent plus proprement entre les participants, même lorsqu’une barricade apparaît à proximité en cours d’affrontement.",
+                "en": "Repli’s damage stages now stay more consistent between participants, including when a barricade comes into view during a fight."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "PLUS DE MOBILITÉ AUTOUR DE CAYO",
+            "en": "MORE WAYS AROUND CAYO"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des embarcations dans davantage de secteurs",
+                "en": "Boats across more parts of the island"
+              },
+              "body": {
+                "fr": "La répartition des embarcations s’étend à de nouveaux points de la côte, des docks et des environs de l’aérodrome, du village et du phare.",
+                "en": "Boat distribution now covers more coastal locations, docks and areas around the airfield, village and lighthouse."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une couverture plus équilibrée",
+                "en": "Better coastal coverage"
+              },
+              "body": {
+                "fr": "Les apparitions sont mieux réparties par secteur afin de limiter les regroupements au même endroit et de multiplier les possibilités de déplacement sur l’eau.",
+                "en": "Spawns are distributed more evenly between sectors to reduce clustering and offer more options for travelling by water."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des points d’apparition ajustés",
+                "en": "Updated vehicle spawn points"
+              },
+              "body": {
+                "fr": "Plusieurs emplacements ont été revus pour offrir un accès plus régulier aux embarcations, sans surcharger les mêmes zones de la carte.",
+                "en": "Several spawn points have been adjusted to provide more consistent access to boats without overcrowding the same areas of the map."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LES DERNIERS DÉTAILS COMPTENT",
+            "en": "THE DETAILS MAKE A DIFFERENCE"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Un butin plus facile à distinguer",
+                "en": "Loot that stands out more clearly"
+              },
+              "body": {
+                "fr": "Le contour lumineux des objets au sol a été affiné pour éviter un halo trop large et rendre les objets plus nets pendant les récupérations rapides.",
+                "en": "The outline around ground loot has been refined to avoid excessive glow and make items easier to identify during quick pickups."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des déplacements aquatiques ajustés",
+                "en": "Adjusted swimming movement"
+              },
+              "body": {
+                "fr": "La vitesse de nage a été ajustée pour rendre les traversées aquatiques plus fluides, en complément des nouvelles possibilités de déplacement autour de l’île.",
+                "en": "Swimming speed has been adjusted for smoother water crossings, complementing the expanded options for moving around the island."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "IA",
+            "en": "AI"
+          },
+          "title": {
+            "fr": "LE COMBAT CONTINUE",
+            "en": "THE FIGHT GOES ON"
+          },
+          "body": {
+            "fr": "Les escouades IA évoluent et s’affrontent même loin des joueurs.",
+            "en": "AI squads keep moving and fighting even when players are far away."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "ZONE",
+            "en": "ZONE"
+          },
+          "title": {
+            "fr": "LE GAZ SUR LA CARTE",
+            "en": "GAS ON THE MAP"
+          },
+          "body": {
+            "fr": "Une surface rouge continue révèle les zones dangereuses sur la carte tactique.",
+            "en": "A continuous red overlay reveals dangerous areas on the tactical map."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "REPLI",
+            "en": "REPLI"
+          },
+          "title": {
+            "fr": "UNE COUVERTURE PLUS LISIBLE",
+            "en": "COVER YOU CAN READ"
+          },
+          "body": {
+            "fr": "Les étapes de dégâts de la barricade et la précision des impacts ont été améliorées.",
+            "en": "Barricade damage stages and impact detection have been refined."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "CAYO",
+            "en": "CAYO"
+          },
+          "title": {
+            "fr": "PLUS D’EMBARCATIONS",
+            "en": "MORE BOAT LOCATIONS"
+          },
+          "body": {
+            "fr": "Les embarcations sont mieux réparties autour de l’île.",
+            "en": "Boats are distributed more evenly around the island."
+          },
+          "tone": "success"
+        }
+      ]
+    },
+    {
       "num": "1.16.0",
       "tag": {
         "fr": "TACTIQUE & COMBAT",
@@ -3044,336 +3341,6 @@
       "tag": {
         "fr": "NOUVEAUTÉS ET CORRECTIFS",
         "en": "NEW CONTENT & FIXES"
-      }
-    },
-    {
-      "num": "1.7.0",
-      "title": {
-        "fr": "L’ENTRAÎNEMENT CHANGE DE DIMENSION",
-        "en": "TRAINING REACHES A NEW LEVEL"
-      },
-      "date": "2026-10-18",
-      "sections": [
-        {
-          "title": {
-            "fr": "LES ARÈNES ENTRENT EN SCÈNE",
-            "en": "ARENAS ENTER THE FIGHT"
-          },
-          "tone": "hot",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "DU FACE-À-FACE AU 4 CONTRE 4",
-                "en": "FROM DUELS TO 4V4"
-              },
-              "body": {
-                "fr": "Les arènes de WARBREACH accueillent des affrontements en 1v1, 2v2, 3v3 et 4v4. Réglez vos rivalités en duel ou mettez toute une équipe à l’épreuve.",
-                "en": "WARBREACH arenas feature 1v1, 2v2, 3v3 and 4v4 battles. Settle a rivalry in a duel or put an entire squad to the test."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "DEUX FAÇONS DE L’EMPORTER",
-                "en": "TWO WAYS TO WIN"
-              },
-              "body": {
-                "fr": "Élimination ou match à mort : deux styles de confrontation offrent leurs propres objectifs et rythmes de combat.",
-                "en": "Elimination and deathmatch offer two combat styles, each with its own objectives and pace."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "CINQ TERRAINS À DÉCOUVRIR",
-                "en": "FIVE BATTLEGROUNDS TO DISCOVER"
-              },
-              "body": {
-                "fr": "Atoll, Bazaar, Cloister, Topside et CTB composent une sélection de cinq arènes, avec des environnements variés pour les affrontements.",
-                "en": "Atoll, Bazaar, Cloister, Topside and CTB form a selection of five arenas with varied environments for battle."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "VOTRE SALON, VOS RÈGLES",
-                "en": "YOUR LOBBY, YOUR RULES"
-              },
-              "body": {
-                "fr": "Les salons publics et privés réunissent les joueurs, permettent d’inviter des amis et de choisir le format, la carte et l’équipement avant le départ.",
-                "en": "Public and private lobbies bring players together, with friend invites and options for format, map and equipment before the fight."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "CHAQUE MANCHE COMPTE",
-                "en": "EVERY ROUND COUNTS"
-              },
-              "body": {
-                "fr": "Scores, résultats et historique des matchs donnent toute leur place aux duels et aux victoires d’équipe, en dehors de la Résurgence.",
-                "en": "Scores, results and match history give duels and team victories their own place outside Resurgence."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "VOTRE NOUVEAU TERRAIN D’ENTRAÎNEMENT",
-            "en": "YOUR NEW TRAINING GROUND"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UNE SALLE DÉDIÉE À LA PRÉCISION",
-                "en": "A SPACE BUILT FOR PRECISION"
-              },
-              "body": {
-                "fr": "Un centre d’entraînement dédié est accessible au QG pour travailler sa visée sans la pression d’un véritable affrontement.",
-                "en": "A dedicated training centre at HQ lets players sharpen their aim without the pressure of a live fight."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "RÉFLEXES, SUIVI ET RÉACTION",
-                "en": "FLICKS, TRACKING AND REACTIONS"
-              },
-              "body": {
-                "fr": "Trois exercices permettent de toucher rapidement de nouvelles cibles, de suivre une cible mobile et de réagir au bon moment.",
-                "en": "Three drills let players snap to new targets, track moving targets and react at the right moment."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "PROGRESSEZ À VOTRE RYTHME",
-                "en": "TRAIN AT YOUR OWN PACE"
-              },
-              "body": {
-                "fr": "Trois niveaux de difficulté et des séances de 30, 60 ou 90 secondes permettent d’adapter chaque entraînement à vos objectifs.",
-                "en": "Three difficulty levels and 30, 60 or 90-second sessions let you tailor training to your goals."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "BATTEZ VOS PROPRES RECORDS",
-                "en": "BEAT YOUR PERSONAL BEST"
-              },
-              "body": {
-                "fr": "Précision, rapidité et meilleurs scores apparaissent dans le bilan des exercices pour suivre les progrès d’une séance à l’autre.",
-                "en": "Accuracy, speed and personal-best scores appear in training results so you can track your improvement."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "PRENEZ DE LA HAUTEUR",
-            "en": "TAKE TO THE SKIES"
-          },
-          "tone": "cyan",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "LE PARACHUTE A AUSSI SON STYLE",
-                "en": "PARACHUTES GET PERSONAL"
-              },
-              "body": {
-                "fr": "La personnalisation des classes s’étend au parachute, avec quinze apparences au total, de la toile classique aux couleurs les plus marquantes.",
-                "en": "Loadout customization expands to parachutes, with fifteen looks in total, from the classic canopy to bolder colours."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "DES COULEURS À DÉBLOQUER",
-                "en": "COLOURS WORTH UNLOCKING"
-              },
-              "body": {
-                "fr": "De nouvelles teintes deviennent accessibles au fil des niveaux. Chaque classe peut conserver son apparence préférée.",
-                "en": "New canopy colours become available as you level up. Each loadout can keep its own preferred look."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "ADMIREZ VOTRE PARACHUTE AVANT LE SAUT",
-                "en": "PREVIEW YOUR PARACHUTE BEFORE THE DROP"
-              },
-              "body": {
-                "fr": "Un aperçu en trois dimensions permet de regarder la voile de plus près, de la faire tourner et de comparer les couleurs avant de choisir.",
-                "en": "A three-dimensional preview lets you take a closer look at the canopy, rotate it and compare colours before making your choice."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "PLUS DE POSSIBILITÉS SUR LE TERRAIN",
-            "en": "MORE OPTIONS ON THE BATTLEFIELD"
-          },
-          "tone": "hot",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UN LASER POUR GARDER LE CAP",
-                "en": "STAY ON TARGET WITH A LASER"
-              },
-              "body": {
-                "fr": "Le laser tactique rejoint les accessoires des armes principales et secondaires. Activez-le ou coupez-le avec L selon la situation ; son faisceau pourra aussi être aperçu par les combattants proches.",
-                "en": "The tactical laser joins primary and secondary weapon attachments. Turn it on or off with L to suit the situation; nearby fighters can spot its beam too."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "DESCENTE EN RAPPEL",
-                "en": "RAPPEL INTO ACTION"
-              },
-              "body": {
-                "fr": "Depuis certaines places arrière d’un hélicoptère compatible, une descente en rappel devient possible lorsque l’appareil vole suffisamment bas et lentement. Une autre façon de rejoindre le terrain.",
-                "en": "Passengers in compatible rear helicopter seats can rappel down when the aircraft is flying low and slowly enough. Another way to reach the ground."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UN PARACHUTE POUR QUITTER L’APPAREIL",
-                "en": "A PARACHUTE FOR THE JUMP"
-              },
-              "body": {
-                "fr": "Le saut classique reste disponible depuis les hélicoptères, avec un parachute prévu pour les occupants. La teinte choisie dans la classe accompagne également cette sortie.",
-                "en": "The usual helicopter exit remains available, with a parachute provided to occupants. Your loadout’s chosen canopy colour carries over to the jump."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES MARQUEURS PLUS SIMPLES À PARTAGER",
-                "en": "SIMPLER SQUAD PINGS"
-              },
-              "body": {
-                "fr": "Un seul repère actif par joueur : une position ou un danger est désormais partagé automatiquement avec l’escouade. En solo, le marqueur reste personnel.",
-                "en": "Each player now has one active marker: positions and danger pings are automatically shared with the squad. In solo play, only you see your marker."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "UN QG TOURNÉ VERS L’ACTION",
-            "en": "AN HQ BUILT FOR ACTION"
-          },
-          "tone": "success",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DE NOUVEAUX ESPACES AU HANGAR",
-                "en": "NEW SPACES IN THE HANGAR"
-              },
-              "body": {
-                "fr": "Les accès aux arènes et à l’entraînement prennent place autour du grand cercle du QG. Les anciens postes de tir laissent progressivement place à des activités mieux séparées.",
-                "en": "Arena and training entrances are being added around HQ’s central ring. The old shooting lanes are gradually making way for more dedicated activities."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UNE IDENTITÉ VISUELLE PLUS UNIFORME",
-                "en": "A MORE CONSISTENT LOOK"
-              },
-              "body": {
-                "fr": "Plusieurs interfaces adoptent une présentation WARBREACH plus cohérente, notamment les réglages du viseur et la présentation des armes.",
-                "en": "Several interfaces now share a more consistent WARBREACH look, including crosshair settings and weapon presentation."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES APERÇUS PLUS AGRÉABLES",
-                "en": "SMOOTHER PREVIEWS"
-              },
-              "body": {
-                "fr": "La présentation des équipements reçoit de nouveaux ajustements, pour mieux mettre en valeur les armes et les parachutes dans les menus.",
-                "en": "Equipment previews have been refined to better showcase weapons and parachutes throughout the menus."
-              }
-            }
-          ]
-        }
-      ],
-      "highlights": [
-        {
-          "label": {
-            "fr": "ARÈNES",
-            "en": "ARENAS"
-          },
-          "title": {
-            "fr": "LES ARÈNES WARBREACH",
-            "en": "WARBREACH ARENAS"
-          },
-          "body": {
-            "fr": "Du 1v1 au 4v4, cinq terrains et deux modes de confrontation pour mettre vos compétences à l’épreuve.",
-            "en": "From 1v1 to 4v4, five maps and two competitive modes to put your skills to the test."
-          },
-          "tone": "hot"
-        },
-        {
-          "label": {
-            "fr": "ENTRAÎNEMENT",
-            "en": "TRAINING"
-          },
-          "title": {
-            "fr": "PLACE À LA PRÉCISION",
-            "en": "FOCUS ON PRECISION"
-          },
-          "body": {
-            "fr": "Trois exercices pour améliorer ses réflexes, suivre les cibles et viser plus juste.",
-            "en": "Three drills to improve your reflexes, track targets and sharpen your aim."
-          },
-          "tone": "accent"
-        },
-        {
-          "label": {
-            "fr": "PERSONNALISATION",
-            "en": "CUSTOMIZATION"
-          },
-          "title": {
-            "fr": "QUINZE STYLES DE PARACHUTE",
-            "en": "FIFTEEN PARACHUTE LOOKS"
-          },
-          "body": {
-            "fr": "Choisissez une apparence pour chaque classe et débloquez de nouvelles couleurs avec vos niveaux.",
-            "en": "Choose a look for each loadout and unlock fresh colours as you level up."
-          },
-          "tone": "cyan"
-        },
-        {
-          "label": {
-            "fr": "COMBAT",
-            "en": "COMBAT"
-          },
-          "title": {
-            "fr": "LASER ET DESCENTE EN RAPPEL",
-            "en": "LASERS & HELICOPTER RAPPELS"
-          },
-          "body": {
-            "fr": "Un laser tactique pour vos armes et de nouvelles possibilités de descente en hélicoptère.",
-            "en": "Equip a tactical weapon laser and discover new ways to descend from a helicopter."
-          },
-          "tone": "hot"
-        }
-      ],
-      "tag": {
-        "fr": "NOUVEAUTÉS",
-        "en": "NEW CONTENT"
       }
     }
   ]

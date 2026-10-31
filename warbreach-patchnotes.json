@@ -6,6 +6,345 @@
   },
   "versions": [
     {
+      "num": "1.18.0",
+      "tag": {
+        "fr": "MOBILITÉ & PROGRESSION",
+        "en": "MOBILITY & PROGRESSION"
+      },
+      "title": {
+        "fr": "PRENEZ DE LA HAUTEUR",
+        "en": "TAKE THE HIGH GROUND"
+      },
+      "date": "2026-10-31",
+      "sections": [
+        {
+          "title": {
+            "fr": "LE GRAPPIN ENTRE EN ACTION",
+            "en": "THE GRAPPLE JOINS THE FIGHT"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Le grappin tactique débarque",
+                "en": "Introducing the tactical grapple"
+              },
+              "body": {
+                "fr": "Un nouvel équipement permet de s’accrocher aux surfaces et de rejoindre rapidement une position élevée. Le grappin se ramasse comme du butin ou s’obtient aux stations d’achat.",
+                "en": "A new tactical item lets you hook onto surfaces and quickly reach higher ground. Find it as loot or get it from a Buy Station."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Jusqu’à 55 mètres de portée",
+                "en": "Reach up to 55 metres"
+              },
+              "body": {
+                "fr": "Visez un point d’accroche, lancez le crochet et laissez le câble vous tracter vers votre destination. De nouvelles possibilités s’ouvrent pour franchir les obstacles et reprendre l’avantage.",
+                "en": "Aim at a valid anchor point, fire the hook and let the cable pull you towards it. New routes open up for clearing obstacles and gaining the upper hand."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Trois charges pour choisir son moment",
+                "en": "Three charges to make your move"
+              },
+              "body": {
+                "fr": "Le grappin peut transporter jusqu’à trois charges. Une utilisation réussie en consomme une, avec un court délai entre deux activations ; les tentatives refusées ne gaspillent pas de charge.",
+                "en": "Carry up to three grapple charges. Each successful use consumes one, with a brief cooldown between uses; failed attempts do not waste a charge."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Une commande simple et réactive",
+                "en": "Simple, responsive controls"
+              },
+              "body": {
+                "fr": "Maintenez G pour viser, puis relâchez pour lancer le grappin. Le saut permet de se détacher pendant la traction, tandis que l’équipement se range automatiquement à la fin du mouvement.",
+                "en": "Hold G to aim, then release to fire. Jump to detach while being pulled, and the grapple automatically stows once the movement is over."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DES DÉPLACEMENTS PLUS SPECTACULAIRES",
+            "en": "MOVEMENT WITH MORE IMPACT"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Un câble et des animations dédiés",
+                "en": "A real cable and dedicated animations"
+              },
+              "body": {
+                "fr": "Le lanceur apparaît dans la main gauche pendant que l’arme reste dans la main droite. Crochet, câble visible et animations propres au grappin accompagnent chaque déplacement, à la première comme à la troisième personne.",
+                "en": "The launcher appears in your left hand while your weapon stays in your right. A visible hook, cable and custom grapple animations accompany each move in both first and third person."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Des trajectoires que les autres peuvent voir",
+                "en": "Movements visible to other players"
+              },
+              "body": {
+                "fr": "Les joueurs à proximité voient le lanceur, le câble et la posture du combattant pendant sa traction. Les traversées deviennent plus lisibles, aussi bien pour les alliés que pour les adversaires.",
+                "en": "Nearby players can see the launcher, cable and character pose during a pull. Grapple movements are easier to follow for teammates and opponents alike."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Un atterrissage maîtrisé",
+                "en": "Land on your feet"
+              },
+              "body": {
+                "fr": "À l’arrivée, après un détachement ou si le trajet est interrompu, le personnage retrouve une position debout sans roulade ni dégâts de chute liés à la fin du grappin.",
+                "en": "When reaching the destination, detaching or stopping mid-route, your character lands on their feet without a roll or fall damage caused by the grapple finish."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des déplacements fluides, sans téléportation",
+                "en": "Smooth travel without teleporting"
+              },
+              "body": {
+                "fr": "La traction suit un mouvement continu avec accélération, freinage et prise en compte des obstacles. Les rebords peuvent être franchis lorsque le passage est dégagé.",
+                "en": "Pulling uses continuous movement with acceleration, braking and obstacle checks. Ledges can be cleared when the route is open."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UN NOUVEAU CHOIX AUX STATIONS D’ACHAT",
+            "en": "A NEW BUY STATION OPTION"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Recharger ses charges de grappin",
+                "en": "Restock grapple charges"
+              },
+              "body": {
+                "fr": "Le grappin rejoint le catalogue des stations d’achat, avec un réapprovisionnement gratuit dans la configuration actuelle. Un sac déjà rempli au maximum ne peut pas recevoir de charges supplémentaires.",
+                "en": "The grapple joins the Buy Station catalogue, with free refills under the current settings. A fully stocked pack cannot receive additional charges."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Un équipement intégré au butin",
+                "en": "Fully integrated into match loot"
+              },
+              "body": {
+                "fr": "Les charges trouvées ou achetées sont suivies dans le sac et affichées dans l’interface. Elles peuvent également tomber au sol à la mort, comme le reste de l’équipement de partie.",
+                "en": "Found and purchased charges are tracked in your pack and shown on the HUD. They can also drop on death, just like the rest of your match equipment."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DES DÉBUTS DE PARTIE PLUS ÉQUILIBRÉS",
+            "en": "A FAIRER START TO EVERY MATCH"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "90 secondes pour se préparer",
+                "en": "90 seconds to gear up"
+              },
+              "body": {
+                "fr": "Les escouades IA attendent désormais que les joueurs aient atterri, puis leur laissent 90 secondes pour trouver leurs premières armes et se préparer avant l’arrivée de la première vague.",
+                "en": "AI squads now wait until players have landed, then give them 90 seconds to find their first weapons and prepare before the opening wave arrives."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Une arrivée des bots mieux synchronisée",
+                "en": "Better-timed AI arrivals"
+              },
+              "body": {
+                "fr": "La première vague ne démarre plus dès le lancement du match ou la sortie de l’avion. Les adversaires IA arrivent à un moment plus cohérent avec le début des combats sur l’île.",
+                "en": "The opening AI wave no longer begins as soon as the match starts or players leave the plane. AI opponents now enter at a more natural point in the island’s opening fights."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des renforts plus cohérents",
+                "en": "More consistent reinforcements"
+              },
+              "body": {
+                "fr": "Les changements dans la composition d’une partie sont mieux pris en compte avant l’arrivée des bots, pour limiter les apparitions trop précoces.",
+                "en": "Changes in match participation are handled more consistently before AI arrival, reducing premature spawns."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LA PROGRESSION RÉCOMPENSE DAVANTAGE",
+            "en": "MORE REWARDS FOR YOUR PERFORMANCE"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Davantage d’XP à chaque élimination",
+                "en": "More XP for every elimination"
+              },
+              "body": {
+                "fr": "Les gains d’expérience pour les éliminations augmentent de 50 %, aussi bien pour le niveau du joueur que pour la progression des armes. Les plafonds de gains par partie ont également été relevés.",
+                "en": "Elimination XP is increased by 50% for both player level and weapon progression. Per-match XP caps have also been raised."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Les meilleures places rapportent plus",
+                "en": "Higher placements earn more"
+              },
+              "body": {
+                "fr": "Les récompenses d’expérience des meilleurs classements augmentent : terminer premier rapporte désormais 1 800 XP de classement au lieu de 1 200, avec des hausses également pour les autres places récompensées.",
+                "en": "Top-placement XP rewards are higher: finishing first now awards 1,800 placement XP instead of 1,200, with increases for other rewarded positions too."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Les actions d’équipe mieux valorisées",
+                "en": "Teamplay matters more"
+              },
+              "body": {
+                "fr": "Éliminations d’escouades, réanimations, ouvertures de caisses et survie aux cercles rapportent davantage d’expérience. Chaque action utile compte davantage dans la progression.",
+                "en": "Squad wipes, revives, opening crates and surviving circles now grant more XP. More of what you do during a match contributes meaningfully to progression."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une progression toujours encadrée",
+                "en": "Progression remains balanced"
+              },
+              "body": {
+                "fr": "Les gains face aux bots restent limités séparément afin de conserver une progression équitable entre les affrontements contre joueurs et les parties avec IA.",
+                "en": "XP earned against bots remains separately limited to keep progression fair between player battles and matches featuring AI."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "ARSENAL ET CONFORT DE JEU",
+            "en": "ARSENAL AND QUALITY OF LIFE"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Les finitions d’armes mieux appliquées",
+                "en": "More reliable weapon finishes"
+              },
+              "body": {
+                "fr": "L’application des camouflages, accessoires et munitions a été fiabilisée lors de la réception ou du remplacement d’une arme.",
+                "en": "Weapon finishes, attachments and ammunition are applied more reliably when receiving or replacing a weapon."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Moins d’incohérences dans l’équipement",
+                "en": "More consistent loadouts"
+              },
+              "body": {
+                "fr": "Plusieurs transitions d’équipement ont été ajustées pour conserver une présentation cohérente des armes et de leurs personnalisations en jeu.",
+                "en": "Several equipment transitions have been refined so weapons and their customizations remain consistent in-game."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "GRAPPIN",
+            "en": "GRAPPLE"
+          },
+          "title": {
+            "fr": "LA VERTICALITÉ CHANGE TOUT",
+            "en": "VERTICALITY CHANGES EVERYTHING"
+          },
+          "body": {
+            "fr": "Attrapez les hauteurs avec un grappin tactique opérationnel, son câble visible et trois charges.",
+            "en": "Take the high ground with a fully operational tactical grapple, visible cable and three charges."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "MOBILITÉ",
+            "en": "MOBILITY"
+          },
+          "title": {
+            "fr": "DES ARRIVÉES CONTRÔLÉES",
+            "en": "LAND WITH CONTROL"
+          },
+          "body": {
+            "fr": "Traction fluide, déplacements visibles et atterrissages debout sans dégâts de chute.",
+            "en": "Smooth pulls, visible movement and safe landings without fall damage."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "BOTS",
+            "en": "AI"
+          },
+          "title": {
+            "fr": "LE TEMPS DE S’ÉQUIPER",
+            "en": "TIME TO GEAR UP"
+          },
+          "body": {
+            "fr": "Après l’atterrissage, 90 secondes de préparation avant la première vague IA.",
+            "en": "After landing, 90 seconds to gear up before the first AI wave."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "XP",
+            "en": "XP"
+          },
+          "title": {
+            "fr": "CHAQUE ACTION RAPPORTE PLUS",
+            "en": "EVERY ACTION PAYS OFF"
+          },
+          "body": {
+            "fr": "Plus d’expérience pour les éliminations, les placements et les actions décisives.",
+            "en": "More XP from eliminations, placements and game-changing actions."
+          },
+          "tone": "success"
+        }
+      ]
+    },
+    {
       "num": "1.17.0",
       "tag": {
         "fr": "COMBAT & TERRAIN",
@@ -2969,378 +3308,6 @@
       "tag": {
         "fr": "NOUVEAUTÉS",
         "en": "NEW CONTENT"
-      }
-    },
-    {
-      "num": "1.8.0",
-      "title": {
-        "fr": "LE COMBAT PREND UNE NOUVELLE DIMENSION",
-        "en": "COMBAT TAKES THE NEXT STEP"
-      },
-      "date": "2026-10-19",
-      "sections": [
-        {
-          "title": {
-            "fr": "DES ARÈNES PLUS FIABLES",
-            "en": "MORE RELIABLE ARENAS"
-          },
-          "tone": "hot",
-          "items": [
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "LE COMBAT RETROUVE UN SEUL AFFICHAGE",
-                "en": "ONE CLEAR COMBAT DISPLAY"
-              },
-              "body": {
-                "fr": "Les informations de vie, de blindage, de munitions et d’escouade ne se superposent plus pendant les affrontements en arène.",
-                "en": "Health, armor, ammunition and squad information no longer overlap during arena fights."
-              }
-            },
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "CHAQUE ÉLIMINATION À SA PLACE",
-                "en": "EVERY ELIMINATION COUNTS"
-              },
-              "body": {
-                "fr": "Les éliminations et le score suivent désormais les mêmes règles. Les chutes, suicides et autres accidents ne sont plus attribués à tort à un adversaire.",
-                "en": "Eliminations and scores now follow the same rules. Falls, self-inflicted deaths and other accidents are no longer wrongly credited to an opponent."
-              }
-            },
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "UNE FIN DE MANCHE SANS CONFUSION",
-                "en": "CLEANER ROUND ENDINGS"
-              },
-              "body": {
-                "fr": "Les combattants éliminés restent correctement considérés hors combat, même lorsqu’une manche s’achève au même instant. Le fil des éliminations suit le résultat réel de la confrontation.",
-                "en": "Eliminated fighters remain out of action even when a round ends at the same moment. The elimination feed stays in sync with the actual result."
-              }
-            },
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "DES RÉAPPARITIONS PLUS PRÉCISES",
-                "en": "BETTER RESPAWNS"
-              },
-              "body": {
-                "fr": "Les combattants reviennent au bon emplacement, sans décalage de hauteur, et retrouvent leur équipement avec des chargeurs remplis.",
-                "en": "Players return to the correct position, without unexpected height offsets, and receive their equipment with full magazines."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "LA PREMIÈRE PERSONNE AU CŒUR DES DUELS",
-                "en": "FIRST-PERSON ARENA COMBAT"
-              },
-              "body": {
-                "fr": "La vue à la première personne accompagne les départs et les réapparitions en arène. La caméra habituelle est rétablie une fois l’affrontement terminé.",
-                "en": "First-person view is used for arena starts and respawns. Your previous camera view returns once the fight is over."
-              }
-            },
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "RETOUR AU QG SANS ÉCRAN PERSISTANT",
-                "en": "A CLEAN RETURN TO HQ"
-              },
-              "body": {
-                "fr": "Les anciens résultats, tableaux et affichages de combat sont mieux effacés au retour au QG, pour retrouver normalement ses menus et sa liberté de mouvement.",
-                "en": "Previous results, scoreboards and combat overlays are cleared more reliably on returning to HQ, restoring menus and normal movement."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "COMBAT ET TACTIQUE",
-            "en": "COMBAT & TACTICS"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UN TIR SANS SILENCIEUX PEUT VOUS TRAHIR",
-                "en": "UNSUPPRESSED SHOTS GIVE YOU AWAY"
-              },
-              "body": {
-                "fr": "Tirer sans silencieux peut révéler brièvement votre position sur la carte des ennemis proches. Un point rouge apparaît pendant quelques secondes : chaque rafale compte.",
-                "en": "Firing an unsuppressed weapon can briefly reveal your position on nearby enemies’ maps. A red dot appears for a few seconds, making every burst count."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DESCENDRE D’UN HÉLICOPTÈRE AUTREMENT",
-                "en": "MORE WAYS TO LEAVE A HELICOPTER"
-              },
-              "body": {
-                "fr": "La descente en rappel évolue pour prendre en charge davantage d’hélicoptères, avec une corde et une animation adaptées lorsque le véhicule le permet.",
-                "en": "Helicopter rappelling is being expanded to more aircraft, with a rope and a dedicated descent animation where supported."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "LASER TACTIQUE MIS EN PAUSE",
-                "en": "TACTICAL LASER ON HOLD"
-              },
-              "body": {
-                "fr": "Le laser tactique est temporairement retiré de la sélection d’accessoires pendant la poursuite des ajustements du combat.",
-                "en": "The tactical laser has been temporarily removed from the attachment selection while combat refinements continue."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "RÉSURGENCE ET BUTIN",
-            "en": "RESURGENCE & LOOT"
-          },
-          "tone": "cyan",
-          "items": [
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "UN BUTIN QUI RESTE BIEN EN PLACE",
-                "en": "LOOT THAT STAYS PUT"
-              },
-              "body": {
-                "fr": "Les objets issus des caisses restent visibles à leur point de chute, sans apparition d’une seconde copie. Leur ramassage fait disparaître le bon objet.",
-                "en": "Items released from crates stay visible where they land, without an extra copy appearing. Picking them up removes the correct item."
-              }
-            },
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "RIEN NE SE PERD APRÈS UNE MORT",
-                "en": "YOUR GEAR STAYS ON THE GROUND"
-              },
-              "body": {
-                "fr": "L’équipement abandonné à la mort est mieux restitué sur le terrain, y compris après une chute, un accident ou les dégâts du gaz.",
-                "en": "Equipment dropped on death is restored more reliably on the battlefield, including after falls, accidents or gas damage."
-              }
-            },
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "DES ZONES FINALES SUR LA TERRE FERME",
-                "en": "FINAL CIRCLES STAY PLAYABLE"
-              },
-              "body": {
-                "fr": "Le gaz se referme désormais sur des secteurs praticables de l’île, plutôt que de laisser les derniers affrontements se jouer au large.",
-                "en": "The gas now closes in on playable parts of the island instead of pushing the final fights out to sea."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES INFORMATIONS DE PARTIE PLUS RÉACTIVES",
-                "en": "MORE RESPONSIVE MATCH UPDATES"
-              },
-              "body": {
-                "fr": "Le suivi des équipements, des munitions et des changements d’état a été amélioré pour que les informations affichées restent cohérentes pendant l’action.",
-                "en": "Equipment, ammunition and player-state updates have been refined to keep on-screen information consistent throughout the action."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "LA COMMUNICATION ÉVOLUE",
-            "en": "COMMUNICATION GETS AN UPGRADE"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UN CHAT INTÉGRÉ À WARBREACH",
-                "en": "A DEDICATED WARBREACH CHAT"
-              },
-              "body": {
-                "fr": "Une nouvelle messagerie permet d’échanger sans quitter le jeu, au quartier général comme au cœur des affrontements.",
-                "en": "A new in-game chat lets players communicate without leaving the action, whether at HQ or in a match."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UN CANAL POUR SON ESCOUADE",
-                "en": "A CHANNEL FOR YOUR SQUAD"
-              },
-              "body": {
-                "fr": "En équipe, les messages peuvent rester entre coéquipiers ou s’adresser aux participants de la partie. Les touches T et Y permettent de choisir rapidement.",
-                "en": "During team matches, messages can stay within the squad or reach other match participants. Use T and Y to choose a channel quickly."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES CONVERSATIONS MIEUX SÉPARÉES",
-                "en": "CONVERSATIONS STAY IN THE RIGHT PLACE"
-              },
-              "body": {
-                "fr": "Les échanges du QG, des parties et des autres activités restent distincts. Les joueurs éliminés ne transmettent pas d’informations aux combattants encore en lice.",
-                "en": "HQ, matches and other activities have separate conversations. Eliminated players cannot pass information to fighters still in the game."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "PRENDRE SES MARQUES",
-            "en": "FIND YOUR FEET"
-          },
-          "tone": "cyan",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UN GUIDE EN 26 LEÇONS",
-                "en": "A NEW 26-LESSON GUIDE"
-              },
-              "body": {
-                "fr": "Le nouveau guide présente les lieux du QG, les classes, les commandes, la Résurgence et la progression. De quoi découvrir WARBREACH étape par étape.",
-                "en": "The new guide covers HQ locations, loadouts, controls, Resurgence and progression, helping players discover WARBREACH step by step."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "APPRENDRE À SON RYTHME",
-                "en": "LEARN AT YOUR OWN PACE"
-              },
-              "body": {
-                "fr": "La lecture peut être interrompue puis reprise plus tard. Les explications restent accessibles depuis le QG pour retrouver rapidement une information oubliée.",
-                "en": "Lessons can be paused and resumed later. The guide remains available from HQ whenever a reminder is needed."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "REVOIR LES LIEUX DU QG",
-                "en": "TAKE ANOTHER TOUR OF HQ"
-              },
-              "body": {
-                "fr": "La visite des installations peut être rejouée sans recommencer toute la découverte du jeu.",
-                "en": "The HQ tour can be replayed without restarting the entire introduction."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "CONFORT ET PERFORMANCES",
-            "en": "COMFORT & PERFORMANCE"
-          },
-          "tone": "success",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UN MENU FPS BOOST",
-                "en": "A NEW FPS BOOST MENU"
-              },
-              "body": {
-                "fr": "De nouveaux réglages permettent d’alléger certains effets visuels, avec plusieurs profils selon les préférences de chacun.",
-                "en": "New settings let players reduce selected visual effects, with several presets to suit different preferences."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "GARDER UN ŒIL SUR SA FLUIDITÉ",
-                "en": "KEEP AN EYE ON PERFORMANCE"
-              },
-              "body": {
-                "fr": "Un compteur d’images par seconde peut être affiché dans le coin de l’écran de son choix, même lorsque le menu est fermé.",
-                "en": "An optional frame-rate counter can be placed in the screen corner of your choice, even when the menu is closed."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES MENUS PLUS AGRÉABLES À UTILISER",
-                "en": "SMOOTHER MENUS"
-              },
-              "body": {
-                "fr": "Les transitions entre certains réglages, aperçus d’armes et écrans du QG ont été retravaillées pour faciliter la navigation.",
-                "en": "Transitions between selected settings, weapon previews and HQ screens have been refined for smoother navigation."
-              }
-            }
-          ]
-        }
-      ],
-      "highlights": [
-        {
-          "label": {
-            "fr": "ARÈNES",
-            "en": "ARENAS"
-          },
-          "title": {
-            "fr": "DES DUELS PLUS JUSTES",
-            "en": "FAIRER ARENA FIGHTS"
-          },
-          "body": {
-            "fr": "Eliminations, réapparitions et affichages ont été retravaillés pour des affrontements plus lisibles.",
-            "en": "Eliminations, respawns and match displays have been refined for clearer fights."
-          },
-          "tone": "hot"
-        },
-        {
-          "label": {
-            "fr": "COMMUNICATION",
-            "en": "COMMUNICATION"
-          },
-          "title": {
-            "fr": "UN CHAT POUR CHAQUE SITUATION",
-            "en": "A CHAT FOR EVERY SITUATION"
-          },
-          "body": {
-            "fr": "Discutez au QG, coordonnez une escouade ou échangez pendant une partie dans des canaux adaptés.",
-            "en": "Chat at HQ, coordinate your squad or talk during a match through dedicated channels."
-          },
-          "tone": "cyan"
-        },
-        {
-          "label": {
-            "fr": "PREMIERS PAS",
-            "en": "GETTING STARTED"
-          },
-          "title": {
-            "fr": "26 LEÇONS POUR PRENDRE SES MARQUES",
-            "en": "26 LESSONS TO GET STARTED"
-          },
-          "body": {
-            "fr": "Un nouveau guide accompagne les premiers pas et permet de retrouver les commandes et les règles du jeu.",
-            "en": "A new guide walks players through the basics, controls and rules of the game."
-          },
-          "tone": "accent"
-        },
-        {
-          "label": {
-            "fr": "CONFORT",
-            "en": "QUALITY OF LIFE"
-          },
-          "title": {
-            "fr": "DES RÉGLAGES POUR PLUS DE FLUIDITÉ",
-            "en": "MORE OPTIONS FOR SMOOTHER PLAY"
-          },
-          "body": {
-            "fr": "Des profils de performances et un compteur d’images par seconde rejoignent les paramètres.",
-            "en": "Performance presets and an on-screen frame-rate counter join the settings."
-          },
-          "tone": "success"
-        }
-      ],
-      "tag": {
-        "fr": "NOUVEAUTÉS ET CORRECTIFS",
-        "en": "NEW CONTENT & FIXES"
       }
     }
   ]

@@ -6,6 +6,464 @@
   },
   "versions": [
     {
+      "num": "1.19.0",
+      "tag": {
+        "fr": "MOUVEMENT & COMBAT",
+        "en": "MOVEMENT & COMBAT"
+      },
+      "title": {
+        "fr": "LA BATAILLE PREND UNE AUTRE DIMENSION",
+        "en": "A NEW DIMENSION OF COMBAT"
+      },
+      "date": "2026-11-01",
+      "sections": [
+        {
+          "title": {
+            "fr": "DAVANTAGE DE LIBERTÉ DANS LES DÉPLACEMENTS",
+            "en": "MORE FREEDOM OF MOVEMENT"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Accroupissez-vous pour mieux contrôler vos engagements",
+                "en": "Crouch to take control of the fight"
+              },
+              "body": {
+                "fr": "La position accroupie fait son arrivée. Appuyez sur C pour vous accroupir ou vous relever, tout en conservant la possibilité de vous déplacer, de viser et de tirer. La touche peut être réattribuée dans les paramètres.",
+                "en": "Crouching is now available. Press C to crouch or stand up while keeping the ability to move, aim and fire. The key can be rebound in the settings."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Le combat au sol devient plus naturel",
+                "en": "Prone combat feels more natural"
+              },
+              "body": {
+                "fr": "Après un plongeon ou en position allongée, visez et tirez avec votre arme équipée. Les mouvements et les animations ont été retravaillés pour conserver une posture cohérente pendant les tirs.",
+                "en": "After diving or going prone, aim and fire with your equipped weapon. Movement and animations have been refined to keep your stance consistent during gunfire."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Un rampement plus maîtrisé",
+                "en": "More controlled crawling"
+              },
+              "body": {
+                "fr": "Le personnage reste immobile lorsque vous ne demandez aucun déplacement. Les reprises de mouvement, les changements de direction et le retour à la position allongée sont plus fluides.",
+                "en": "Your character now stays still without movement input. Starting to crawl again, changing direction and returning to a prone position all feel smoother."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Choisissez votre vue",
+                "en": "Play from your preferred camera view"
+              },
+              "body": {
+                "fr": "La première personne n’est plus imposée en partie ni dans les arènes. Chacun peut conserver la perspective de son choix.",
+                "en": "First-person view is no longer forced in matches or arenas. Players can keep their preferred camera perspective."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LE MODE SPECTATEUR CHANGE DE VISAGE",
+            "en": "SPECTATING GETS A MAJOR UPGRADE"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Suivez les combats après l’élimination",
+                "en": "Keep watching after your squad is eliminated"
+              },
+              "body": {
+                "fr": "Lorsqu’une escouade est définitivement éliminée mais que la partie continue, ses membres peuvent désormais observer les joueurs encore en vie. La caméra privilégie d’abord l’escouade responsable de leur élimination.",
+                "en": "When a squad is permanently eliminated but the match continues, its members can now watch players still in the fight. The camera starts with the squad responsible for eliminating them."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Passez d’un joueur à l’autre",
+                "en": "Switch between surviving players"
+              },
+              "body": {
+                "fr": "Les flèches gauche et droite permettent de changer de combattant observé. Si celui-ci est éliminé, l’observation passe à un autre joueur disponible.",
+                "en": "Use the left and right arrow keys to switch between players. If the player you are watching is eliminated, spectating moves to another available combatant."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Retrouvez l’équipement du joueur observé",
+                "en": "See the watched player’s loadout"
+              },
+              "body": {
+                "fr": "Un nouvel affichage présente sa carte de joueur avec son emblème, sa bannière et son niveau, ainsi que sa santé, ses plaques, son arme, ses munitions et ses équipements tactiques.",
+                "en": "A new display shows the watched player’s card with their emblem, banner and level, alongside their health, armor, weapon, ammunition and tactical equipment."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Restez jusqu’au dénouement",
+                "en": "Stay until the final moments"
+              },
+              "body": {
+                "fr": "Il est possible d’assister à la fin de la partie et à l’extraction de l’escouade victorieuse, ou de retourner au QG à tout moment avec Entrée.",
+                "en": "You can stay for the end of the match and the winning squad’s extraction, or return to HQ at any time by pressing Enter."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UNE ESCOUADE TOUJOURS MIEUX COORDONNÉE",
+            "en": "BETTER SQUAD COORDINATION"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Vos marqueurs de carte sont partagés",
+                "en": "Share your map waypoints"
+              },
+              "body": {
+                "fr": "Un point de passage placé sur la carte tactique apparaît automatiquement pour vos coéquipiers, dans votre couleur d’escouade. Déplacez-le ou retirez-le : leur affichage suit votre choix.",
+                "en": "A waypoint placed on the tactical map now automatically appears for teammates in your squad color. Move or remove it and their display updates accordingly."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Signalez une position dès le déploiement",
+                "en": "Mark locations during deployment"
+              },
+              "body": {
+                "fr": "Les signalements fonctionnent désormais dès le vol en avion. Leur portée atteint 2 000 mètres pour préparer les zones d’atterrissage et coordonner les déplacements avant même le saut.",
+                "en": "Pings are now available while still aboard the aircraft. Their range reaches 2,000 meters, helping squads coordinate landing zones and rotations before the jump."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Un repère tactique et un marqueur de carte à la fois",
+                "en": "Keep both a tactical ping and a map waypoint"
+              },
+              "body": {
+                "fr": "Chaque joueur peut conserver un signalement visé et un marqueur de carte distincts. Les nouveaux repères n’effacent plus systématiquement l’autre type de signalement.",
+                "en": "Each player can keep an aimed ping and a separate map waypoint. Placing one no longer automatically replaces the other type."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des repères plus faciles à interpréter",
+                "en": "Clearer markers for the whole squad"
+              },
+              "body": {
+                "fr": "Les marqueurs de danger, de position et de passage sont mieux différenciés. Les positions lointaines sont également plus fiables, notamment au-dessus de l’île depuis l’avion.",
+                "en": "Danger, location and waypoint markers are easier to distinguish. Long-range placement is also more reliable, including when looking down at the island from the aircraft."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DES ARÈNES PLUS RYTHMÉES ET PLUS JUSTES",
+            "en": "FASTER, FAIRER ARENA BATTLES"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des réapparitions moins prévisibles",
+                "en": "Less predictable respawns"
+              },
+              "body": {
+                "fr": "En Match à mort, les points de réapparition sont désormais choisis en tenant compte de la position des adversaires, des coéquipiers et des emplacements utilisés récemment. L’objectif : limiter les éliminations dès le retour au combat.",
+                "en": "In Deathmatch, respawn locations now account for enemy positions, nearby teammates and recently used points. The goal is to reduce eliminations immediately after respawning."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Davantage d’emplacements pour revenir en jeu",
+                "en": "More places to get back into the action"
+              },
+              "body": {
+                "fr": "Les arènes disposent de nouveaux emplacements de réapparition adaptés à leurs zones de combat, pour mieux répartir les joueurs au fil de la manche.",
+                "en": "Arena maps have new respawn locations tailored to their combat areas, spreading players more evenly throughout each round."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Repérez vos alliés d’un coup d’œil",
+                "en": "Spot your teammates at a glance"
+              },
+              "body": {
+                "fr": "Le nom des coéquipiers apparaît au-dessus de leur personnage, dans la couleur de leur escouade. Leurs identifications suivent leurs réapparitions.",
+                "en": "Teammate names now appear above their characters in their squad color, with indicators returning when they respawn."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "La santé revient plus vite entre deux duels",
+                "en": "Faster health recovery between fights"
+              },
+              "body": {
+                "fr": "En arène, la régénération commence après 4 secondes sans nouvelle blessure, à raison de 50 points de vie par seconde. Le rythme habituel de Résurgence reste inchangé.",
+                "en": "In arenas, health regeneration begins after 4 seconds without taking damage, restoring 50 health points per second. The usual Resurgence regeneration remains unchanged."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Les alliés restent protégés au corps à corps",
+                "en": "Allies stay protected in melee"
+              },
+              "body": {
+                "fr": "Les coups de crosse, les coups de poing et les attaques rapprochées ne viennent plus frapper accidentellement un coéquipier, en arène comme en Résurgence.",
+                "en": "Weapon-butt strikes, punches and close-range attacks no longer accidentally hit teammates in arenas or Resurgence."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UN ENTRAÎNEMENT PLUS PERSONNEL",
+            "en": "TRAIN YOUR WAY"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Entraînez-vous avec vos propres classes",
+                "en": "Practice with your own loadouts"
+              },
+              "body": {
+                "fr": "Le centre d’entraînement permet désormais de choisir une classe enregistrée et son arme principale ou secondaire. Les accessoires et la finition de l’arme sont conservés pour retrouver vos sensations de jeu.",
+                "en": "The training center now lets you choose a saved loadout and its primary or secondary weapon. Attachments and weapon finishes are kept so practice feels familiar."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Munitions illimitées, sans rechargement",
+                "en": "Unlimited ammo with no reloading"
+              },
+              "body": {
+                "fr": "Les exercices se déroulent désormais sans interruption liée aux munitions. Concentrez-vous sur la précision, le suivi des cibles et vos réflexes.",
+                "en": "Training drills now run without ammunition interruptions. Focus on accuracy, tracking targets and improving your reactions."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des records réservés aux exercices classiques",
+                "en": "Fair records for standard drills"
+              },
+              "body": {
+                "fr": "Les essais avec une arme de classe affichent votre score mais ne modifient pas vos records personnels. Les exercices classiques conservent leur classement habituel.",
+                "en": "Loadout practice displays your score without changing personal bests. Standard drills keep their usual record tracking."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une montée en niveau plus accessible",
+                "en": "A more accessible level progression"
+              },
+              "body": {
+                "fr": "La quantité d’expérience nécessaire pour atteindre les niveaux élevés a été réduite. La progression devient plus régulière, sans retirer les niveaux déjà obtenus.",
+                "en": "The experience required to reach higher levels has been reduced. Leveling is more consistent, without taking away levels you have already earned."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UN GRAPPIN ENCORE PLUS POLYVALENT",
+            "en": "A MORE VERSATILE GRAPPLE"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Accrochez-vous à davantage de surfaces",
+                "en": "Grapple onto more surfaces"
+              },
+              "body": {
+                "fr": "Le grappin peut désormais s’accrocher aux plafonds, aux rochers, aux arbres ainsi qu’aux objets et véhicules immobiles. Les obstacles et les mouvements restent pris en compte pendant la traction.",
+                "en": "The grapple can now attach to ceilings, rocks, trees, as well as stationary objects and vehicles. Obstacles and movement are still accounted for during the pull."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Utilisez le grappin après le saut",
+                "en": "Grapple after jumping from the plane"
+              },
+              "body": {
+                "fr": "Une fois sorti de l’avion, le grappin peut également être utilisé pendant la chute libre, avant l’ouverture du parachute. De nouvelles trajectoires deviennent possibles dès le déploiement.",
+                "en": "After leaving the aircraft, you can also use the grapple in freefall before opening your parachute. New routes are possible straight from deployment."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des accrochages plus compréhensibles",
+                "en": "Clearer grapple targeting"
+              },
+              "body": {
+                "fr": "Les surfaces trop éloignées sont mieux distinguées des zones sans point d’accroche, et l’arrivée sous un plafond laisse davantage de place au personnage.",
+                "en": "Surfaces that are out of range are now more clearly distinguished from places without an anchor point, while ceiling arrivals provide more space for your character."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "ÉQUILIBRAGE ET FINITIONS DE JEU",
+            "en": "BALANCE AND GAMEPLAY POLISH"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "La portée de l’arsenal a été revue",
+                "en": "Weapon ranges have been rebalanced"
+              },
+              "body": {
+                "fr": "Plusieurs fusils, mitraillettes, fusils à pompe et armes de précision voient leur portée ajustée afin de mieux correspondre à leur rôle en combat.",
+                "en": "Several rifles, SMGs, shotguns and precision weapons have received range adjustments to better match their combat roles."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des fusils de précision mieux équilibrés",
+                "en": "More balanced precision rifles"
+              },
+              "body": {
+                "fr": "Les dégâts et leur diminution avec la distance ont été ajustés pour rendre les affrontements à longue portée plus cohérents.",
+                "en": "Damage and damage falloff over distance have been adjusted to make long-range engagements more consistent."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Un parachute plus fiable pendant le déploiement",
+                "en": "More reliable parachutes during deployment"
+              },
+              "body": {
+                "fr": "Les changements d’équipement en chute libre préservent mieux le parachute, et les sorties en rappel depuis un véhicule ne sont plus perturbées par son ouverture prématurée.",
+                "en": "Equipment changes during freefall now preserve the parachute more reliably, while vehicle rappels are no longer disrupted by premature parachute deployment."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des fins de partie plus propres",
+                "en": "Cleaner match endings"
+              },
+              "body": {
+                "fr": "Les objets et véhicules laissés par une partie ou une activité terminée sont mieux retirés, afin d’éviter les éléments persistants lors des parties suivantes.",
+                "en": "Objects and vehicles left behind by a finished match or activity are cleared more reliably, preventing leftovers from carrying into later sessions."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Un affichage de l’équipement plus cohérent",
+                "en": "More consistent equipment displays"
+              },
+              "body": {
+                "fr": "Les barres de santé et de plaques sont mieux différenciées, tandis que l’arme et les personnalisations restent plus fiables après certains changements de personnage ou d’équipement.",
+                "en": "Health and armor bars are easier to distinguish, while weapons and their customizations remain more consistent after certain character or equipment changes."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "MOUVEMENT",
+            "en": "MOVEMENT"
+          },
+          "title": {
+            "fr": "ACCROUPISSEMENT & COMBAT AU SOL",
+            "en": "CROUCHING & PRONE COMBAT"
+          },
+          "body": {
+            "fr": "Adoptez la bonne posture : accroupissez-vous, rampez et tirez au sol avec votre arme.",
+            "en": "Choose the right stance: crouch, crawl and fire while prone with your weapon."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "SPECTATEUR",
+            "en": "SPECTATOR"
+          },
+          "title": {
+            "fr": "LE COMBAT CONTINUE SOUS VOS YEUX",
+            "en": "THE FIGHT GOES ON"
+          },
+          "body": {
+            "fr": "Suivez les survivants, changez de joueur et consultez leur équipement jusqu’à l’extraction.",
+            "en": "Follow survivors, switch players and see their gear all the way to extraction."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "ESCOUADE",
+            "en": "SQUAD"
+          },
+          "title": {
+            "fr": "PARTAGEZ VOS REPÈRES",
+            "en": "SHARE YOUR WAYPOINTS"
+          },
+          "body": {
+            "fr": "Marqueurs de carte partagés, signalements longue portée et coordination dès l’avion.",
+            "en": "Shared map waypoints, longer-range pings and coordination from the plane."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "PROGRESSION",
+            "en": "PROGRESSION"
+          },
+          "title": {
+            "fr": "ENTRAÎNEZ-VOUS À VOTRE FAÇON",
+            "en": "TRAIN YOUR WAY"
+          },
+          "body": {
+            "fr": "Vos propres classes à l’entraînement, munitions illimitées et niveaux plus accessibles.",
+            "en": "Your own loadouts in training, unlimited ammo and more accessible leveling."
+          },
+          "tone": "success"
+        }
+      ]
+    },
+    {
       "num": "1.18.0",
       "tag": {
         "fr": "MOBILITÉ & PROGRESSION",
@@ -3000,314 +3458,6 @@
       "tag": {
         "fr": "MISE À JOUR MAJEURE",
         "en": "MAJOR UPDATE"
-      }
-    },
-    {
-      "num": "1.9.0",
-      "title": {
-        "fr": "NOUVEAUX VISAGES, NOUVEAUX HORIZONS",
-        "en": "NEW FACES, NEW POSSIBILITIES"
-      },
-      "date": "2026-10-20",
-      "sections": [
-        {
-          "title": {
-            "fr": "DES OPÉRATEURS À PERSONNALISER",
-            "en": "OPERATORS, YOUR WAY"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "36 OPÉRATEURS AU RENDEZ-VOUS",
-                "en": "36 OPERATORS TO CHOOSE FROM"
-              },
-              "body": {
-                "fr": "Le catalogue accueille désormais 36 opérateurs, avec de nouveaux visages et des styles variés pour trouver celui qui correspond à votre façon de jouer.",
-                "en": "The roster now features 36 operators, bringing more faces and styles to choose from."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UNE TENUE À VOTRE IMAGE",
-                "en": "A LOOK OF YOUR OWN"
-              },
-              "body": {
-                "fr": "Masques, vêtements, coiffures, couvre-chefs et autres détails peuvent être combinés selon les possibilités de chaque opérateur.",
-                "en": "Mix masks, clothing, hairstyles, headwear and other details, depending on the options supported by each operator."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "COMPOSEZ VOTRE APPARENCE",
-                "en": "BUILD YOUR LOOK"
-              },
-              "body": {
-                "fr": "La personnalisation se fait catégorie par catégorie, avec un aperçu des changements avant d’équiper la tenue choisie.",
-                "en": "Customize each category separately and preview the changes before equipping your chosen look."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "REVENIR À L’ORIGINE",
-                "en": "BACK TO THE ORIGINAL"
-              },
-              "body": {
-                "fr": "Envie de retrouver l’apparence initiale d’un opérateur ? Chaque catégorie peut revenir à son style d’origine, sans devoir tout recommencer.",
-                "en": "Prefer an operator’s original look? Restore the default style for each category without starting over."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "VOTRE STYLE VOUS SUIT",
-                "en": "YOUR STYLE STAYS WITH YOU"
-              },
-              "body": {
-                "fr": "Les choix d’apparence sont conservés avec l’opérateur équipé et retrouvent leur place lors de la prochaine connexion.",
-                "en": "Appearance selections are saved with your equipped operator and restored when you return."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "UN PREMIER DÉPLOIEMENT PLUS IMMERSIF",
-            "en": "A MORE IMMERSIVE FIRST DEPLOYMENT"
-          },
-          "tone": "cyan",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "LE QG SE DÉCOUVRE EN CINÉMATIQUE",
-                "en": "DISCOVER HQ THROUGH A CINEMATIC TOUR"
-              },
-              "body": {
-                "fr": "Le parcours d’accueil évolue en une visite guidée de 32 séquences réparties en six chapitres, des premières minutes au QG jusqu’aux bases du combat.",
-                "en": "The introduction becomes a guided tour of 32 sequences across six chapters, from arriving at HQ to learning the basics of combat."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "APPRENEZ EN SUIVANT L’ACTION",
-                "en": "LEARN BY FOLLOWING THE ACTION"
-              },
-              "body": {
-                "fr": "Certains passages montrent directement les commandes et les interactions dans les menus, avec des démonstrations des situations rencontrées sur le terrain.",
-                "en": "Selected moments guide you through controls and menu interactions, with demonstrations of situations you may encounter in the field."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UNE VISITE À VOTRE RYTHME",
-                "en": "TAKE THE TOUR AT YOUR OWN PACE"
-              },
-              "body": {
-                "fr": "Mettez la visite en pause, revenez sur une séquence ou passez à un autre chapitre. Le guide reste accessible depuis le QG pour revoir les bases.",
-                "en": "Pause the tour, revisit a scene or jump to another chapter. The guide can also be opened from HQ whenever you want a refresher."
-              }
-            },
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "DES TRANSITIONS PLUS DOUCES",
-                "en": "SMOOTHER TRANSITIONS"
-              },
-              "body": {
-                "fr": "Les changements de scène et la sortie de la visite ont été retravaillés pour retrouver plus proprement les menus, la caméra et les commandes habituelles.",
-                "en": "Scene transitions and leaving the tour have been refined for a cleaner return to menus, camera controls and normal movement."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "L’ARSENAL S’ÉTOFFE",
-            "en": "AN EXPANDING ARSENAL"
-          },
-          "tone": "hot",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "L’ACR ET LA M16A4 CHANGENT DE STYLE",
-                "en": "NEW LOOKS FOR THE ACR AND M16A4"
-              },
-              "body": {
-                "fr": "Huit nouvelles finitions ont été ajoutées pour chacune de ces deux armes, avec des identités visuelles distinctes.",
-                "en": "Eight new finishes have been added for each of these two weapons, each with a distinct visual identity."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "ENCORE PLUS DE CAMOUFLAGES",
-                "en": "EVEN MORE CAMOUFLAGES"
-              },
-              "body": {
-                "fr": "Le catalogue réunit 112 finitions fixes et neuf créations animées pour 15 armes à cette étape de l’arsenal. Depuis, les finitions ont été intégrées et testées en jeu.",
-                "en": "At this stage, the catalog includes 112 static finishes and nine animated creations across 15 weapons. The finishes have since been integrated and tested in-game."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES EFFETS QUI DONNENT VIE AUX ARMES",
-                "en": "FINISHES THAT BRING WEAPONS TO LIFE"
-              },
-              "body": {
-                "fr": "De nouvelles animations et matières prennent forme sur plusieurs familles d’armes, avec un travail particulier sur les détails visibles en main et dans les aperçus.",
-                "en": "New animated effects and materials are taking shape across several weapon families, with extra attention to how they look in hand and in previews."
-              }
-            },
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "DES FINITIONS PLUS FIDÈLES",
-                "en": "MORE ACCURATE FINISHES"
-              },
-              "body": {
-                "fr": "Le rendu de plusieurs camouflages a été revu pour mieux suivre la forme des armes et préserver la présentation de leurs accessoires.",
-                "en": "Several camouflage finishes have been refined to fit weapon shapes more closely while keeping attachments looking consistent."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "LE QG SOIGNE SA PRÉSENTATION",
-            "en": "A MORE POLISHED HQ"
-          },
-          "tone": "success",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "LA GALERIE SE REFAIT UNE BEAUTÉ",
-                "en": "A MORE REFINED WEAPON GALLERY"
-              },
-              "body": {
-                "fr": "Les présentoirs de la galerie ont été ajustés pour mieux soutenir les armes exposées et mettre en valeur leurs finitions.",
-                "en": "Gallery displays have been adjusted to better support the showcased weapons and highlight their finishes."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES OPÉRATEURS FIDÈLES À LEUR APPARENCE",
-                "en": "OPERATORS THAT LOOK THE PART"
-              },
-              "body": {
-                "fr": "La présentation des opérateurs, y compris sur le podium, prend mieux en compte les options d’apparence choisies.",
-                "en": "Operator displays, including the HQ podium, now better reflect selected appearance options."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "DES INTERACTIONS PLUS AGRÉABLES",
-            "en": "SMALLER DETAILS, SMOOTHER PLAY"
-          },
-          "tone": "muted",
-          "items": [
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "LES PLAQUES AU BON MOMENT",
-                "en": "ARMOR PLATES AT THE RIGHT TIME"
-              },
-              "body": {
-                "fr": "Le rappel des plaques d’armure évite désormais de s’afficher en plein saut ou pendant une descente en parachute.",
-                "en": "Armor plate reminders no longer interrupt a jump or parachute descent."
-              }
-            },
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "UN TRANSPORT PLUS NATUREL",
-                "en": "SMOOTHER DOWNED-PLAYER DRAGGING"
-              },
-              "body": {
-                "fr": "Le déplacement des joueurs à terre a reçu des ajustements pour mieux accompagner les animations de prise en charge et de transport.",
-                "en": "Dragging downed players has been adjusted for better alignment with pickup and movement animations."
-              }
-            }
-          ]
-        }
-      ],
-      "highlights": [
-        {
-          "label": {
-            "fr": "OPÉRATEURS",
-            "en": "OPERATORS"
-          },
-          "title": {
-            "fr": "UN STYLE QUI VOUS RESSEMBLE",
-            "en": "MAKE YOUR OPERATOR YOUR OWN"
-          },
-          "body": {
-            "fr": "Le catalogue s’agrandit et la personnalisation ouvre de nouvelles possibilités de tenues et d’accessoires.",
-            "en": "The roster expands with more ways to customize outfits and accessories."
-          },
-          "tone": "accent"
-        },
-        {
-          "label": {
-            "fr": "PREMIERS PAS",
-            "en": "FIRST STEPS"
-          },
-          "title": {
-            "fr": "BIENVENUE DANS WARBREACH",
-            "en": "WELCOME TO WARBREACH"
-          },
-          "body": {
-            "fr": "Une visite cinématique du QG accompagne les premiers pas et présente les essentiels avant le combat.",
-            "en": "A cinematic HQ tour introduces the essentials before the fight begins."
-          },
-          "tone": "cyan"
-        },
-        {
-          "label": {
-            "fr": "ARSENAL",
-            "en": "ARSENAL"
-          },
-          "title": {
-            "fr": "DE NOUVELLES FINITIONS À DÉCOUVRIR",
-            "en": "MORE WEAPON FINISHES TO DISCOVER"
-          },
-          "body": {
-            "fr": "ACR, M16A4 et nouvelles créations animées enrichissent les possibilités de personnalisation des armes.",
-            "en": "The ACR, M16A4 and new animated creations expand weapon customization."
-          },
-          "tone": "hot"
-        },
-        {
-          "label": {
-            "fr": "CONFORT",
-            "en": "QUALITY OF LIFE"
-          },
-          "title": {
-            "fr": "DE PETITS DÉTAILS QUI COMPTENT",
-            "en": "THE DETAILS MAKE A DIFFERENCE"
-          },
-          "body": {
-            "fr": "Les aperçus d’armes, la galerie du QG et plusieurs interactions en partie gagnent en cohérence.",
-            "en": "Weapon previews, the HQ gallery and several in-match interactions receive further refinements."
-          },
-          "tone": "success"
-        }
-      ],
-      "tag": {
-        "fr": "NOUVEAUTÉS",
-        "en": "NEW CONTENT"
       }
     }
   ]

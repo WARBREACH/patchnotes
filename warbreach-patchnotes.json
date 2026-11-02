@@ -6,6 +6,219 @@
   },
   "versions": [
     {
+      "num": "1.20.0",
+      "tag": {
+        "fr": "RADAR & COMBAT",
+        "en": "RADAR & COMBAT"
+      },
+      "title": {
+        "fr": "UN NOUVEAU REGARD SUR LA BATAILLE",
+        "en": "A NEW VIEW OF THE BATTLEFIELD"
+      },
+      "date": "2026-11-02",
+      "sections": [
+        {
+          "title": {
+            "fr": "LE RADAR VOIT PLUS GRAND",
+            "en": "A BIGGER PICTURE ON THE RADAR"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "La minimap s’agrandit avec votre drone",
+                "en": "Your UAV expands the minimap"
+              },
+              "body": {
+                "fr": "Lorsqu’un drone allié est actif, la minimap adopte un format agrandi pour mieux suivre les positions révélées et préparer les déplacements de l’escouade.",
+                "en": "When a friendly UAV is active, the minimap expands to make revealed positions easier to follow and help the squad plan its movements."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Un format qui s’adapte à la situation",
+                "en": "A layout that adapts to the action"
+              },
+              "body": {
+                "fr": "La minimap retrouve automatiquement sa taille habituelle lorsque le balayage se termine ou que le radar est brouillé. Les changements de format suivent l’état du renseignement en partie.",
+                "en": "The minimap automatically returns to its usual size when the scan ends or the radar is jammed. Its size now follows the available intelligence during the match."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "L’escouade reste à sa place",
+                "en": "Squad information stays in place"
+              },
+              "body": {
+                "fr": "Le panneau des coéquipiers se repositionne avec la minimap agrandie afin de conserver une interface lisible, y compris lorsque la taille de l’affichage est personnalisée.",
+                "en": "The squad panel moves with the expanded minimap, keeping the interface readable even when the HUD size is customized."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des transitions plus propres entre carte et menus",
+                "en": "Cleaner transitions between the map and menus"
+              },
+              "body": {
+                "fr": "L’affichage du radar s’adapte mieux à l’ouverture des menus et de la carte, puis retrouve sa présentation de combat lorsque vous revenez en jeu.",
+                "en": "The radar now handles the map and menu transitions more consistently, then restores its in-match layout when you return to the action."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LE COMBAT AU SOL GAGNE EN LISIBILITÉ",
+            "en": "PRONE COMBAT IS EASIER TO READ"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Vos postures sont visibles par les autres joueurs",
+                "en": "Other players can see your prone stance"
+              },
+              "body": {
+                "fr": "Lorsque vous visez en position allongée, les combattants à proximité voient désormais votre posture et les mouvements de votre arme. Vos actions sont plus faciles à interpréter pendant les échanges de tirs.",
+                "en": "When you aim while prone, nearby players can now see your stance and weapon movements. Your actions are easier to read during firefights."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une visée et un rechargement mieux représentés",
+                "en": "More accurate aiming and reload animations"
+              },
+              "body": {
+                "fr": "Les mouvements de visée vers le haut, vers le bas et les rechargements au sol sont mieux reproduits pour les autres joueurs, même lorsqu’ils rejoignent un affrontement déjà engagé.",
+                "en": "Upward and downward aim movements, along with prone reload animations, are reproduced more accurately for other players, including those joining an ongoing fight."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Une posture qui revient à la normale",
+                "en": "Stances return to normal more reliably"
+              },
+              "body": {
+                "fr": "Les animations de combat au sol s’effacent plus proprement lorsque le joueur cesse de viser, change de situation ou quitte le combat.",
+                "en": "Prone combat animations now clear more cleanly when a player stops aiming, changes state or leaves combat."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DES AFFRONTEMENTS ET DES PARTIES MIEUX ENCADRÉS",
+            "en": "REFINED COMBAT AND MATCH CAPACITY"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Les coups de crosse sont désactivés",
+                "en": "Weapon-butt attacks are disabled"
+              },
+              "body": {
+                "fr": "Les coups de crosse et de pistolet sont désormais désactivés dans tous les modes. Les tirs restent disponibles, tandis que les attaques à mains nues et avec des armes de mêlée conservent leur fonctionnement habituel contre les adversaires.",
+                "en": "Rifle-butt and pistol-whip attacks are now disabled across all modes. Gunfire remains available, while unarmed and melee-weapon attacks continue to work normally against enemies."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Davantage de parties publiques en parallèle",
+                "en": "More public matches at the same time"
+              },
+              "body": {
+                "fr": "La limite de parties publiques simultanées passe de 4 à 20, afin d’élargir les possibilités d’accueil des escouades sur plusieurs rencontres.",
+                "en": "The limit for simultaneous public matches rises from 4 to 20, allowing more squads to be distributed across separate matches."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une capacité globale accrue pour les bots",
+                "en": "Increased overall AI capacity"
+              },
+              "body": {
+                "fr": "La limite globale d’adversaires contrôlés par l’IA a été relevée pour accompagner davantage de parties en parallèle. Le plafond reste fixé à 40 bots dans une même partie.",
+                "en": "The overall limit for AI-controlled opponents has been raised to support more concurrent matches. Each individual match still has a limit of 40 bots."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "RADAR",
+            "en": "RADAR"
+          },
+          "title": {
+            "fr": "UNE MINIMAP GRAND FORMAT",
+            "en": "AN EXPANDED MINIMAP"
+          },
+          "body": {
+            "fr": "Le drone allié agrandit la minimap pour suivre plus facilement les positions adverses.",
+            "en": "A friendly UAV expands the minimap to make enemy positions easier to follow."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "COMBAT AU SOL",
+            "en": "PRONE COMBAT"
+          },
+          "title": {
+            "fr": "VOS MOUVEMENTS SONT VISIBLES",
+            "en": "YOUR MOVEMENTS ARE VISIBLE"
+          },
+          "body": {
+            "fr": "Visée, posture et rechargement au sol sont mieux représentés pour les joueurs à proximité.",
+            "en": "Prone aiming, stance and reloads are shown more clearly to nearby players."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "COMBAT",
+            "en": "COMBAT"
+          },
+          "title": {
+            "fr": "FIN DES COUPS DE CROSSE",
+            "en": "NO MORE WEAPON-BUTT ATTACKS"
+          },
+          "body": {
+            "fr": "Les attaques au corps à corps avec une arme à feu sont désactivées.",
+            "en": "Melee strikes with a firearm are disabled."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "PARTIES",
+            "en": "MATCHES"
+          },
+          "title": {
+            "fr": "PLUS DE RENCONTRES EN PARALLÈLE",
+            "en": "MORE MATCHES AT ONCE"
+          },
+          "body": {
+            "fr": "Le plafond des parties publiques simultanées passe de 4 à 20.",
+            "en": "The simultaneous public match limit increases from 4 to 20."
+          },
+          "tone": "success"
+        }
+      ]
+    },
+    {
       "num": "1.19.0",
       "tag": {
         "fr": "MOUVEMENT & COMBAT",
@@ -3170,294 +3383,6 @@
       "tag": {
         "fr": "PROGRESSION",
         "en": "PROGRESSION"
-      }
-    },
-    {
-      "num": "1.10.0",
-      "title": {
-        "fr": "LA RÉSURGENCE PASSE À LA VITESSE SUPÉRIEURE",
-        "en": "RESURGENCE TAKES IT UP A NOTCH"
-      },
-      "date": "2026-10-21",
-      "sections": [
-        {
-          "title": {
-            "fr": "TROUVER SA PROCHAINE PARTIE",
-            "en": "FIND YOUR NEXT MATCH"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "LE BOUTON DÉPLOYER DEVIENT ACTIF",
-                "en": "DEPLOY NOW STARTS A REAL SEARCH"
-              },
-              "body": {
-                "fr": "Depuis le QG, la recherche de partie peut être lancée directement dans l’interface. L’attente, la recherche et la confirmation d’une partie possèdent désormais leurs propres étapes.",
-                "en": "Match search can now be started directly from the HQ interface. Waiting, searching and finding a match now have distinct stages."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UN DÉPART À PLUSIEURS",
-                "en": "QUEUE TOGETHER"
-              },
-              "body": {
-                "fr": "La recherche prend en compte les escouades déjà formées afin de garder les amis ensemble lorsque la partie se prépare.",
-                "en": "Matchmaking takes existing squads into account so friends stay together as a match forms."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "LA PLACE AUX JOUEURS D’ABORD",
-                "en": "HUMAN PLAYERS COME FIRST"
-              },
-              "body": {
-                "fr": "Les joueurs présents sont regroupés en priorité avant l’arrivée d’éventuelles équipes IA. Les formats Solo, Duo, Trio et Quatuor disposent de files adaptées.",
-                "en": "Available players are grouped first, ahead of any AI opposition. Solo, Duo, Trio and Squad each have their own matchmaking queues."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UNE RECHERCHE PLUS LISIBLE",
-                "en": "CLEARER MATCH SEARCH"
-              },
-              "body": {
-                "fr": "Annulation, attente d’autres joueurs, partie trouvée et recherche interrompue sont mieux expliquées pour éviter les écrans sans réponse.",
-                "en": "Cancelling, waiting for players, finding a match and interrupted searches are presented more clearly."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UNE RECHERCHE DE PARTIE VÉRIFIÉE",
-                "en": "MATCHMAKING VERIFIED IN-GAME"
-              },
-              "body": {
-                "fr": "La recherche et le lancement des parties ont été vérifiés en conditions de jeu, de l’attente au déploiement des escouades.",
-                "en": "Match search and launch have been tested in-game, from the waiting phase through squad deployment."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "DES BOTS PLUS CRÉDIBLES",
-            "en": "MORE BELIEVABLE BOTS"
-          },
-          "tone": "hot",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "DES ADVERSAIRES MÊME À FAIBLE AFFLUENCE",
-                "en": "OPPONENTS EVEN IN QUIETER HOURS"
-              },
-              "body": {
-                "fr": "Des escouades IA adverses complètent les parties lorsqu’il manque des joueurs, avec des effectifs adaptés au format sélectionné.",
-                "en": "Opposing AI squads fill matches when player numbers are low, with team sizes adapted to the selected mode."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UNE ARRIVÉE PLUS NATURELLE",
-                "en": "MORE NATURAL ARRIVALS"
-              },
-              "body": {
-                "fr": "Les bots rejoignent progressivement le combat au début de l’opération, avec des arrivées aériennes lorsque leur position le permet.",
-                "en": "Bots enter the fight as the operation begins, using airborne arrivals where appropriate."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "ILS APPRENNENT À CHOISIR LEURS COMBATS",
-                "en": "BETTER COMBAT DECISIONS"
-              },
-              "body": {
-                "fr": "Recherche d’ennemis, derniers lieux connus, réactions aux tirs et replis sont retravaillés pour éviter les adversaires trop prévisibles.",
-                "en": "Searching for enemies, remembering last-known positions, reacting to gunfire and retreating have been refined to reduce predictable behavior."
-              }
-            },
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "DES RETOURS ALIGNÉS SUR LA RÉSURGENCE",
-                "en": "REDEPLOYS FOLLOW RESURGENCE RULES"
-              },
-              "body": {
-                "fr": "Les bots suivent davantage les mêmes règles de retour au combat et d’élimination définitive que les escouades humaines.",
-                "en": "Bot redeployments and final eliminations more closely follow the same Resurgence rules as human squads."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UNE OPPOSITION IA AJUSTÉE",
-                "en": "AI OPPONENTS TUNED FOR BATTLE"
-              },
-              "body": {
-                "fr": "Le comportement et l’équilibrage des bots ont été retravaillés et vérifiés en jeu pour rendre leurs réactions plus cohérentes.",
-                "en": "Bot behavior and balance have been refined and tested in-game to make their reactions more consistent."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "CAYO PERICO GAGNE EN DENSITÉ",
-            "en": "A RICHER CAYO PERICO"
-          },
-          "tone": "cyan",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DU BUTIN MIEUX RÉPARTI",
-                "en": "BETTER-DISTRIBUTED LOOT"
-              },
-              "body": {
-                "fr": "La répartition du butin au sol a été revue pour mieux exploiter les bâtiments, les zones accessibles et les différents points d’intérêt.",
-                "en": "Ground loot distribution has been adjusted to make better use of buildings, accessible spaces and points of interest."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES COFFRES PLUS SOIGNÉS",
-                "en": "IMPROVED SUPPLY BOXES"
-              },
-              "body": {
-                "fr": "La présentation des coffres et des objets qu’ils libèrent évolue pour rendre leurs interactions plus visibles.",
-                "en": "Supply boxes and the items they release receive presentation improvements for clearer interactions."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES VÉHICULES À DÉCOUVRIR SUR L’ÎLE",
-                "en": "VEHICLES ACROSS THE ISLAND"
-              },
-              "body": {
-                "fr": "Les emplacements et la sélection des véhicules sont affinés afin de diversifier les possibilités de déplacement entre les zones.",
-                "en": "Vehicle placement and selection have been refined to offer more ways to travel between areas."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "UN COMBAT PLUS MOBILE",
-            "en": "MORE FLUID COMBAT MOVEMENT"
-          },
-          "tone": "success",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES GLISSADES PLUS PROPRES",
-                "en": "SMOOTHER SLIDES"
-              },
-              "body": {
-                "fr": "La glissade reçoit de nouveaux ajustements pour mieux enchaîner le retour à la course.",
-                "en": "Slides receive refinements for a cleaner transition back into running."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES PLONGEONS PLUS NATURELS",
-                "en": "MORE NATURAL DIVES"
-              },
-              "body": {
-                "fr": "Les plongées exploitent davantage le mouvement de leurs animations, avec des trajectoires et des réceptions retravaillées.",
-                "en": "Dives make better use of their animations, with refined movement paths and landing transitions."
-              }
-            },
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "MOINS DE MOUVEMENTS À TRAVERS LES OBSTACLES",
-                "en": "BETTER OBSTACLE HANDLING"
-              },
-              "body": {
-                "fr": "Une action de déplacement peut être interrompue si un obstacle bloque réellement le passage.",
-                "en": "A movement action can be interrupted when an obstacle blocks the way."
-              }
-            }
-          ]
-        }
-      ],
-      "highlights": [
-        {
-          "label": {
-            "fr": "DÉPLOIEMENT",
-            "en": "DEPLOYMENT"
-          },
-          "title": {
-            "fr": "LA RECHERCHE DE PARTIE PREND VIE",
-            "en": "MATCH SEARCH COMES TO LIFE"
-          },
-          "body": {
-            "fr": "Le bouton Déployer lance une véritable recherche de partie, avec prise en charge des escouades et des étapes d’attente.",
-            "en": "The Deploy button starts real matchmaking, supporting squads and clear waiting stages."
-          },
-          "tone": "accent"
-        },
-        {
-          "label": {
-            "fr": "ADVERSAIRES",
-            "en": "OPPONENTS"
-          },
-          "title": {
-            "fr": "DES ESCOUADES IA POUR REMPLIR LE TERRAIN",
-            "en": "AI SQUADS TO FILL THE BATTLEFIELD"
-          },
-          "body": {
-            "fr": "Les parties à faible fréquentation accueillent des équipes adverses contrôlées par l’IA, sans remplacer les coéquipiers humains.",
-            "en": "Low-population matches include AI-controlled enemy squads without replacing human teammates."
-          },
-          "tone": "hot"
-        },
-        {
-          "label": {
-            "fr": "CAYO PERICO",
-            "en": "CAYO PERICO"
-          },
-          "title": {
-            "fr": "DAVANTAGE DE BUTIN ET DE VÉHICULES",
-            "en": "MORE LOOT AND VEHICLES"
-          },
-          "body": {
-            "fr": "Le placement du butin, des coffres et des véhicules est revu pour rendre l’exploration de l’île plus intéressante.",
-            "en": "Loot, supply boxes and vehicle placement are being reworked to make exploring the island more rewarding."
-          },
-          "tone": "cyan"
-        },
-        {
-          "label": {
-            "fr": "MOUVEMENT",
-            "en": "MOVEMENT"
-          },
-          "title": {
-            "fr": "UNE MOBILITÉ PLUS SOUPLE",
-            "en": "SMOOTHER MOVEMENT"
-          },
-          "body": {
-            "fr": "Glissades et plongeons bénéficient de nouveaux ajustements de trajectoire et d’une meilleure prise en compte des obstacles.",
-            "en": "Slides and dives receive movement refinements and better handling of obstacles."
-          },
-          "tone": "success"
-        }
-      ],
-      "tag": {
-        "fr": "MISE À JOUR MAJEURE",
-        "en": "MAJOR UPDATE"
       }
     }
   ]

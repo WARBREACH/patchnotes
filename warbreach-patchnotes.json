@@ -6,6 +6,635 @@
   },
   "versions": [
     {
+      "num": "1.22.0",
+      "tag": {
+        "fr": "NOUVELLE ÎLE & RÉSURGENCE",
+        "en": "NEW ISLAND & RESURGENCE"
+      },
+      "title": {
+        "fr": "UN NOUVEAU TERRAIN POUR LA BATAILLE",
+        "en": "A NEW BATTLEFIELD AWAITS"
+      },
+      "date": "2026-11-12",
+      "sections": [
+        {
+          "title": {
+            "fr": "L’ÎLE WARBREACH PREND LE RELAIS",
+            "en": "THE WARBREACH ISLAND TAKES OVER"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Découvrez la nouvelle île WARBREACH",
+                "en": "Discover the new WARBREACH island"
+              },
+              "body": {
+                "fr": "Une île entièrement personnalisée devient le terrain principal de la Résurgence et remplace Cayo Perico. De nouvelles zones de combat redessinent les approches, les déplacements et les affrontements.",
+                "en": "A fully custom island becomes the main Resurgence battleground, replacing Cayo Perico. New combat areas reshape approaches, rotations and firefights."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Sept secteurs à explorer",
+                "en": "Seven sectors to explore"
+              },
+              "body": {
+                "fr": "Parcourez les Docks, la Côte sud, le Phare, l’Aéroport, le Centre de contrôle, les Industries et les Quartiers de vie. Chaque secteur propose ses propres points de repère et possibilités de combat.",
+                "en": "Explore the Docks, South Coast, Lighthouse, Airport, Control Center, Industries and Living Quarters. Each sector offers its own landmarks and fighting opportunities."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une carte tactique adaptée à l’île",
+                "en": "A tactical map built for the island"
+              },
+              "body": {
+                "fr": "La nouvelle géographie apparaît sur la carte et la minimap, avec les repères de partie affichés au-dessus du terrain. Les zones importantes sont plus faciles à reconnaître pendant les rotations.",
+                "en": "The new geography appears on the map and minimap, with match markers drawn above the terrain. Important areas are easier to recognize while rotating."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des parties adaptées au terrain",
+                "en": "Matches built around the terrain"
+              },
+              "body": {
+                "fr": "Les itinéraires de déploiement, les secteurs jouables et la progression du gaz utilisent désormais les caractéristiques propres à la nouvelle île.",
+                "en": "Deployment routes, playable areas and gas progression now follow the new island’s own layout."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "CHAQUE PARTIE RÉSERVE SES SURPRISES",
+            "en": "EVERY MATCH BRINGS NEW SURPRISES"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Les coffres changent de place",
+                "en": "Chest locations change between matches"
+              },
+              "body": {
+                "fr": "Chaque secteur dispose de plusieurs implantations de coffres. Une variante est choisie pour la partie, ce qui renouvelle les trajets de fouille et les points d’intérêt.",
+                "en": "Each sector has multiple chest layouts. A variant is selected for the match, changing looting routes and points of interest."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des coffres qui s’ouvrent vraiment",
+                "en": "Chests now open for real"
+              },
+              "body": {
+                "fr": "Les coffres intégrés à l’île s’ouvrent avec une animation dédiée. Leur contenu jaillit devant eux avant de pouvoir être récupéré, puis les coffres retrouvent leur état fermé.",
+                "en": "Chests built into the island open with a dedicated animation. Their contents pop out in front before they can be collected, and the chests later return to their closed state."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Des stations d’achat à retrouver",
+                "en": "Buy Stations to seek out"
+              },
+              "body": {
+                "fr": "Chaque secteur possède une station d’achat, mais son emplacement peut varier d’une partie à l’autre. Observez la carte et adaptez vos déplacements pour vous rééquiper.",
+                "en": "Each sector has a Buy Station, but its location can vary between matches. Check the map and adjust your route to resupply."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Un butin au sol plus cohérent",
+                "en": "More consistent ground loot"
+              },
+              "body": {
+                "fr": "Le butin se répartit selon les emplacements de la nouvelle île. Les objets et leurs effets visuels apparaissent autour des joueurs et sont mis à jour lorsque le terrain de fouille change.",
+                "en": "Ground loot follows locations across the new island. Items and their visual effects appear around players and update as the surrounding loot changes."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Une récupération du butin plus fiable",
+                "en": "More reliable loot pickups"
+              },
+              "body": {
+                "fr": "Les objets récupérables restent liés à la partie en cours, et les ouvertures de coffres ainsi que les ramassages sont mieux suivis pour éviter les incohérences entre joueurs.",
+                "en": "Collectible items remain tied to their active match, while chest openings and pickups are tracked more consistently to prevent mismatches between players."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UN DÉPLOIEMENT PLUS SPECTACULAIRE",
+            "en": "A MORE CINEMATIC DEPLOYMENT"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une arrivée aérienne adaptée à chaque partie",
+                "en": "An aircraft approach tailored to each match"
+              },
+              "body": {
+                "fr": "Le trajet de l’avion est choisi parmi les routes de la nouvelle île. L’écran de chargement et la présentation du déploiement reflètent désormais le terrain et le trajet de la partie.",
+                "en": "The aircraft route is chosen from the new island’s flight paths. The loading screen and deployment presentation now reflect the match’s terrain and route."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Une frappe aérienne au début de la bataille",
+                "en": "An opening airstrike"
+              },
+              "body": {
+                "fr": "Une séquence d’ouverture met en scène deux avions de combat et leurs missiles au-dessus de l’île. Le secteur visé est choisi pour la partie, donnant une nouvelle dimension à l’arrivée des escouades.",
+                "en": "An opening sequence features two fighter jets and their missiles over the island. The target area is selected for the match, adding a new dimension to squad deployment."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Le terrain porte les traces de l’attaque",
+                "en": "The battlefield bears the scars"
+              },
+              "body": {
+                "fr": "Certaines zones possèdent des états avant et après l’impact. Une frappe peut laisser une partie du décor endommagée pour la suite de la rencontre.",
+                "en": "Certain areas have before-and-after impact states. A strike can leave part of the environment damaged for the rest of the match."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des repères visibles pendant la descente",
+                "en": "Landmarks visible during descent"
+              },
+              "body": {
+                "fr": "Les noms des secteurs accompagnent le survol et la descente afin de mieux identifier les zones d’atterrissage dès les premières secondes.",
+                "en": "Sector names appear during the flyover and descent, helping players identify landing areas from the opening moments."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DES RENCONTRES RÉPARTIES SUR TOUTE L’ÎLE",
+            "en": "ACTION ACROSS THE WHOLE ISLAND"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des véhicules mieux répartis",
+                "en": "Vehicles spread across the island"
+              },
+              "body": {
+                "fr": "Les apparitions des véhicules suivent les secteurs de stationnement, les hélisurfaces et les accès à l’eau de la nouvelle carte, pour proposer plusieurs façons de traverser l’île.",
+                "en": "Vehicle spawns follow the new map’s parking areas, helipads and waterfront access, offering several ways to cross the island."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des ravitaillements dans chaque région",
+                "en": "Supply drops across every region"
+              },
+              "body": {
+                "fr": "La première vague de largages répartit des caisses entre les sept secteurs de l’île. Les largages suivants restent liés à l’évolution du cercle.",
+                "en": "The first supply-drop wave spreads crates across the island’s seven sectors. Later drops remain tied to the circle’s progression."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des escouades IA adaptées au nouveau terrain",
+                "en": "AI squads adapt to the new terrain"
+              },
+              "body": {
+                "fr": "Les adversaires contrôlés par l’IA disposent de nouveaux emplacements sur l’île pour prendre part aux affrontements.",
+                "en": "AI-controlled opponents use new locations across the island to join the fighting."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des cercles propres à la nouvelle carte",
+                "en": "Circles shaped for the new map"
+              },
+              "body": {
+                "fr": "Les zones sûres et le gaz tiennent compte des limites jouables et du relief de WARBREACH, afin que la fin de partie se déroule sur son propre terrain.",
+                "en": "Safe zones and gas progression follow WARBREACH’s playable boundaries and terrain, so each endgame unfolds on the island itself."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UN ARSENAL RECENTRÉ SUR LA SAISON 1",
+            "en": "A FOCUSED SEASON 1 ARSENAL"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une sélection d’armes pour la Saison 1",
+                "en": "A curated Season 1 weapon lineup"
+              },
+              "body": {
+                "fr": "L’arsenal disponible est recentré sur 15 armes à feu, dont 12 armes principales et 3 pistolets. Les autres armes et leurs personnalisations restent conservées pour d’autres sorties.",
+                "en": "The available arsenal is focused on 15 firearms, including 12 primary weapons and 3 pistols. Other weapons and their customization options remain preserved for future releases."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "De nouveaux niveaux de déblocage",
+                "en": "Updated weapon unlock levels"
+              },
+              "body": {
+                "fr": "Les armes disponibles se débloquent progressivement avec le niveau du joueur, depuis l’équipement de départ jusqu’aux armes des niveaux élevés.",
+                "en": "Available weapons unlock progressively as player levels rise, from starting equipment through higher-level weapons."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Le PR-92 devient le pistolet de référence",
+                "en": "The PR-92 becomes the standard pistol"
+              },
+              "body": {
+                "fr": "Le PR-92 remplace le CP-200 comme pistolet de départ et rejoint les équipements d’arène et les exercices de précision.",
+                "en": "The PR-92 replaces the CP-200 as the starting pistol and is used in arena loadouts and precision training."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Vos classes restent utilisables",
+                "en": "Your saved loadouts remain usable"
+              },
+              "body": {
+                "fr": "Si une ancienne classe contient une arme retirée de la sélection actuelle, une arme de remplacement peut être fournie sans effacer la classe enregistrée.",
+                "en": "If an older loadout contains a weapon outside the current selection, a replacement weapon can be provided without erasing the saved loadout."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Deux récompenses supplémentaires au palier 100",
+                "en": "Two extra rewards at tier 100"
+              },
+              "body": {
+                "fr": "Un emblème et une bannière rejoignent les récompenses gratuites du palier 100 du passe Siège, aux côtés des récompenses d’opérateur déjà présentes.",
+                "en": "An emblem and banner join the free tier 100 rewards of the Siege Battle Pass, alongside the existing operator rewards."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UNE PRÉSENTATION PLUS SOIGNÉE",
+            "en": "A MORE POLISHED PRESENTATION"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une carte plus fidèle au monde de jeu",
+                "en": "A map closer to the game world"
+              },
+              "body": {
+                "fr": "Le dessin de la nouvelle île est intégré à la carte et au radar du jeu, pour mieux suivre les déplacements et les informations tactiques.",
+                "en": "The new island’s artwork is integrated into the in-game map and radar, making movement and tactical information easier to follow."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des noms d’armes propres à WARBREACH",
+                "en": "Weapon names unique to WARBREACH"
+              },
+              "body": {
+                "fr": "L’arsenal adopte des appellations cohérentes avec l’univers de WARBREACH dans les menus et les informations de jeu.",
+                "en": "The arsenal uses names consistent with WARBREACH’s identity in menus and in-game information."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Un déploiement et une interface unifiés",
+                "en": "A unified deployment and interface"
+              },
+              "body": {
+                "fr": "Les écrans de chargement et plusieurs repères de jeu s’accordent à la nouvelle île afin de conserver une présentation cohérente du début à la fin de la partie.",
+                "en": "Loading screens and several match indicators now match the new island, keeping the presentation consistent from deployment to the end of the game."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "NOUVELLE CARTE",
+            "en": "NEW MAP"
+          },
+          "title": {
+            "fr": "BIENVENUE SUR WARBREACH",
+            "en": "WELCOME TO WARBREACH"
+          },
+          "body": {
+            "fr": "Une nouvelle île et sept secteurs remplacent Cayo Perico.",
+            "en": "A new island with seven sectors replaces Cayo Perico."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "BUTIN",
+            "en": "LOOT"
+          },
+          "title": {
+            "fr": "DES EMPLACEMENTS SURPRISES",
+            "en": "NEW LOCATIONS EACH MATCH"
+          },
+          "body": {
+            "fr": "Des coffres animés, avec des positions qui varient d’une partie à l’autre.",
+            "en": "Animated chests, with positions that change from one match to another."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "DÉPLOIEMENT",
+            "en": "DEPLOYMENT"
+          },
+          "title": {
+            "fr": "UNE ENTRÉE SOUS LE FEU",
+            "en": "AN EXPLOSIVE ENTRANCE"
+          },
+          "body": {
+            "fr": "Survol, frappe aérienne et secteurs transformés par les impacts.",
+            "en": "Flyover, airstrike and areas transformed by impacts."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "SAISON 1",
+            "en": "SEASON 1"
+          },
+          "title": {
+            "fr": "UN ARSENAL REVISITÉ",
+            "en": "A REFINED ARSENAL"
+          },
+          "body": {
+            "fr": "Sélection d’armes, nouveaux déblocages et récompenses de palier 100.",
+            "en": "Curated weapons, updated unlocks and tier 100 rewards."
+          },
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "num": "1.21.0",
+      "tag": {
+        "fr": "VÉHICULES & PERSONNALISATION",
+        "en": "VEHICLES & CUSTOMIZATION"
+      },
+      "title": {
+        "fr": "AFFIRMEZ VOTRE STYLE SUR LE TERRAIN",
+        "en": "MAKE YOUR MARK ON THE BATTLEFIELD"
+      },
+      "date": "2026-11-06",
+      "sections": [
+        {
+          "title": {
+            "fr": "DES VÉHICULES À VOTRE IMAGE",
+            "en": "VEHICLES WITH YOUR PERSONAL TOUCH"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "72 camouflages pour les véhicules",
+                "en": "72 vehicle liveries"
+              },
+              "body": {
+                "fr": "72 camouflages rejoignent l’univers de WARBREACH, répartis sur 18 véhicules terrestres et aériens. Chaque modèle compatible dispose de quatre finitions distinctes.",
+                "en": "72 liveries join WARBREACH, spread across 18 land and air vehicles. Each compatible model features four distinct finishes."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Une nouvelle rubrique Véhicules au QG",
+                "en": "A new Vehicles section in HQ"
+              },
+              "body": {
+                "fr": "Personnalisez vos véhicules depuis une nouvelle rubrique dédiée. Faites pivoter le modèle en trois dimensions et observez directement les finitions avant de faire votre choix.",
+                "en": "Customize vehicles from a new dedicated HQ section. Rotate the 3D model and preview each finish before making your choice."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Des couleurs qui changent tout",
+                "en": "Custom colors make the difference"
+              },
+              "body": {
+                "fr": "Choisissez une couleur principale et une couleur secondaire pour donner une identité unique à chaque véhicule. Les bombes de peinture permettent d’enregistrer vos nouveaux coloris.",
+                "en": "Choose primary and secondary colors to give each vehicle a distinctive look. Paint cans let you save new color combinations."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Cinq configurations par modèle",
+                "en": "Five presets per vehicle"
+              },
+              "body": {
+                "fr": "Enregistrez jusqu’à cinq configurations par modèle, avec le camouflage et les couleurs de votre choix, pour retrouver rapidement votre style favori.",
+                "en": "Save up to five presets per model, combining your chosen livery and colors, and quickly return to your favorite look."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "PERSONNALISEZ-VOUS EN PLEIN COMBAT",
+            "en": "BRING YOUR STYLE INTO THE FIGHT"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Appliquez votre configuration en partie",
+                "en": "Apply your preset during a match"
+              },
+              "body": {
+                "fr": "Au volant d’un véhicule compatible, sélectionnez l’une de vos configurations enregistrées pour modifier son apparence. Le camouflage et les couleurs sont également visibles par les autres joueurs.",
+                "en": "While driving a compatible vehicle, select one of your saved presets to change its appearance. Other players can see the livery and colors too."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Un style qui reste sur le véhicule",
+                "en": "A look that stays with the vehicle"
+              },
+              "body": {
+                "fr": "La personnalisation reste appliquée jusqu’à ce qu’un autre conducteur choisisse sa propre configuration ou que la partie se termine.",
+                "en": "Customization stays on the vehicle until another driver applies their own preset or the match ends."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une peinture consommée seulement si nécessaire",
+                "en": "Paint is only used when needed"
+              },
+              "body": {
+                "fr": "Changer uniquement de camouflage, conserver les mêmes couleurs ou retirer la peinture n’utilise aucune nouvelle bombe. Une nouvelle combinaison de couleurs en consomme une.",
+                "en": "Changing only the livery, keeping the same colors or removing paint does not use another can. Saving a new color combination uses one."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DE NOUVELLES RÉCOMPENSES À DÉBLOQUER",
+            "en": "MORE REWARDS TO UNLOCK"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Des camouflages dans la boutique",
+                "en": "Vehicle liveries in the shop"
+              },
+              "body": {
+                "fr": "Retrouvez les finitions de véhicules à l’unité ou dans des lots dédiés, pour personnaliser plusieurs modèles selon vos préférences.",
+                "en": "Find vehicle finishes individually or in dedicated bundles, so you can customize several models to suit your style."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "La peinture rejoint le catalogue",
+                "en": "Paint cans join the catalog"
+              },
+              "body": {
+                "fr": "Des lots de bombes de peinture viennent compléter les possibilités de personnalisation des véhicules.",
+                "en": "Paint-can packs expand the ways you can customize vehicles."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Des camouflages exclusifs au passe de combat",
+                "en": "Battle Pass-exclusive vehicle liveries"
+              },
+              "body": {
+                "fr": "Douze camouflages de véhicules rejoignent les récompenses du passe de combat, avec des déblocages gratuits et premium.",
+                "en": "Twelve vehicle liveries join Battle Pass rewards, including both free and premium unlocks."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Essayez avant de débloquer",
+                "en": "Preview before you unlock"
+              },
+              "body": {
+                "fr": "Les camouflages de véhicules non possédés peuvent être prévisualisés sur le modèle en trois dimensions sans être enregistrés. Les accessoires et finitions d’armes verrouillés bénéficient aussi d’un aperçu.",
+                "en": "Unowned vehicle liveries can be previewed on the 3D model without being saved. Locked weapon attachments and finishes can also be previewed."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "VÉHICULES",
+            "en": "VEHICLES"
+          },
+          "title": {
+            "fr": "72 NOUVEAUX CAMOUFLAGES",
+            "en": "72 NEW LIVERIES"
+          },
+          "body": {
+            "fr": "Quatre finitions distinctes pour chacun des 18 véhicules compatibles.",
+            "en": "Four distinct finishes for each of the 18 compatible vehicles."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "PERSONNALISATION",
+            "en": "CUSTOMIZATION"
+          },
+          "title": {
+            "fr": "CRÉEZ VOTRE STYLE",
+            "en": "BUILD YOUR LOOK"
+          },
+          "body": {
+            "fr": "Camouflage, deux couleurs et cinq configurations enregistrées par modèle.",
+            "en": "Livery, two colors and five saved presets per model."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "EN PARTIE",
+            "en": "IN MATCH"
+          },
+          "title": {
+            "fr": "CHANGEZ DE LOOK AU VOLANT",
+            "en": "CHANGE YOUR LOOK WHILE DRIVING"
+          },
+          "body": {
+            "fr": "Appliquez vos configurations aux véhicules que vous conduisez.",
+            "en": "Apply your saved presets to vehicles you drive."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "RÉCOMPENSES",
+            "en": "REWARDS"
+          },
+          "title": {
+            "fr": "LA BOUTIQUE S’AGRANDIT",
+            "en": "THE SHOP EXPANDS"
+          },
+          "body": {
+            "fr": "Finitions, lots, peinture et camouflages du passe de combat.",
+            "en": "Liveries, bundles, paint and Battle Pass rewards."
+          },
+          "tone": "success"
+        }
+      ]
+    },
+    {
       "num": "1.20.0",
       "tag": {
         "fr": "RADAR & COMBAT",
@@ -2682,708 +3311,6 @@
           "tone": "success"
         }
       ]
-    },
-    {
-      "num": "1.12.0",
-      "date": "2026-10-23",
-      "tag": {
-        "fr": "PROGRESSION ET CONFORT",
-        "en": "PROGRESSION & COMFORT"
-      },
-      "title": {
-        "fr": "LA MAÎTRISE S’AFFIRME",
-        "en": "MASTERY TAKES CENTER STAGE"
-      },
-      "sections": [
-        {
-          "title": {
-            "fr": "UNE ARME, UNE LÉGENDE",
-            "en": "EVERY WEAPON HAS A STORY"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "Des défis pour chaque arme",
-                "en": "Weapon mastery challenges"
-              },
-              "body": {
-                "fr": "Des défis d’éliminations sont désormais associés aux armes, avec des étapes à 100, 250, 500, 1 000 et 2 500 éliminations. Chaque palier ouvre la voie à des récompenses de maîtrise.",
-                "en": "Weapons now have elimination challenges, with milestones at 100, 250, 500, 1,000 and 2,500 eliminations. Each milestone leads toward dedicated mastery rewards."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "Une identité pour les armes maîtrisées",
-                "en": "Show off your mastered weapons"
-              },
-              "body": {
-                "fr": "Emblèmes et bannières propres aux armes rejoignent les récompenses de maîtrise. Chaque étape permet de mettre en valeur une arme favorite.",
-                "en": "Weapon-specific emblems and banners join the mastery rewards. Each milestone offers another way to showcase a favorite weapon."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "Le Prestige d’arme récompensé",
-                "en": "Weapon Prestige rewards"
-              },
-              "body": {
-                "fr": "Les deux passages de Prestige et l’accès au Maître d’arme disposent désormais de récompenses dédiées, en complément des défis d’éliminations.",
-                "en": "Both Weapon Prestige ranks and the Weapon Master milestone now have dedicated rewards alongside elimination challenges."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "Des niveaux d’armes mieux adaptés",
-                "en": "Weapon levels rebalanced"
-              },
-              "body": {
-                "fr": "Les niveaux maximaux des armes sont réajustés selon leur équipement et leurs possibilités de personnalisation. Les paliers des finitions suivent cette nouvelle progression.",
-                "en": "Weapon level caps have been adjusted to match their attachments and customization options. Finish unlock milestones now follow the updated progression."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "LE PRESTIGE PREND DES COULEURS",
-            "en": "PRESTIGE GETS ITS REWARDS"
-          },
-          "tone": "hot",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "Les dix Prestiges ont leurs récompenses",
-                "en": "Rewards for all ten Prestige ranks"
-              },
-              "body": {
-                "fr": "Les dix rangs de Prestige joueur disposent désormais de leurs propres emblèmes et bannières, du premier au dixième passage.",
-                "en": "All ten Player Prestige ranks now have their own emblems and banners, from the first promotion through the tenth."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "Les étapes du Maître Prestige illustrées",
-                "en": "Master Prestige milestones revealed"
-              },
-              "body": {
-                "fr": "De nouvelles récompenses visuelles accompagnent les étapes du Maître Prestige, du niveau 100 jusqu’au niveau 1 000.",
-                "en": "New visual rewards mark Master Prestige milestones, from level 100 all the way to level 1,000."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "Une carrière plus lisible",
-                "en": "A clearer career overview"
-              },
-              "body": {
-                "fr": "Le profil met davantage en avant le rang, l’emblème de Prestige, la progression et les déblocages à venir, avec un accès direct au parcours de Prestige.",
-                "en": "Profiles now put rank, Prestige emblem, progression and upcoming unlocks front and center, with direct access to the Prestige journey."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "DES OPÉRATEURS À PERSONNALISER",
-            "en": "MAKE EVERY OPERATOR YOUR OWN"
-          },
-          "tone": "cyan",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "La personnalisation accompagne les niveaux",
-                "en": "Customization follows progression"
-              },
-              "body": {
-                "fr": "Les choix de tenues et d’accessoires sont désormais répartis sur la progression du joueur. Les premières options restent accessibles dès les premiers niveaux.",
-                "en": "Outfits and accessories now unlock across player progression. The first customization choices remain available at the earliest levels."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "Des options à débloquer dans la boutique",
-                "en": "More ways to unlock a style"
-              },
-              "body": {
-                "fr": "Certaines options cosmétiques peuvent aussi être acquises avec des crédits avant d’atteindre leur niveau de déblocage. Ces achats ne procurent aucun avantage de combat.",
-                "en": "Some cosmetic options can also be purchased with credits before reaching their unlock level. These purchases provide no combat advantage."
-              }
-            },
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "Des choix mieux affichés",
-                "en": "Clearer customization choices"
-              },
-              "body": {
-                "fr": "L’affichage des options possédées, verrouillées et disponibles est revu pour mieux distinguer ce qui peut être équipé immédiatement.",
-                "en": "Owned, locked and available customization options are displayed more clearly, making it easier to see what can be equipped right away."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "BOUTIQUE ET PASSE DE COMBAT",
-            "en": "STORE AND BATTLE PASS"
-          },
-          "tone": "muted",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "Un passe de combat plus généreux",
-                "en": "A more rewarding Battle Pass"
-              },
-              "body": {
-                "fr": "La première saison réunit 100 paliers, davantage de récompenses sur le parcours premium et une répartition repensée des opérateurs et des cosmétiques.",
-                "en": "Season One features 100 tiers, more rewards on the premium track and a refined selection of operators and cosmetics."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "Une meilleure place pour les crédits",
-                "en": "Credits take their place"
-              },
-              "body": {
-                "fr": "Le parcours premium propose 1 200 crédits à récupérer au total, pour un accès fixé à 1 100 crédits. Terminer le passe permet ainsi de financer le suivant.",
-                "en": "The premium track offers 1,200 credits in total for an entry cost of 1,100 credits, allowing a completed pass to fund the next one."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "Trois grades VIP distincts",
-                "en": "Three distinct VIP tiers"
-              },
-              "body": {
-                "fr": "Basic, Premium et Ultimate forment trois grades VIP distincts. La gestion des grades et des packs de crédits a été intégrée au système de compte.",
-                "en": "Basic, Premium and Ultimate form three distinct VIP tiers. Tier management and credit packs have been integrated into the account system."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "UN QG PLUS AGRÉABLE",
-            "en": "A SMOOTHER HQ EXPERIENCE"
-          },
-          "tone": "success",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "Récompenses journalières repensées",
-                "en": "Daily rewards redesigned"
-              },
-              "body": {
-                "fr": "Le calendrier des récompenses affiche plus clairement les jours de connexion, les séries en cours et le détail du cadeau sélectionné.",
-                "en": "The daily rewards calendar now highlights login days, current streaks and the details of the selected reward more clearly."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "Des visuels chargés au bon moment",
-                "en": "Images loaded when needed"
-              },
-              "body": {
-                "fr": "Les catalogues et grandes collections d’images privilégient désormais le chargement progressif, pour éviter de charger des visuels qui ne sont pas encore à l’écran.",
-                "en": "Catalogs and large image collections now load visuals progressively instead of loading artwork that is not yet on screen."
-              }
-            },
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "Des images de secours plus fiables",
-                "en": "More reliable artwork fallbacks"
-              },
-              "body": {
-                "fr": "Les différentes interfaces partagent un affichage des images plus cohérent, avec un remplacement prévu lorsqu’un visuel ne peut pas être chargé.",
-                "en": "Interfaces now use more consistent artwork handling, with fallback images when a visual cannot be loaded."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "Des cartes de joueur mieux présentées",
-                "en": "Player cards polished"
-              },
-              "body": {
-                "fr": "La présentation des emblèmes et des bannières est revue dans les espaces du jeu qui affichent l’identité des joueurs.",
-                "en": "Emblems and banners now have an updated presentation wherever player identity appears in the game."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "CORRECTIFS ET FINITIONS",
-            "en": "FIXES AND FINAL TOUCHES"
-          },
-          "tone": "muted",
-          "items": [
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "Des gains de progression plus cohérents",
-                "en": "More consistent progression updates"
-              },
-              "body": {
-                "fr": "Des ajustements renforcent la prise en compte des gains d’expérience, des changements de niveau et de leurs récompenses après les parties.",
-                "en": "Adjustments improve the handling of experience gains, level changes and their rewards after matches."
-              }
-            },
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "Boutique et arsenal mieux synchronisés",
-                "en": "Store and armory improvements"
-              },
-              "body": {
-                "fr": "Les informations de disponibilité, de possession et de déblocage des contenus sont harmonisées entre les écrans de la boutique et de l’arsenal.",
-                "en": "Availability, ownership and unlock information is now more consistent between the store and armory screens."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "Un affichage plus uniforme",
-                "en": "A more consistent interface"
-              },
-              "body": {
-                "fr": "Plusieurs écrans du QG, du combat et des menus bénéficient d’ajustements de présentation pour accompagner les nouveautés de progression.",
-                "en": "Several HQ, combat and menu screens have received presentation updates to support the new progression features."
-              }
-            }
-          ]
-        }
-      ],
-      "highlights": [
-        {
-          "label": {
-            "fr": "MAÎTRISE",
-            "en": "MASTERY"
-          },
-          "title": {
-            "fr": "Chaque arme laisse sa marque",
-            "en": "Every weapon leaves a mark"
-          },
-          "body": {
-            "fr": "Défis d’éliminations, emblèmes et bannières pour affirmer la maîtrise de chaque arme.",
-            "en": "Elimination challenges, emblems and banners to showcase mastery of every weapon."
-          },
-          "tone": "accent"
-        },
-        {
-          "label": {
-            "fr": "PRESTIGE",
-            "en": "PRESTIGE"
-          },
-          "title": {
-            "fr": "Dix rangs, une vraie collection",
-            "en": "Ten ranks, a full collection"
-          },
-          "body": {
-            "fr": "Les dix Prestiges et les étapes du Maître Prestige se parent de nouvelles récompenses visuelles.",
-            "en": "All ten Prestige ranks and Master Prestige milestones gain new visual rewards."
-          },
-          "tone": "hot"
-        },
-        {
-          "label": {
-            "fr": "OPÉRATEURS",
-            "en": "OPERATORS"
-          },
-          "title": {
-            "fr": "Un style qui se débloque",
-            "en": "Style unlocked through play"
-          },
-          "body": {
-            "fr": "Tenues et accessoires évoluent avec la progression du compte.",
-            "en": "Outfits and accessories evolve with account progression."
-          },
-          "tone": "cyan"
-        },
-        {
-          "label": {
-            "fr": "CONFORT",
-            "en": "QUALITY OF LIFE"
-          },
-          "title": {
-            "fr": "Des menus plus légers",
-            "en": "A smoother menu experience"
-          },
-          "body": {
-            "fr": "Récompenses journalières retravaillées et affichage des images plus progressif.",
-            "en": "Updated daily rewards and smarter, progressive image loading."
-          },
-          "tone": "success"
-        }
-      ]
-    },
-    {
-      "num": "1.11.0",
-      "title": {
-        "fr": "CHAQUE ACTION COMPTE",
-        "en": "EVERY ACTION COUNTS"
-      },
-      "date": "2026-10-22",
-      "sections": [
-        {
-          "title": {
-            "fr": "DE L’EXPÉRIENCE POUR CHAQUE ACTION",
-            "en": "XP FOR EVERY ACTION"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "LES COMBATS RÉCOMPENSENT VOTRE ENGAGEMENT",
-                "en": "COMBAT NOW EARNS EXPERIENCE"
-              },
-              "body": {
-                "fr": "Éliminations, mises à terre et escouades éliminées participent à la progression, avec des gains adaptés aux événements.",
-                "en": "Eliminations, downs and squad wipes contribute to progression, with XP tailored to each action."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "L’EXPLORATION COMPTE AUSSI",
-                "en": "EXPLORATION COUNTS TOO"
-              },
-              "body": {
-                "fr": "Ouvrir des coffres, survivre aux étapes de la zone et rester dans l’action permettent également de gagner de l’expérience.",
-                "en": "Opening supply boxes, surviving zone phases and staying in the action can also earn experience."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "SOUTENIR SON ESCOUADE EST RÉCOMPENSÉ",
-                "en": "SUPPORT YOUR SQUAD, EARN XP"
-              },
-              "body": {
-                "fr": "Réanimations et auto-réanimations rejoignent les actions récompensées, tandis que le classement final apporte un bonus.",
-                "en": "Reviving teammates and self-reviving join the rewarded actions, while final placement grants an additional bonus."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UNE PROGRESSION PLUS ÉQUITABLE",
-                "en": "FAIRER XP PROGRESSION"
-              },
-              "body": {
-                "fr": "Les gains sont encadrés pour limiter les abus, notamment en éliminant plusieurs fois le même adversaire ou en combattant des bots.",
-                "en": "XP gains are limited to reduce abuse, including repeatedly eliminating the same opponent or farming AI enemies."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "LE PASSE DE COMBAT N’EST PAS OUBLIÉ",
-                "en": "BATTLE PASS PROGRESSION TOO"
-              },
-              "body": {
-                "fr": "Les parties publiques peuvent également alimenter le passe de combat lorsqu’une saison est active.",
-                "en": "Public matches can also contribute to Battle Pass progress when a season is active."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "VOTRE PARCOURS DE PRESTIGE",
-            "en": "YOUR PRESTIGE JOURNEY"
-          },
-          "tone": "hot",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "DIX PRESTIGES À CONQUÉRIR",
-                "en": "TEN PRESTIGES TO CONQUER"
-              },
-              "body": {
-                "fr": "Une fois le niveau 100 atteint, un nouveau cycle peut être engagé. Dix Prestiges jalonnent ce parcours de progression.",
-                "en": "Reaching level 100 unlocks the option to begin a new cycle. Ten Prestiges mark the journey."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "CHOISISSEZ VOTRE STYLE DE PRESTIGE",
-                "en": "CHOOSE YOUR PRESTIGE PATH"
-              },
-              "body": {
-                "fr": "À chaque passage, le parcours classique permet d’obtenir des avantages supplémentaires en échange de nouveaux déblocages à réaliser. Le parcours régulier conserve l’accès déjà gagné aux armes, sans ces avantages.",
-                "en": "Each Prestige offers a choice: Classic grants extra benefits in exchange for unlocking weapon access again, while Regular preserves earned weapon access without those extra benefits."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "LA ROUTE VERS LE MAÎTRE PRESTIGE",
-                "en": "THE ROAD TO MASTER PRESTIGE"
-              },
-              "body": {
-                "fr": "Après les cycles de Prestige, la carrière se poursuit jusqu’au niveau Maître 1 000, avec des étapes intermédiaires à franchir.",
-                "en": "After the Prestige cycles, the journey continues to Master level 1,000, with milestones along the way."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "DES DÉBLOCAGES PERMANENTS",
-                "en": "PERMANENT UNLOCKS"
-              },
-              "body": {
-                "fr": "Le parcours classique prévoit des jetons permettant de conserver définitivement l’accès à certaines armes au fil des Prestiges.",
-                "en": "The Classic path offers tokens that can permanently preserve access to selected weapons across Prestiges."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "VOS ACQUIS COSMÉTIQUES RESTENT VÔTRES",
-                "en": "YOUR COSMETICS STAY YOURS"
-              },
-              "body": {
-                "fr": "Changer de Prestige ne retire pas les apparences et récompenses cosmétiques déjà acquises.",
-                "en": "Starting a new Prestige does not remove previously earned cosmetic appearances and rewards."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "VOS ARMES PROGRESSENT AVEC VOUS",
-            "en": "WEAPONS LEVEL UP WITH YOU"
-          },
-          "tone": "cyan",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UN NIVEAU POUR CHAQUE ARME",
-                "en": "A LEVEL FOR EACH WEAPON"
-              },
-              "body": {
-                "fr": "L’expérience gagnée au combat fait progresser individuellement l’arme utilisée, indépendamment de son camouflage ou de sa classe.",
-                "en": "Combat XP levels each weapon individually, independently of its camouflage or loadout."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "DEUX PRESTIGES PAR ARME",
-                "en": "TWO PRESTIGES PER WEAPON"
-              },
-              "body": {
-                "fr": "Une arme arrivée à son niveau maximal peut poursuivre son évolution grâce à deux cycles de Prestige.",
-                "en": "A weapon that reaches its level cap can continue progressing through two Prestige cycles."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "MAÎTRISE D’ARME JUSQU’AU NIVEAU 250",
-                "en": "WEAPON MASTERY UP TO LEVEL 250"
-              },
-              "body": {
-                "fr": "Après les deux Prestiges, une progression Maître d’arme prend le relais, jusqu’au niveau 250.",
-                "en": "After both Prestiges, a Master weapon track takes over, reaching level 250."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES ACCESSOIRES LIÉS À LA PROGRESSION",
-                "en": "ATTACHMENTS TIED TO PROGRESSION"
-              },
-              "body": {
-                "fr": "L’accès à certains équipements tient davantage compte du niveau de l’arme et du parcours de Prestige choisi.",
-                "en": "Access to selected equipment now takes weapon level and Prestige path into account."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "UNE PROGRESSION PLUS VISIBLE",
-            "en": "PROGRESSION YOU CAN SEE"
-          },
-          "tone": "success",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "L’XP S’AFFICHE PENDANT L’ACTION",
-                "en": "SEE XP DURING THE ACTION"
-              },
-              "body": {
-                "fr": "Les gains d’expérience disposent de nouveaux affichages pendant les affrontements, accompagnés d’une barre de rang.",
-                "en": "XP gains receive new on-screen notifications during combat, alongside a rank progress bar."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UN BILAN D’EXPÉRIENCE APRÈS LA PARTIE",
-                "en": "AN XP BREAKDOWN AFTER THE MATCH"
-              },
-              "body": {
-                "fr": "Le récapitulatif de fin de partie accueille une lecture des gains pour mieux comprendre ce qui a fait progresser le compte et les armes.",
-                "en": "The post-match summary gains an XP breakdown, showing what contributed to account and weapon progress."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "LE PRESTIGE A SA PLACE DANS LE PROFIL",
-                "en": "PRESTIGE GETS ITS OWN PROFILE SPACE"
-              },
-              "body": {
-                "fr": "Le profil accueille les parcours de Prestige, les paliers Maître, les récompenses et les déblocages permanents.",
-                "en": "The profile now brings together Prestige tracks, Master milestones, rewards and permanent unlocks."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "UN SUIVI DIRECTEMENT DANS L’ARMURERIE",
-                "en": "PROGRESS RIGHT IN THE ARMORY"
-              },
-              "body": {
-                "fr": "Le niveau de chaque arme et son accès au Prestige deviennent consultables depuis l’armurerie.",
-                "en": "Weapon levels and Prestige options can be viewed directly in the armory."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "DES RÉCOMPENSES SUR LA DURÉE",
-            "en": "REWARDS FOR THE LONG RUN"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "LES PREMIÈRES DISTINCTIONS DE PRESTIGE",
-                "en": "FIRST PRESTIGE DISTINCTIONS"
-              },
-              "body": {
-                "fr": "Les emblèmes et bannières des Prestiges I à VIII enrichissent les récompenses. Les derniers Prestiges et les étapes Maître disposent également de distinctions dédiées.",
-                "en": "Emblems and calling cards for Prestiges I through VIII expand the rewards collection. Higher Prestiges and Master milestones also feature dedicated distinctions."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES RÉCOMPENSES CLAIREMENT IDENTIFIÉES",
-                "en": "REWARDS EASIER TO IDENTIFY"
-              },
-              "body": {
-                "fr": "Les récompenses sont mieux distinguées selon les étapes du parcours, pour retrouver plus facilement les emblèmes et bannières à débloquer.",
-                "en": "Rewards are more clearly organized by progression milestone, making unlockable emblems and calling cards easier to find."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UNE PROGRESSION VÉRIFIÉE EN JEU",
-                "en": "PROGRESSION VERIFIED IN-GAME"
-              },
-              "body": {
-                "fr": "Les règles de progression, les gains d’expérience et les interfaces associées ont été intégrés et vérifiés lors de sessions en jeu.",
-                "en": "Progression rules, experience gains and their interfaces have been integrated and verified during in-game sessions."
-              }
-            }
-          ]
-        }
-      ],
-      "highlights": [
-        {
-          "label": {
-            "fr": "PROGRESSION",
-            "en": "PROGRESSION"
-          },
-          "title": {
-            "fr": "LES NIVEAUX PRENNENT TOUT LEUR SENS",
-            "en": "LEVELS FIND THEIR PURPOSE"
-          },
-          "body": {
-            "fr": "Combat, survie, ravitaillement et résultats de partie alimentent le parcours de progression des joueurs.",
-            "en": "Combat, survival, looting and match results all contribute to player progression."
-          },
-          "tone": "accent"
-        },
-        {
-          "label": {
-            "fr": "PRESTIGE",
-            "en": "PRESTIGE"
-          },
-          "title": {
-            "fr": "DIX PRESTIGES ET UNE CARRIÈRE MAÎTRE",
-            "en": "TEN PRESTIGES AND A MASTER JOURNEY"
-          },
-          "body": {
-            "fr": "Deux façons d’aborder chaque Prestige, puis une progression Maître jusqu’au niveau 1 000.",
-            "en": "Two ways to approach each Prestige, followed by Master progression up to level 1,000."
-          },
-          "tone": "hot"
-        },
-        {
-          "label": {
-            "fr": "ARMES",
-            "en": "WEAPONS"
-          },
-          "title": {
-            "fr": "CHAQUE ARME A DÉSORMAIS SA PROGRESSION",
-            "en": "EVERY WEAPON HAS ITS OWN PROGRESSION"
-          },
-          "body": {
-            "fr": "Les armes gagnent leurs propres niveaux, deux Prestiges et un parcours Maître jusqu’au niveau 250.",
-            "en": "Weapons gain individual levels, two Prestiges and a Master journey up to level 250."
-          },
-          "tone": "cyan"
-        },
-        {
-          "label": {
-            "fr": "RÉCOMPENSES",
-            "en": "REWARDS"
-          },
-          "title": {
-            "fr": "DE NOUVEAUX OBJECTIFS À DÉBLOQUER",
-            "en": "NEW MILESTONES TO UNLOCK"
-          },
-          "body": {
-            "fr": "Emblèmes et bannières de Prestige accompagnent désormais les étapes du parcours, jusqu’aux distinctions Maître.",
-            "en": "Prestige emblems and calling cards now accompany progression milestones, including Master distinctions."
-          },
-          "tone": "success"
-        }
-      ],
-      "tag": {
-        "fr": "PROGRESSION",
-        "en": "PROGRESSION"
-      }
     }
   ]
 }

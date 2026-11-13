@@ -6,6 +6,433 @@
   },
   "versions": [
     {
+      "num": "1.23.0",
+      "tag": {
+        "fr": "MODES & INVENTAIRE",
+        "en": "MODES & INVENTORY"
+      },
+      "title": {
+        "fr": "CHOISISSEZ VOTRE COMBAT",
+        "en": "CHOOSE YOUR BATTLE"
+      },
+      "date": "2026-11-13",
+      "sections": [
+        {
+          "title": {
+            "fr": "DEUX FAÇONS DE JOUER",
+            "en": "TWO WAYS TO PLAY"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Résurgence Bots : un défi en solo",
+                "en": "Resurgence Bots: a solo challenge"
+              },
+              "body": {
+                "fr": "Un nouveau mode vous oppose seul à 39 adversaires contrôlés par le jeu. Entrez directement dans la bataille sans attendre d’autres joueurs.",
+                "en": "A new mode pits you alone against 39 computer-controlled opponents. Jump into battle without waiting for other players."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "La Résurgence classique devient entièrement JcJ",
+                "en": "Classic Resurgence is now fully PvP"
+              },
+              "body": {
+                "fr": "Les parties de Résurgence classique réunissent uniquement de vrais joueurs, sans adversaires contrôlés par le jeu.",
+                "en": "Classic Resurgence matches now feature real players only, with no computer-controlled opponents."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "De 25 à 40 joueurs par partie",
+                "en": "25 to 40 players per match"
+              },
+              "body": {
+                "fr": "Une partie publique classique démarre à partir de 25 joueurs, avec au moins deux équipes adverses, pour un maximum de 40 participants.",
+                "en": "A standard public match starts with at least 25 players across two opposing teams and supports up to 40 participants."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une recherche qui ne s’arrête plus toute seule",
+                "en": "Matchmaking no longer times out"
+              },
+              "body": {
+                "fr": "La recherche d’une partie classique se poursuit jusqu’à ce que les conditions de lancement soient réunies, ou jusqu’à votre annulation.",
+                "en": "A standard match search continues until enough players are ready or until you cancel it."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Suivez le nombre de joueurs en recherche",
+                "en": "See how many players are ready"
+              },
+              "body": {
+                "fr": "Le menu de déploiement affiche le nombre de joueurs réunis et le minimum nécessaire pour démarrer la partie.",
+                "en": "The deployment menu shows how many players have gathered and the minimum required to start the match."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Un lancement mieux sécurisé",
+                "en": "A more reliable match launch"
+              },
+              "body": {
+                "fr": "Si trop de participants quittent une partie pendant son lancement, les groupes encore présents retrouvent leur place dans la recherche.",
+                "en": "If too many participants leave while a match is starting, the remaining groups return to matchmaking without losing their place."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UN INVENTAIRE POUR PARTAGER ET S’ÉQUIPER",
+            "en": "AN INVENTORY BUILT FOR SHARING"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Ouvrez votre inventaire avec I",
+                "en": "Hold I to open your inventory"
+              },
+              "body": {
+                "fr": "Maintenez I pour afficher votre équipement dans une bande en bas de l’écran. Relâchez la touche pour la fermer : vous pouvez continuer à vous déplacer pendant la consultation.",
+                "en": "Hold I to display your gear in a strip along the bottom of the screen. Release the key to close it; you can keep moving while it is open."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Jetez une partie ou la totalité de votre équipement",
+                "en": "Drop some or all of your supplies"
+              },
+              "body": {
+                "fr": "Un clic gauche dépose une quantité de la ressource choisie ; un clic droit dépose tout son contenu, selon le type d’équipement.",
+                "en": "Left-click to drop a portion of the selected resource; right-click to drop everything in that slot, depending on the item type."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Transférez des armes avec leurs personnalisations",
+                "en": "Share weapons with their attachments"
+              },
+              "body": {
+                "fr": "Les armes déposées conservent leurs accessoires, leur finition et leur rareté. Les munitions restent dans votre réserve.",
+                "en": "Dropped weapons retain their attachments, finish and rarity. Ammunition stays in your reserves."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Les objets jetés restent faciles à récupérer",
+                "en": "Dropped items are easier to pick up"
+              },
+              "body": {
+                "fr": "Les objets jetés sont répartis devant vous plutôt qu’empilés au même endroit. Ils restent disponibles pour vos alliés, et vous pouvez les reprendre après vous être éloigné.",
+                "en": "Dropped items spread out in front of you rather than piling up in one spot. Teammates can collect them, and you can reclaim them after moving away."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Regroupez les billets en piles",
+                "en": "Combine nearby cash drops"
+              },
+              "body": {
+                "fr": "Les sommes déposées au même endroit se regroupent. Une pile importante prend l’apparence d’un sac d’argent.",
+                "en": "Cash dropped close together combines into one pile. Larger piles appear as a money bag."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Demandez des ressources à votre escouade",
+                "en": "Request supplies from your squad"
+              },
+              "body": {
+                "fr": "Un clic sur la molette dans l’inventaire permet de demander des plaques, des munitions ou d’autres ressources à vos coéquipiers. La demande apparaît dans leur chat d’équipe.",
+                "en": "Middle-click an inventory slot to request plates, ammunition or other supplies from your teammates. The request appears in their squad chat."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Signalez ce qui vous manque à la station d’achat",
+                "en": "Ask for help at Buy Stations"
+              },
+              "body": {
+                "fr": "Vous pouvez également demander un article depuis une station d’achat. Vos coéquipiers voient la demande et le montant qu’il vous manque.",
+                "en": "You can also request an item from a Buy Station. Teammates see the request and how much cash you are short."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Personnalisez votre véhicule depuis l’inventaire",
+                "en": "Apply vehicle presets from your inventory"
+              },
+              "body": {
+                "fr": "Au volant d’un véhicule compatible, vos configurations enregistrées apparaissent au-dessus de l’inventaire. Cliquez pour appliquer votre camouflage et vos couleurs. L’ancienne touche K n’est plus utilisée.",
+                "en": "While driving a compatible vehicle, your saved presets appear above the inventory. Click to apply your livery and colors. The old K shortcut is no longer used."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "ADVERSAIRES ET PROGRESSION",
+            "en": "OPPONENTS AND PROGRESSION"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des adversaires qui continuent de se battre",
+                "en": "Opponents keep fighting beyond your view"
+              },
+              "body": {
+                "fr": "En Résurgence Bots, les équipes adverses poursuivent leurs déplacements et leurs affrontements même lorsqu’elles sont loin de vous. La zone de gaz reste une menace pour elles.",
+                "en": "In Resurgence Bots, opposing teams keep moving and fighting even when far from you. The gas remains a threat to them."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Des éliminations plus lisibles",
+                "en": "Clearer elimination updates"
+              },
+              "body": {
+                "fr": "Les éliminations impliquant les bots sont mieux prises en compte dans le fil des éliminations, y compris les tirs à la tête.",
+                "en": "Eliminations involving bots are tracked more consistently in the kill feed, including headshots."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une progression adaptée au mode Bots",
+                "en": "Adjusted progression in Bots mode"
+              },
+              "body": {
+                "fr": "Les gains d’expérience du mode Résurgence Bots sont réduits de moitié par rapport à la Résurgence classique. Le taux est indiqué dans le menu de déploiement.",
+                "en": "Experience gains in Resurgence Bots are halved compared with classic Resurgence. The rate is displayed in the deployment menu."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Des statistiques distinctes pour chaque mode",
+                "en": "Separate stats for each mode"
+              },
+              "body": {
+                "fr": "Les résultats du mode Résurgence Bots sont conservés séparément des statistiques de la Résurgence compétitive.",
+                "en": "Resurgence Bots results are tracked separately from competitive Resurgence stats."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UN DÉPLOIEMENT ENCORE PLUS CINÉMATIQUE",
+            "en": "A MORE CINEMATIC DEPLOYMENT"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "Deux chasseurs escortent l’avion",
+                "en": "Two fighter jets escort your aircraft"
+              },
+              "body": {
+                "fr": "Deux appareils de combat accompagnent l’avion de déploiement avant de quitter sa formation et de plonger vers leur objectif sur l’île.",
+                "en": "Two fighter jets accompany the deployment aircraft before breaking formation and diving toward their target on the island."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Une frappe aérienne mieux mise en scène",
+                "en": "An improved opening airstrike sequence"
+              },
+              "body": {
+                "fr": "La cinématique suit désormais les chasseurs, puis les missiles et leur impact, avec des angles de vue renouvelés.",
+                "en": "The cinematic now follows the fighter jets, then the missiles and their impacts, with refreshed camera angles."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Une carte de chargement mieux cadrée",
+                "en": "Better framing for the loading map"
+              },
+              "body": {
+                "fr": "La carte de l’île conserve ses proportions et reste à sa place, sans recouvrir les informations de votre escouade, les astuces ou la progression du chargement.",
+                "en": "The island map keeps its proportions and no longer overlaps squad information, gameplay tips or loading progress."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "VÉHICULES ET RAVITAILLEMENT",
+            "en": "VEHICLES AND SUPPLY DROPS"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des hélicoptères mieux positionnés",
+                "en": "Helicopters stay properly parked"
+              },
+              "body": {
+                "fr": "Les hélicoptères restent stables sur leurs plateformes jusqu’à ce qu’un joueur prenne les commandes, ce qui limite les déplacements et les chutes involontaires.",
+                "en": "Helicopters remain stable on their landing platforms until a player takes control, reducing unwanted movement and falls."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Les véhicules restent présents en Résurgence Bots",
+                "en": "Vehicles in Resurgence Bots"
+              },
+              "body": {
+                "fr": "Les véhicules de l’île sont également utilisables pendant les parties solo contre les bots, avec leurs interactions et leur personnalisation.",
+                "en": "Island vehicles are also available in solo matches against bots, including their interactions and customization."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Une extraction des vainqueurs plus nette",
+                "en": "Cleaner winner extraction scenes"
+              },
+              "body": {
+                "fr": "Les véhicules et leurs épaves sont retirés avant la séquence d’extraction pour éviter qu’ils perturbent la présentation des vainqueurs.",
+                "en": "Vehicles and wrecks are cleared before extraction so they do not interfere with the winners’ scene."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Quatre secteurs tirés pour la première vague",
+                "en": "Four sectors selected for the first supply wave"
+              },
+              "body": {
+                "fr": "La première vague de ravitaillement couvre désormais quatre secteurs choisis au hasard sur l’île, avec un largage dans chacun.",
+                "en": "The first supply wave now covers four randomly selected island sectors, with one drop in each."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "CONFORT ET FIABILITÉ",
+            "en": "QUALITY OF LIFE AND RELIABILITY"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "Des déplacements plus cohérents après une interruption",
+                "en": "More consistent movement after interruptions"
+              },
+              "body": {
+                "fr": "Les postures de combat et de déplacement se réinitialisent plus rapidement lors d’un changement de personnage ou d’une interruption.",
+                "en": "Combat and movement stances reset more promptly after a character change or interruption."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "Le butin jeté rejoint le terrain de bataille",
+                "en": "Dropped gear joins battlefield loot"
+              },
+              "body": {
+                "fr": "Les objets abandonnés peuvent être récupérés par d’autres joueurs et restent soumis aux règles habituelles du butin au sol.",
+                "en": "Dropped gear can be collected by other players and follows the usual ground-loot rules."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "NOUVEAU MODE",
+            "en": "NEW MODE"
+          },
+          "title": {
+            "fr": "RÉSURGENCE BOTS",
+            "en": "RESURGENCE BOTS"
+          },
+          "body": {
+            "fr": "Un défi solo face à 39 bots, sans recherche de coéquipiers.",
+            "en": "A solo challenge against 39 bots with no player queue."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "INVENTAIRE",
+            "en": "INVENTORY"
+          },
+          "title": {
+            "fr": "PARTAGEZ VOTRE ÉQUIPEMENT",
+            "en": "SHARE YOUR GEAR"
+          },
+          "body": {
+            "fr": "Jetez des objets, demandez des ressources et gérez vos réserves depuis une seule interface.",
+            "en": "Drop gear, request supplies and manage your reserves from one interface."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "RÉSURGENCE",
+            "en": "RESURGENCE"
+          },
+          "title": {
+            "fr": "DU VRAI JcJ",
+            "en": "REAL PvP"
+          },
+          "body": {
+            "fr": "Des affrontements entre 25 et 40 joueurs, sans bots.",
+            "en": "Battles with 25 to 40 players and no bots."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "DÉPLOIEMENT",
+            "en": "DEPLOYMENT"
+          },
+          "title": {
+            "fr": "ESCORTE AÉRIENNE",
+            "en": "JET ESCORT"
+          },
+          "body": {
+            "fr": "Deux chasseurs escortent votre arrivée avant leur frappe sur l’île.",
+            "en": "Two fighters escort your arrival before striking the island."
+          },
+          "tone": "success"
+        }
+      ]
+    },
+    {
       "num": "1.22.0",
       "tag": {
         "fr": "ÎLE & RÉSURGENCE",
@@ -3010,303 +3437,6 @@
           "body": {
             "fr": "Apparitions, observation et limites des cartes retravaillées pour des affrontements plus fluides.",
             "en": "Spawns, spectating and arena boundaries refined for smoother fights."
-          },
-          "tone": "success"
-        }
-      ]
-    },
-    {
-      "num": "1.13.0",
-      "date": "2026-10-26",
-      "tag": {
-        "fr": "ARSENAL & BOUTIQUE",
-        "en": "ARSENAL & STORE"
-      },
-      "title": {
-        "fr": "L’ARSENAL PREND UNE NOUVELLE DIMENSION",
-        "en": "A NEW ERA FOR THE ARSENAL"
-      },
-      "sections": [
-        {
-          "title": {
-            "fr": "UNE COLLECTION QUI S’AGRANDIT",
-            "en": "A GROWING COLLECTION"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "84 NOUVELLES FINITIONS",
-                "en": "84 NEW FINISHES"
-              },
-              "body": {
-                "fr": "84 nouveaux camouflages sont désormais intégrés et testés : 60 finitions animées et 24 finitions fixes. De nouvelles façons de personnaliser les armes sont disponibles dans les collections concernées.",
-                "en": "84 new camos are now integrated and tested: 60 animated finishes and 24 static finishes. More ways to customize weapons are available across the eligible collections."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "De nouvelles animations pour les armes",
-                "en": "More animated weapon styles"
-              },
-              "body": {
-                "fr": "Une collection de 46 finitions animées enrichit plusieurs fusils d’assaut, mitraillettes, fusils à pompe, mitrailleuses, fusils de précision et pistolets.",
-                "en": "A collection of 46 animated finishes expands the choices for assault rifles, SMGs, shotguns, machine guns, sniper rifles and pistols."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "Trois armes de mêlée à personnaliser",
-                "en": "Customize three melee weapons"
-              },
-              "body": {
-                "fr": "Le couteau, le poing américain et le cran d’arrêt disposent chacun de huit finitions fixes et de trois camouflages animés originaux.",
-                "en": "The knife, brass knuckles and switchblade each receive eight static finishes and three original animated camos."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "Des finitions propres à WARBREACH",
-                "en": "More distinctive WARBREACH finishes"
-              },
-              "body": {
-                "fr": "Une sélection d’anciens habillages classiques cède la place aux collections personnalisées. Les accessoires utiles et les réglages des armes ne changent pas.",
-                "en": "A selection of older standard finishes gives way to custom collections. Functional attachments and weapon balance stay unchanged."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "UNE ARME, UNE SIGNATURE",
-            "en": "A SIGNATURE FOR EVERY WEAPON"
-          },
-          "tone": "hot",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "De nouveaux choix dans l’armurerie",
-                "en": "More options in the armory"
-              },
-              "body": {
-                "fr": "Le catalogue actif réunit désormais 318 finitions personnalisées, réparties entre différentes familles d’armes. Les collections des armes désactivées restent hors de la sélection.",
-                "en": "The active catalog now holds 318 custom finishes across multiple weapon families. Collections for disabled weapons remain outside the selection."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "Des animations mythiques à collectionner",
-                "en": "Collect mythical animated finishes"
-              },
-              "body": {
-                "fr": "Les nouvelles finitions animées sont proposées dans la boutique à 1 200 crédits chacune. Les conditions d’achat et de déblocage restent propres à chaque camouflage.",
-                "en": "New animated finishes are offered in the store for 1,200 credits each. Purchase and unlock requirements remain specific to each camo."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "Une maîtrise toujours récompensée",
-                "en": "Mastery still matters"
-              },
-              "body": {
-                "fr": "Les paliers Maître 100, 150, 200 et 250 sont davantage reliés aux finitions des collections complètes, sans effacer les récompenses déjà gagnées.",
-                "en": "Mastery milestones at 100, 150, 200 and 250 are now tied more closely to finishes in complete collections, without removing previously earned rewards."
-              }
-            },
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "Vos classes conservent leurs acquis",
-                "en": "Saved loadouts stay intact"
-              },
-              "body": {
-                "fr": "Les changements de collections préservent les finitions acquises et les équipements enregistrés. Les anciens habillages retirés ne sont plus proposés à l’équipement.",
-                "en": "Collection changes preserve owned finishes and saved loadouts. Retired finishes are no longer offered for equipping."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "LA BOUTIQUE VOUS FACILITE LA VIE",
-            "en": "A SMARTER STORE"
-          },
-          "tone": "cyan",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "Trouvez une finition en quelques instants",
-                "en": "Find a finish faster"
-              },
-              "body": {
-                "fr": "Une barre de recherche permet de retrouver des articles par nom, description ou arme concernée.",
-                "en": "A new search bar helps find items by name, description or associated weapon."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "Filtrez selon vos envies",
-                "en": "Filter the way you like"
-              },
-              "body": {
-                "fr": "La boutique propose des filtres par arme, rareté, type d’article, finition fixe ou animée, et éléments possédés ou manquants.",
-                "en": "The store now supports filters for weapon, rarity, item type, static or animated finishes, and owned or unowned items."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "Des prix plus faciles à comparer",
-                "en": "Compare prices at a glance"
-              },
-              "body": {
-                "fr": "Triez les offres par nom ou par prix, et affichez uniquement celles qui correspondent à votre solde de crédits.",
-                "en": "Sort offers by name or price, and show only items within your current credit balance."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "Les camouflages se dévoilent en détail",
-                "en": "A closer look at camos"
-              },
-              "body": {
-                "fr": "Les offres d’armes mettent davantage en avant le modèle concerné et un aperçu en trois dimensions lorsque celui-ci est disponible.",
-                "en": "Weapon offers now highlight the associated model and show a three-dimensional preview whenever one is available."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "DES VISUELS PLUS SOIGNÉS",
-            "en": "POLISHED VISUALS"
-          },
-          "tone": "success",
-          "items": [
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "HK416 et MINI UZI retravaillées",
-                "en": "HK416 and MINI UZI refinements"
-              },
-              "body": {
-                "fr": "Plusieurs camouflages de la HK416 et de la MINI UZI ont été corrigés pour mieux épouser le corps des armes, sans superposition gênante avec les pièces d’origine. Les corrections ont été testées en jeu.",
-                "en": "Several HK416 and MINI UZI camos have been corrected to fit their weapons better, without unwanted overlap with original parts. These fixes have been tested in-game."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "Des vignettes plus lisibles",
-                "en": "Cleaner camo thumbnails"
-              },
-              "body": {
-                "fr": "Les aperçus des finitions présentent davantage les motifs eux-mêmes, sans bandeaux de texte superposés aux textures.",
-                "en": "Finish previews put the patterns themselves in focus, without text strips covering the artwork."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "Des aperçus plus cohérents",
-                "en": "More consistent weapon previews"
-              },
-              "body": {
-                "fr": "Le passage d’une finition à l’autre dans les menus a été retravaillé pour éviter l’affichage temporaire de l’arme précédente.",
-                "en": "Switching finishes in the menus has been refined to avoid briefly showing the previously selected weapon."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "DES FINITIONS PRÊTES AU COMBAT",
-            "en": "READY FOR THE FIGHT"
-          },
-          "tone": "muted",
-          "items": [
-            {
-              "kind": "fix",
-              "title": {
-                "fr": "Camouflages intégrés et testés",
-                "en": "Camos integrated and tested"
-              },
-              "body": {
-                "fr": "Les nouvelles finitions fixes et animées ont été intégrées et testées en jeu, y compris pendant la visée, le tir, le rechargement et les changements d’arme.",
-                "en": "New static and animated finishes have been integrated and tested in-game, including aiming, firing, reloading and weapon switching."
-              }
-            }
-          ]
-        }
-      ],
-      "highlights": [
-        {
-          "label": {
-            "fr": "COLLECTION",
-            "en": "COLLECTION"
-          },
-          "title": {
-            "fr": "84 NOUVELLES FINITIONS",
-            "en": "84 NEW FINISHES"
-          },
-          "body": {
-            "fr": "60 créations animées et 24 finitions fixes ont rejoint l’arsenal et sont testées en jeu.",
-            "en": "60 animated creations and 24 static finishes have joined the arsenal and are tested in-game."
-          },
-          "tone": "accent"
-        },
-        {
-          "label": {
-            "fr": "BOUTIQUE",
-            "en": "STORE"
-          },
-          "title": {
-            "fr": "TROUVEZ VOTRE STYLE",
-            "en": "FIND YOUR STYLE"
-          },
-          "body": {
-            "fr": "Recherche, filtres, tri et aperçu d’armes facilitent le choix des articles.",
-            "en": "Search, filters, sorting and weapon previews make choosing items easier."
-          },
-          "tone": "cyan"
-        },
-        {
-          "label": {
-            "fr": "MAÎTRISE",
-            "en": "MASTERY"
-          },
-          "title": {
-            "fr": "LES RÉCOMPENSES ÉVOLUENT",
-            "en": "MASTERY REWARDS EVOLVE"
-          },
-          "body": {
-            "fr": "Les collections complètes s’accordent davantage avec les paliers Maître.",
-            "en": "Complete collections tie in more closely with Mastery milestones."
-          },
-          "tone": "hot"
-        },
-        {
-          "label": {
-            "fr": "VALIDÉ EN JEU",
-            "en": "TESTED IN-GAME"
-          },
-          "title": {
-            "fr": "CAMOUFLAGES OPÉRATIONNELS",
-            "en": "CAMOS READY TO USE"
-          },
-          "body": {
-            "fr": "Toutes les nouvelles finitions ont été intégrées et testées, sans attente de validation supplémentaire.",
-            "en": "All new finishes have been integrated and tested, with no further validation pending."
           },
           "tone": "success"
         }
